@@ -1,0 +1,11 @@
+rank,cause,burials,share of known causes,share of all burials,vague label?
+1,Tuberculosis (consumption),1843,10.6%,9.4%,
+2,Stillborn,1303,7.5%,6.6%,
+3,Cholera,1253,7.2%,6.4%,
+4,Pneumonia,798,4.6%,4.1%,
+5,Complications (unspecified),755,4.3%,3.8%,yes
+6,Brain Fever / Inflammation,661,3.8%,3.4%,
+7,Old Age,623,3.6%,3.2%,
+8,Teething,599,3.4%,3.0%,
+9,Dysentery (flux),565,3.2%,2.9%,
+10,Measles,498,2.9%,2.5%,

@@ -23,7 +23,19 @@
   "summer_infant_pct": "99%",
   "fuzzy_wrong": 6,
   "most_spelled": "Heart Disease",
-  "most_spelled_n": 105
+  "most_spelled_n": 105,
+  "n_unknown_cause": 2268,
+  "n_known_cause": 17402,
+  "top1": "Tuberculosis (consumption)",
+  "top1_n": 1843,
+  "top1_pct": "10.6%",
+  "top2": "Stillborn",
+  "top2_n": 1303,
+  "top3": "Cholera",
+  "top3_n": 1253,
+  "top10_list": "1. Tuberculosis (consumption) (1,843); 2. Stillborn (1,303); 3. Cholera (1,253); 4. Pneumonia (798); 5. Complications (unspecified) (755); 6. Brain Fever / Inflammation (661); 7. Old Age (623); 8. Teething (599); 9. Dysentery (flux) (565); 10. Measles (498)",
+  "top10_share": "51.1%",
+  "top10_specific": "Tuberculosis (consumption); Stillborn; Cholera; Pneumonia; Brain Fever / Inflammation; Old Age; Teething; Dysentery (flux); Measles; Dropsy"
  },
  "text": {
   "n_raw": "19,745",
@@ -49,6 +61,18 @@
   "summer_infant_pct": "99%",
   "fuzzy_wrong": "6",
   "most_spelled": "Heart Disease",
-  "most_spelled_n": "105"
+  "most_spelled_n": "105",
+  "n_unknown_cause": "2,268",
+  "n_known_cause": "17,402",
+  "top1": "Tuberculosis (consumption)",
+  "top1_n": "1,843",
+  "top1_pct": "10.6%",
+  "top2": "Stillborn",
+  "top2_n": "1,303",
+  "top3": "Cholera",
+  "top3_n": "1,253",
+  "top10_list": "1. Tuberculosis (consumption) (1,843); 2. Stillborn (1,303); 3. Cholera (1,253); 4. Pneumonia (798); 5. Complications (unspecified) (755); 6. Brain Fever / Inflammation (661); 7. Old Age (623); 8. Teething (599); 9. Dysentery (flux) (565); 10. Measles (498)",
+  "top10_share": "51.1%",
+  "top10_specific": "Tuberculosis (consumption); Stillborn; Cholera; Pneumonia; Brain Fever / Inflammation; Old Age; Teething; Dysentery (flux); Measles; Dropsy"
  }
 }
