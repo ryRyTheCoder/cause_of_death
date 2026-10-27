@@ -18,16 +18,14 @@ Asphenia,"Other (rare, as written)",1,Yes,No
 Asthma,Tuberculosis & lungs,19,Yes,No
 Atralmia,"Other (rare, as written)",1,Yes,No
 B Chilles,"Other (rare, as written)",1,Yes,No
-Bilious,"Other (rare, as written)",1,Yes,No
-Bilious Fever,Epidemic disease & fevers,60,Yes,No
+Bilious Fever,Epidemic disease & fevers,61,Yes,No
 Bilouis Calcul,"Other (rare, as written)",1,Yes,No
 Blood Poisoning (septicemia),Other illness,14,Yes,No
 Bowel Inflammation / Disease,Digestive,418,Yes,No
-Brain Chitis,"Other (rare, as written)",1,Yes,No
 Brain Fever / Inflammation,Brain & nerves,661,Yes,No
 Brain or Head Disease (unspecified),Brain & nerves,51,Yes,No
 Broken Heart,Other illness,1,Yes,No
-Bronchitis,Tuberculosis & lungs,43,Yes,No
+Bronchitis,Tuberculosis & lungs,44,Yes,No
 Bryocardus,"Other (rare, as written)",1,Yes,No
 Bunner,"Other (rare, as written)",1,Yes,No
 Burns / Scalds,Violence & accidents,82,Yes,No
@@ -56,10 +54,10 @@ Chronic Ciptiles,"Other (rare, as written)",1,Yes,No
 Chronick Affection,"Other (rare, as written)",1,Yes,No
 Chrorus Lastutis,"Other (rare, as written)",1,Yes,No
 Ciryanosis,"Other (rare, as written)",1,Yes,No
-Cold,Tuberculosis & lungs,428,Yes,Yes
+Cold,Vague or unspecified,428,Yes,Yes
 Colic,Digestive,30,Yes,No
 Complications (unspecified),Vague or unspecified,755,Yes,Yes
-Congestion (unspecified),Vague or unspecified,25,Yes,No
+Congestion (unspecified),Vague or unspecified,25,Yes,Yes
 Congestive Chill or Fever,Epidemic disease & fevers,116,Yes,No
 Constution,"Other (rare, as written)",1,Yes,No
 "Convulsions (spasms, fits)",Infancy & birth,228,Yes,No
@@ -113,7 +111,7 @@ Homicide / Violence,Violence & accidents,38,Yes,No
 Hydrocephalus (dropsy of the brain),Infancy & birth,36,Yes,No
 Hyptenson Cordetz,"Other (rare, as written)",1,Yes,No
 Inability To Nurse,"Other (rare, as written)",1,Yes,No
-Inflammation (unspecified),Vague or unspecified,15,Yes,No
+Inflammation (unspecified),Vague or unspecified,15,Yes,Yes
 Inflammation Of B,"Other (rare, as written)",1,Yes,No
 Inflammation Of Breast,"Other (rare, as written)",1,Yes,No
 Inflammation Of Nable,"Other (rare, as written)",1,Yes,No

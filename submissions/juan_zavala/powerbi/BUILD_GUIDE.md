@@ -14,7 +14,7 @@ This folder has everything needed to build the Question 9 dashboard in about 30�
 | `fact_burials.csv` | One row per burial (19,670 rows): year, decade, month, sex, race, age, age group, cause, cause family, era, ledger volume |
 | `dim_year.csv` | Every year from 1846 to 1979 (134 rows, including the 6 years with no burials), with its decade and era |
 | `dim_age_group.csv` | The six age groups in order, with their age ranges |
-| `dim_cause.csv` | The 232 cleaned cause labels, each with its cause family and flags for "known" and "vague" |
+| `dim_cause.csv` | The 230 cleaned cause labels, each with its cause family and flags for "known" and "vague" |
 | `measures.dax` | Every measure, written as one DAX query that also checks itself |
 | `theme.json` | Colors and fonts that match the notebook charts |
 
@@ -25,7 +25,7 @@ All of these files are produced by `cemetery_analysis.ipynb` (Question 9), so th
 Power BI Desktop runs only on Windows. On a Mac, use one of these:
 
 - **A Windows computer** (a school lab PC, or a friend's), or Windows in a virtual machine such as Parallels. This is the easiest route, and the steps below assume it.
-- **The Power BI service in a browser** (app.powerbi.com, with a school or work account). You can upload `fact_burials.csv` and build every visual from that one table. Relationships, sort-by-column and DAX measures need the data-model editor, which depends on your license and your school's settings. If it isn't available, use the built-in "Count of BurialID" instead of the `Burials` measure. You can still build every visual this way except the spike coloring.
+- **The Power BI service in a browser** (app.powerbi.com, with a school or work account). You can upload `fact_burials.csv` and build every visual from that one table. Relationships, sort-by-column and DAX measures need the data-model editor, which depends on your license and your school's settings. If it isn't available, use the built-in "Count of BurialID" instead of the `Burials` measure. That covers the counts, shares and filters, but not the visuals that need the custom measures: the spike coloring, the peak year, the most common decade and the comparison with 1860.
 
 ## Step 1. Load the four CSV files (5 min)
 
@@ -64,7 +64,10 @@ Then set the sort orders. Select the column, then go to **Column tools → Sort 
 
    If a number differs, check the relationships and column types before going on.
 3. Click **Update model with changes**. All the measures are saved to `fact_burials`.
-4. Format `% Known Cause`, `% No Age Recorded`, `% Cholera`, `% Young Adults`, `% Men Among Young Adults` and `Share of Age Group's Burials` as **Percentage, 1 decimal**.
+4. Format the measures in **Measure tools**:
+   - `% Known Cause`, `% No Age Recorded`, `% Cholera`, `% Young Adults`, `% Men Among Young Adults` and `Share of Age Group's Burials`: **Percentage, 1 decimal**.
+   - `Peak Year`: **Whole number with no thousands separator** (format string `0`), so 1864 doesn't show as 1,864. (`Most Common Decade` is text, such as "1860's", and needs no format.)
+   - `Burials`, `Peak Year Burials` and the other counts: **Whole number** with the thousands separator.
 
 ## Step 4. Theme (1 min)
 
@@ -84,7 +87,7 @@ Use a 16:9 page. From top to bottom:
 | Race | `fact_burials[Race]` | Dropdown |
 | Cause family | `dim_cause[CauseFamily]` | Dropdown |
 
-**KPI cards** (five, in a row): `Burials`, `% Known Cause`, `% No Age Recorded`, `Peak Year` and `Median Recorded Age`. Add `Peak Year Burials` as a second line on the peak-year card if you use the new card visual.
+**KPI cards** (five, in a row): `Burials`, `% Known Cause`, `% No Age Recorded`, `Peak Year` and `Median Recorded Age`. On each card set **Display units** to **None**; the default "Auto" would show 19.67K and 1.86K. Add `Peak Year Burials` as a second line on the peak-year card if you use the new card visual.
 
 **Burials per year** (full width, column chart):
 - X-axis: `dim_year[Year]`, type **Continuous**. Y-axis: `Burials`.
@@ -95,7 +98,7 @@ Use a 16:9 page. From top to bottom:
 
 **Top 10 known causes** (bar chart, left):
 - Y-axis: `dim_cause[Cause]`. X-axis: `Known Cause Burials`.
-- Filters on this visual: `dim_cause[IsKnown]` is `Yes`; `dim_cause[Cause]` **Top N = 10** by `Burials`.
+- Filters on this visual: `dim_cause[IsKnown]` is `Yes`; `dim_cause[Cause]` **Top N = 10**, by value: the `Burials` measure from `fact_burials`. Don't use the fixed `dim_cause[Burials]` column, which ignores the slicers.
 - Bars → Color → **fx** → Field value → `Cause Bar Color`. Vague labels turn gray.
 
 **Age group × decade** (matrix, right):
@@ -124,13 +127,13 @@ Duplicate page 1 so the slicers carry over, delete the visuals, then add:
 - Visual filters:
   - `dim_year[Era]` is *Before the war (1856-60)*, *Civil War (1861-65)* or *After the war (1866-70)*.
   - `fact_burials[Race]` is *White* or *Black*.
-- Next to it, add a table with `dim_year[Era]`, `fact_burials[Race]`, `Burials`, `Median Recorded Age`, `% Young Adults`, `% Men Among Young Adults` and `% No Age Recorded`. With no slicers set, the medians should match `results/civil_war_age.csv`:
+- Next to it, add a table with `dim_year[Era]`, `fact_burials[Race]`, `Burials`, `Median Recorded Age`, `% Young Adults`, `% Men Among Young Adults` and `% No Age Recorded`. With no slicers set, the medians should match `../results/civil_war_age.csv`:
   - White: 32, 32, 31
   - Black: 35, 27, 28
 
 **A text box with the two cautions:**
 - "Unknown" age is mostly infants (Question 6).
-- 1869 comes from a single, likely incomplete ledger volume (Questions 3 and 8).
+- 1869 is likely incomplete in the ledger (Questions 3 and 8).
 
 ## Step 7. Check, save and share
 
@@ -145,7 +148,7 @@ Save as `cemetery_dashboard.pbix`. To share it, publish to the Power BI service 
 ## Notes on the data (what a reader should know)
 
 - **Blank age is "unknown", as the assignment asks, but 89.5% of those entries look like infants** ("Infant", "Still born", teething…). Read "unknown" as "mostly babies".
-- **These are burials in one cemetery, not deaths in Nashville.** After 1870, other cemeteries took most burials.
-- **1869 has only 209 rows, all from ledger volume 5-1869.** It looks like a partly transcribed volume, not a healthy year.
+- **These are burials in one cemetery, not deaths in Nashville.** Burials fall off after 1870, most likely because newer cemeteries took over. That is general knowledge, not something the ledger shows.
+- **1869 has only 209 rows**, against 504 in 1868 and 312 in 1870. Infant entries fall to 52, which is 25% of the year's burials, against 51% in 1868. It is likely incomplete, not a healthy year.
 - **75 duplicate entries were removed.** They are lettered-book copies of 1879–1881 burials (see `results/duplicates_removed.csv`).
-- **Cause labels come from `cause_of_death_rules.py`:** 2,209 spellings become 232 labels, and those are grouped here into 14 families plus Unknown.
+- **Cause labels come from `cause_of_death_rules.py`:** 2,209 spellings become 230 labels, and those are grouped here into 14 families plus Unknown.

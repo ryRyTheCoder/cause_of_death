@@ -7,8 +7,8 @@
 //      The second tab must show 19,670 burials, 88.5% with a known cause, 44.0% with no age recorded,
 //      peak year 1864 and a median recorded age of 33.
 //   3. Click "Update model with changes" to save every measure into the fact_burials table.
-//   4. In Model view, format the measures whose names start with "%" (and "Share of Age Group's Burials")
-//      as Percentage with 1 decimal.
+//   4. Format the measures (Measure tools): the "%" measures and "Share of Age Group's Burials" as Percentage
+//      with 1 decimal, and Peak Year with the format string 0 (no thousands separator).
 //
 // Table and column names match the CSV files in this folder. Use the dim_year columns (Year, Decade, Era)
 // on axes and slicers: the spike baseline needs to see the years before the selected one.
@@ -103,7 +103,8 @@ DEFINE
         IF ( [Is Spike] = 1, "#EB6834", "#86B6EF" )
 
     // ---- Causes (Question 2) ------------------------------------------------------------------------
-    // Gray for labels that name no specific disease ("Complications", "Fever (unspecified)", "Cold")
+    // Gray for the labels that name no specific disease (dim_cause[IsVague] = "Yes": Complications, Fever,
+    // Inflammation and Congestion, each "unspecified", and Cold)
     MEASURE fact_burials[Cause Bar Color] =
         VAR c =
             COALESCE ( SELECTEDVALUE ( dim_cause[Cause] ), SELECTEDVALUE ( fact_burials[Cause] ) )

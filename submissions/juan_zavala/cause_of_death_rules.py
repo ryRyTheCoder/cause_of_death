@@ -197,7 +197,7 @@ RULES = [
     ('Typhoid Fever', r'\btyphoid\b|\btyphus abdominalis\b'),
     ('Malaria (intermittent fever, chills and fever)', r'(?<!typhas )\bmalaria\w*|\bintermittent fever\b|\bchills? and fever\b|\bchills fever\b|\bmal fever\b'),
     ('Congestive Chill or Fever', r'\bcongestive (chill\w*|chil\w*|fever)\b'),
-    ('Bilious Fever', r'\bbilious fever\b|^billious$'),
+    ('Bilious Fever', r'\bbilious fever\b|^bilious$'),
     ('Spotted Fever', r'\bspotted fever\b'),
     ('Childbirth (incl. childbed fever)', r'\bchild ?be(d|de|ad)\b|\bchid bed\b|\bchildbed\b|\bchild ?birth\b|\bchid birth\b|\bchild barth\b|'
                                          r'\bpu?erperal\b|\bpurperal\b|\bperperal\b|\bdied in child bed\b'),
@@ -217,7 +217,7 @@ RULES = [
     ('White Swelling', r'\bwhi(te|le) swel\w*|\bwhite wellen\b'),
     # --- respiratory ---
     ('Pneumonia', r'\bpneumonia\b|\bbron\w*\s+pneumonia\b|\blungs? fever\b|\binflammation (of )?(the )?lungs\b|\bpleuro\b'),
-    ('Bronchitis', r'\bbronch\w*|\bbronk\w*|\bbron\b|\bbrochitis\b|\bbran chitis\b|\bbroncitis\b|\bbroncitus\b'),
+    ('Bronchitis', r'\bbronch\w*|\bbronk\w*|\bbron\b|\bbrochitis\b|\bbra[i]?n chitis\b|\bbroncitis\b|\bbroncitus\b'),
     ('Pleurisy', r'\bpleurisy\b'),
     ('Influenza (la grippe)', r'\binfluenza\b'),
     ('Asthma', r'\basthma\b|\bastma\b|\basma\b|\basmen\b|\basmer\b|\basshmis\b'),
@@ -298,7 +298,7 @@ RULES = [
     # --- mind and nerves ---
     ('Meningitis', r'\bmeningitis\b|\bmitgen\w*|\bmitigen\w*|\bmitiginites\b|\bmitifinites\b'),
     ('Epilepsy', r'\bep+ilep\w*'),
-    ('Insanity', r'\binsan\w*|\blunatic\w*|\bderangement$|\bmania\b'),
+    ('Insanity', r'\binsan\w*|\blunatic\w*|\bderangement$|\bmania\b(?!\s*(a\s*)?po)'),
     ('Nervous Disorders', r'\bnerv\w*|\bnev\b|\bnevp\b|\bnewvous\b|\bneural\w*|\bhystero\b|\bnurutrals\b|\bnewnouss\b|\bneruety\b'),
     ('Debility / Exhaustion', r'\bdebility\b|\bdibility\b|\bdebelity\b|\bdability\b|\bexha\w*|\bexastion\b|\bexauston\b|\bprostration\b|\brapid decline\b|'
                               r'\binanition\b|\binnition\b|\binamition\b|\bjnanetion\b|\blingerin\w*'),
