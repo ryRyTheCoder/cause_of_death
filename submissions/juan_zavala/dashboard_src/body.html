@@ -1,0 +1,754 @@
+<header class="wrap masthead">
+  <div>
+    <p class="eyebrow">Nashville City Cemetery · interment ledger · 1846–1979</p>
+    <h1>Who was buried, when, and of what</h1>
+    <p class="lede">{{n_clean}} burials from the city's handwritten interment ledger, with the cause of death cleaned and grouped. Filter by group, or drag across the year chart: the charts and headline numbers follow the selection.</p>
+  </div>
+  <section class="kpis" aria-label="Headline numbers for the current selection" aria-live="polite">
+    <div class="kpi"><div class="label">Burials</div><div class="value" id="k-n">–</div><div class="sub" id="k-n-sub">&nbsp;</div></div>
+    <div class="kpi"><div class="label">Known cause</div><div class="value" id="k-known">–</div><div class="sub" id="k-known-sub">&nbsp;</div></div>
+    <div class="kpi"><div class="label">No age recorded</div><div class="value" id="k-noage">–</div><div class="sub" id="k-noage-sub">&nbsp;</div></div>
+    <div class="kpi"><div class="label">Peak year</div><div class="value" id="k-peak">–</div><div class="sub" id="k-peak-sub">&nbsp;</div></div>
+    <div class="kpi"><div class="label">Median recorded age</div><div class="value" id="k-med">–</div><div class="sub" id="k-med-sub">&nbsp;</div></div>
+  </section>
+</header>
+
+<nav class="rail" aria-label="Filters">
+  <div class="wrap">
+    <div class="field">
+      <span>Years</span>
+      <div class="years">
+        <input id="y0" type="number" inputmode="numeric" min="1846" max="1979" value="1846" aria-label="From year">
+        <span aria-hidden="true">to</span>
+        <input id="y1" type="number" inputmode="numeric" min="1846" max="1979" value="1979" aria-label="To year">
+      </div>
+    </div>
+    <fieldset class="field">
+      <legend>Jump to</legend>
+      <div class="chips presets" id="presets"></div>
+    </fieldset>
+    <fieldset class="field">
+      <legend>Age group</legend>
+      <div class="chips" id="ages"></div>
+    </fieldset>
+    <label class="field"><span>Sex</span><select id="sex"></select></label>
+    <label class="field"><span>Race</span><select id="race"></select></label>
+    <label class="field"><span>Cause family</span><select id="fam"></select></label>
+    <div class="field" id="cause-field" hidden>
+      <span>Cause</span>
+      <button type="button" class="chip active-cause" id="cause-chip" aria-pressed="true" aria-label="Remove the cause filter"></button>
+    </div>
+    <button class="btn-reset" id="reset" type="button">Reset all</button>
+  </div>
+</nav>
+
+<main class="wrap">
+  <section class="panel" aria-labelledby="h-years">
+    <div class="panel-head">
+      <div>
+        <div class="q">Question 3 · spikes</div>
+        <h2 id="h-years">Burials per year</h2>
+        <p class="sub">Orange marks a spike: at least 1.5× the median of the five years before, and at least 50 burials more than that median. Drag across the chart to select years, or tap one year.</p>
+      </div>
+      <div class="seg" role="group" aria-label="Years shown on the chart">
+        <button type="button" id="view-early" aria-pressed="true">1846–1900</button>
+        <button type="button" id="view-all" aria-pressed="false">All years</button>
+      </div>
+    </div>
+    <div class="legend" aria-hidden="true">
+      <span><i style="background:var(--bar)"></i>burials</span>
+      <span><i style="background:var(--spike)"></i>spike year</span>
+      <span><i class="line"></i>baseline: median of the 5 years before</span>
+      <span><i style="background:var(--band)"></i>Civil War, 1861–65</span>
+    </div>
+    <div class="chart" id="c-years"></div>
+    <p class="note" id="years-note"></p>
+    <details class="numbers"><summary>Show the numbers</summary><div class="table-scroll" id="t-years"></div></details>
+  </section>
+
+  <div class="row">
+    <section class="panel" aria-labelledby="h-causes">
+      <div>
+        <div class="q">Question 2 · top causes</div>
+        <h2 id="h-causes">Top 10 known causes</h2>
+        <p class="sub">Share of burials with a known cause in the selection. Gray labels name no specific disease. Click a cause to filter the page by it.</p>
+      </div>
+      <div class="causes" id="c-causes"></div>
+      <p class="note">{{n_spell}} handwritten spellings ("Cholrea", "Consumson", "Teethin") were cleaned into {{n_updated}} labels by explicit rules in <code>cause_of_death_rules.py</code>.</p>
+      <details class="numbers"><summary>Show the numbers</summary><div class="table-scroll" id="t-causes"></div></details>
+    </section>
+
+    <section class="panel" aria-labelledby="h-heat">
+      <div>
+        <div class="q">Questions 5–7 · age groups and decades</div>
+        <h2 id="h-heat">When each age group was buried</h2>
+        <p class="sub">Each row spreads one age group's burials across the decades (row shares, %). The outlined cell is the group's most common decade. Click a group to filter the page by it.</p>
+      </div>
+      <div class="chart heat-scroll" id="c-heat"></div>
+      <p class="note" id="heat-note"></p>
+      <details class="numbers"><summary>Show the numbers</summary><div class="table-scroll" id="t-heat"></div></details>
+    </section>
+  </div>
+
+  <div class="row">
+    <section class="panel" aria-labelledby="h-60s">
+      <div>
+        <div class="q">Question 8 · the 1860's</div>
+        <h2 id="h-60s">Burials by age group, 1860–1869</h2>
+        <p class="sub">Each panel has its own scale, and orange marks that group's peak year. The years are fixed; the other filters apply.</p>
+      </div>
+      <div class="multiples" id="c-60s"></div>
+      <p class="note" id="sixties-note"></p>
+      <details class="numbers"><summary>Show the numbers</summary><div class="table-scroll" id="t-60s"></div></details>
+    </section>
+
+    <section class="panel" aria-labelledby="h-war">
+      <div>
+        <div class="q">Question 4 · the Civil War and age</div>
+        <h2 id="h-war">Median recorded age before, during and after the war</h2>
+        <p class="sub">Median age in years, among burials with an age written down. The periods are fixed; the other filters apply.</p>
+      </div>
+      <div class="legend" aria-hidden="true">
+        <span><i style="background:var(--p-before)"></i>before, 1856–60</span>
+        <span><i style="background:var(--p-war)"></i>war, 1861–65</span>
+        <span><i style="background:var(--p-after)"></i>after, 1866–70</span>
+      </div>
+      <div class="chart" id="c-war"></div>
+      <p class="note" id="war-note"></p>
+      <details class="numbers"><summary>Show the numbers</summary><div class="table-scroll" id="t-war"></div></details>
+    </section>
+  </div>
+
+  <section class="panel" aria-labelledby="h-notes">
+    <h2 id="h-notes">Read this before drawing conclusions</h2>
+    <div class="notes">
+      <div><h3>"Unknown" age is mostly babies</h3><p>{{unknown_pct}} of burials have no age written. {{unk_infant_pct}} of those are entries like "Infant", "Inft." or "Still born", or have an infant cause such as teething. The assignment's rule puts them in "unknown", which is why "child" looks rare.</p></div>
+      <div><h3>One cemetery, not the whole city</h3><p>These are burials in the City Cemetery, not deaths in Nashville. Burials fall off after 1870, most likely because newer cemeteries took over (general knowledge, not shown in the ledger), so the decline is not evidence of falling mortality.</p></div>
+      <div><h3>1869 is probably incomplete</h3><p>It has only {{n_1869}} rows, against {{n_1868}} in 1868 and {{n_1870}} in 1870. Infant entries fall to {{inf_1869_pct}} of the year's burials, against {{inf_1868_pct}} in 1868, and it is the only year that uses the race code "D". Treat the dip as a likely gap in the records.</p></div>
+      <div><h3>{{n_dup}} duplicates removed</h3><p>For 1879–1881, some burials were written in both a yearly book and a lettered book (<code>6A</code>…<code>6Z</code>). The lettered-book copies are left out.</p></div>
+      <div><h3>Clerks' records, not certificates</h3><p>Any single entry can be wrong. The ledger gives former President Polk's age as {{polk_age}}, while standard accounts give 53 (not checked here). Read the patterns, not individual rows.</p></div>
+      <div><h3>Context needs checking</h3><p>The notebook's historical context (the cholera years, the Union occupation of Nashville) comes from general knowledge and was not checked against sources.</p></div>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <div>Data: Historic Nashville City Cemetery Interments, 1846–1979 (City of Nashville). The same {{n_clean}} rows as <code>powerbi/fact_burials.csv</code>; the analysis is in <code>cemetery_analysis.ipynb</code>.</div>
+  <div>Built by Juan Zavala with Claude for AI for Analytics.</div>
+</footer>
+
+<div class="tip" id="tip" role="status" hidden></div>
+<script type="application/json" id="ledger-data">__DATA__</script>
+<script>
+(function () {
+  'use strict';
+
+  // ------------------------------------------------------------------ data
+  var D = JSON.parse(document.getElementById('ledger-data').textContent);
+  var N = D.n;
+  var YEAR = Int16Array.from(D.year), AGE = Int16Array.from(D.age);
+  var SEX = Int8Array.from(D.sex), RACE = Int8Array.from(D.race), AG = Int8Array.from(D.agegroup);
+  var CAUSE = Int16Array.from(D.cause), FAM = Int8Array.from(D.causefamily), INF = Int8Array.from(D.infant);
+  var C = D.cats;
+  var Y_MIN = 1846, Y_MAX = 1979, NY = Y_MAX - Y_MIN + 1;
+  var UNKNOWN_CAUSE = C.Cause.indexOf('Unknown');
+  var CHOLERA = C.Cause.indexOf('Cholera');
+  var AGE_UNKNOWN = C.AgeGroup.indexOf('unknown');
+  var VAGUE = new Set(D.vague.map(function (v) { return C.Cause.indexOf(v); }).filter(function (i) { return i >= 0; }));
+  var DECADES = []; for (var d0 = 1840; d0 <= 1970; d0 += 10) DECADES.push(d0);
+  var DEC_SHORT = ['40s', '50s', '60s', '70s', '80s', '90s', '00s', '10s', '20s', '30s', '40s', '50s', '60s', '70s'];
+  var RACE_W = C.Race.indexOf('White'), RACE_B = C.Race.indexOf('Black'), SEX_M = C.Sex.indexOf('Male');
+  var YA = C.AgeGroup.indexOf('young adults');
+  var PERIODS = [{ key: 'before', label: 'before (1856–60)', y0: 1856, y1: 1860, color: '--p-before' },
+                 { key: 'war', label: 'war (1861–65)', y0: 1861, y1: 1865, color: '--p-war' },
+                 { key: 'after', label: 'after (1866–70)', y0: 1866, y1: 1870, color: '--p-after' }];
+  var PRESETS = [{ label: 'All years', y0: 1846, y1: 1979 }, { label: '1849–50 cholera', y0: 1849, y1: 1850 },
+                 { label: '1861–65 war', y0: 1861, y1: 1865 }, { label: '1866 cholera', y0: 1866, y1: 1866 },
+                 { label: '1873 cholera', y0: 1873, y1: 1873 }, { label: 'After 1900', y0: 1901, y1: 1979 }];
+
+  var famCount = new Array(C.CauseFamily.length).fill(0);
+  for (var i0 = 0; i0 < N; i0++) famCount[FAM[i0]]++;
+  var FAM_ORDER = C.CauseFamily.map(function (f, i) { return i; }).sort(function (a, b) {
+    var la = /^(Unknown|Other \(rare)/.test(C.CauseFamily[a]) ? 1 : 0, lb = /^(Unknown|Other \(rare)/.test(C.CauseFamily[b]) ? 1 : 0;
+    return la - lb || famCount[b] - famCount[a];
+  });
+
+  // ------------------------------------------------------------------ state
+  var S = { y0: Y_MIN, y1: Y_MAX, ages: new Set(), sex: -1, race: -1, fam: -1, cause: -1, view: 'early' };
+  function yearOn() { return S.y0 !== Y_MIN || S.y1 !== Y_MAX; }
+  function anyFilter() { return yearOn() || S.ages.size || S.sex >= 0 || S.race >= 0 || S.fam >= 0 || S.cause >= 0; }
+
+  // rows passing every filter except the ones a chart controls itself
+  function pass(excl) {
+    excl = excl || {};
+    var out = new Uint8Array(N), yOn = yearOn() && !excl.year, useAge = S.ages.size && !excl.age;
+    var useCause = S.cause >= 0 && !excl.cause;
+    for (var i = 0; i < N; i++) {
+      if (useAge && !S.ages.has(AG[i])) continue;
+      if (S.sex >= 0 && SEX[i] !== S.sex) continue;
+      if (S.race >= 0 && RACE[i] !== S.race) continue;
+      if (S.fam >= 0 && FAM[i] !== S.fam) continue;
+      if (useCause && CAUSE[i] !== S.cause) continue;
+      if (yOn && (YEAR[i] < S.y0 || YEAR[i] > S.y1)) continue;
+      out[i] = 1;
+    }
+    return out;
+  }
+
+  // ------------------------------------------------------------------ helpers
+  var fmtN = new Intl.NumberFormat('en-US');
+  function n0(v) { return fmtN.format(v); }
+  function pct1(v) { return (100 * v).toFixed(1) + '%'; }
+  function pct0(v) { return Math.round(100 * v) + '%'; }
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function $(id) { return document.getElementById(id); }
+  function decLabel(d) { return d + "'s"; }
+  function median(arr) {
+    if (!arr.length) return null;
+    var s = arr.slice().sort(function (a, b) { return a - b; }), m = s.length >> 1;
+    return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2;
+  }
+  function histMedian(h, n) {
+    if (!n) return null;
+    var lo = (n - 1) >> 1, hi = n >> 1, a = null, c = 0;
+    for (var v = 0; v < h.length; v++) {
+      c += h[v];
+      if (a === null && c > lo) a = v;
+      if (c > hi) return (a + v) / 2;
+    }
+    return a;
+  }
+  function fmtAge(v) { return v === null ? '–' : (v % 1 ? v.toFixed(1) : String(v)); }
+  function niceTicks(max, count) {
+    var raw = max / count, mag = Math.pow(10, Math.floor(Math.log10(raw))), f = raw / mag;
+    var step = (f <= 1 ? 1 : f <= 2 ? 2 : f <= 2.5 ? 2.5 : f <= 5 ? 5 : 10) * mag, out = [];
+    for (var t = 0; t <= max + step * 0.999; t += step) out.push(Math.round(t));
+    if (out[out.length - 1] < max) out.push(Math.round(out[out.length - 1] + step));
+    return out;
+  }
+  function css(name) { return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); }
+  function hexRgb(h) {
+    h = h.replace('#', '');
+    if (h.length === 3) h = h.split('').map(function (c) { return c + c; }).join('');
+    return [0, 2, 4].map(function (k) { return parseInt(h.slice(k, k + 2), 16); });
+  }
+  function luminance(rgb) {
+    var c = rgb.map(function (v) { v /= 255; return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4); });
+    return 0.2126 * c[0] + 0.7152 * c[1] + 0.0722 * c[2];
+  }
+  function barPath(x, top, w, base, r) {
+    var h = base - top; r = Math.max(0, Math.min(r, w / 2, h));
+    return 'M' + x + ',' + base + 'V' + (top + r) + 'Q' + x + ',' + top + ' ' + (x + r) + ',' + top +
+      'H' + (x + w - r) + 'Q' + (x + w) + ',' + top + ' ' + (x + w) + ',' + (top + r) + 'V' + base + 'Z';
+  }
+  function f1(v) { return Math.round(v * 10) / 10; }
+  function table(head, rows) {
+    return '<table><thead><tr>' + head.map(function (h) { return '<th scope="col">' + esc(h) + '</th>'; }).join('') +
+      '</tr></thead><tbody>' + rows.map(function (r) {
+        return '<tr>' + r.map(function (c, k) { return (k ? '<td>' : '<th scope="row" style="text-align:left;font-weight:500">') + esc(c) + (k ? '</td>' : '</th>'); }).join('') + '</tr>';
+      }).join('') + '</tbody></table>';
+  }
+
+  // ------------------------------------------------------------------ tooltip
+  var tip = $('tip'), TIPS = {};
+  function showTip(html, x, y) {
+    tip.innerHTML = html; tip.hidden = false;
+    var r = tip.getBoundingClientRect(), left = x + 14, top = y + 14;
+    if (left + r.width > window.innerWidth - 8) left = x - r.width - 14;
+    if (top + r.height > window.innerHeight - 8) top = y - r.height - 14;
+    tip.style.left = Math.max(8, left) + 'px'; tip.style.top = Math.max(8, top) + 'px';
+  }
+  function hideTip() { tip.hidden = true; }
+  document.addEventListener('pointermove', function (e) {
+    var el = e.target.closest ? e.target.closest('[data-tip]') : null;
+    if (el && TIPS[el.getAttribute('data-tip')]) showTip(TIPS[el.getAttribute('data-tip')], e.clientX, e.clientY);
+    else if (!e.target.closest || !e.target.closest('#c-years')) hideTip();
+  });
+  document.addEventListener('scroll', hideTip, { passive: true });
+
+  // ------------------------------------------------------------------ spikes (same rule as the notebook and the DAX)
+  function yearly(mask) {
+    var c = new Int32Array(NY);
+    for (var i = 0; i < N; i++) if (mask[i] && YEAR[i]) c[YEAR[i] - Y_MIN]++;
+    return c;
+  }
+  function spikes(counts) {
+    var out = [];
+    for (var k = 0; k < NY; k++) {
+      var y = Y_MIN + k, n = counts[k], base = null;
+      if (y - Y_MIN >= 3) {
+        var prior = [];
+        for (var j = Math.max(0, k - 5); j < k; j++) prior.push(counts[j]);
+        base = median(prior);
+      }
+      out.push({ y: y, n: n, base: base, spike: base !== null && n >= 1.5 * base && n - base >= 50 });
+    }
+    return out;
+  }
+
+  // ------------------------------------------------------------------ KPIs
+  function renderKPIs() {
+    var m = pass({}), total = 0, known = 0, noage = 0, inf = 0, nAge = 0, h = new Int32Array(130), yc = new Int32Array(NY);
+    for (var i = 0; i < N; i++) {
+      if (!m[i]) continue;
+      total++;
+      if (CAUSE[i] !== UNKNOWN_CAUSE) known++;
+      if (AG[i] === AGE_UNKNOWN) { noage++; if (INF[i]) inf++; }
+      if (AGE[i] >= 0) { h[AGE[i]]++; nAge++; }
+      if (YEAR[i]) yc[YEAR[i] - Y_MIN]++;
+    }
+    var peak = -1, peakN = 0;
+    for (var k = 0; k < NY; k++) if (yc[k] > peakN) { peakN = yc[k]; peak = Y_MIN + k; }
+    var med = histMedian(h, nAge);
+    $('k-n').textContent = n0(total);
+    $('k-n-sub').textContent = anyFilter() ? pct1(total / N) + ' of all ' + n0(N) + ' burials' : 'after removing {{n_dup}} duplicate entries';
+    $('k-known').textContent = total ? pct1(known / total) : '–';
+    $('k-known-sub').textContent = total ? n0(known) + ' burials' : 'no burials selected';
+    $('k-noage').textContent = total ? pct1(noage / total) : '–';
+    $('k-noage-sub').textContent = noage ? pct1(inf / noage) + ' of them look like infants' : (total ? 'every burial has an age' : ' ');
+    $('k-peak').textContent = peak > 0 ? String(peak) : '–';
+    $('k-peak-sub').textContent = peak > 0 ? n0(peakN) + ' burials' : ' ';
+    $('k-med').textContent = fmtAge(med);
+    $('k-med-sub').textContent = nAge ? 'among ' + n0(nAge) + ' with an age' : 'no ages recorded';
+    return { total: total, known: known, noage: noage, infantNoAge: inf, peak: peak, peakN: peakN, median: med, nAge: nAge };
+  }
+
+  // ------------------------------------------------------------------ burials per year
+  var yearsGeom = null, yearsData = null, drag = null;
+  function renderYears() {
+    var el = $('c-years'), W = Math.max(280, el.clientWidth || 800), H = W < 560 ? 230 : 280;
+    var counts = yearly(pass({ year: true })), data = spikes(counts);
+    yearsData = data;
+    var yEnd = S.view === 'early' ? 1900 : Y_MAX, nYears = yEnd - Y_MIN + 1;
+    var m = { l: 44, r: 6, t: 42, b: 26 }, iw = W - m.l - m.r, ih = H - m.t - m.b, bw = iw / nYears;
+    var maxV = 10;
+    for (var k = 0; k < nYears; k++) maxV = Math.max(maxV, data[k].n);
+    var ticks = niceTicks(maxV, 4), yMax = ticks[ticks.length - 1];
+    function sy(v) { return m.t + ih - v / yMax * ih; }
+    function sx(y) { return m.l + (y - Y_MIN) * bw; }
+    yearsGeom = { m: m, bw: bw, yEnd: yEnd, sx: sx, H: H, ih: ih };
+    var s = '';
+    ticks.forEach(function (t) {
+      s += '<line class="gridline" x1="' + m.l + '" x2="' + (W - m.r) + '" y1="' + sy(t) + '" y2="' + sy(t) + '"/>' +
+        '<text class="tick" x="' + (m.l - 7) + '" y="' + (sy(t) + 4) + '" text-anchor="end">' + n0(t) + '</text>';
+    });
+    // Civil War band
+    var bx0 = sx(1861), bx1 = sx(1866);
+    s += '<rect x="' + bx0 + '" y="' + (m.t - 30) + '" width="' + (bx1 - bx0) + '" height="' + (ih + 30) + '" style="fill:var(--band)"/>' +
+      '<text class="band-lbl" x="' + ((bx0 + bx1) / 2) + '" y="' + (m.t - 18) + '" text-anchor="middle">CIVIL WAR</text>';
+    var on = yearOn(), gap = Math.min(2, bw * 0.22), w = Math.max(1, bw - gap);
+    for (k = 0; k < nYears; k++) {
+      var d = data[k];
+      if (!d.n) continue;
+      var inSel = !on || (d.y >= S.y0 && d.y <= S.y1), top = sy(d.n);
+      s += '<path d="' + barPath(sx(d.y) + gap / 2, top, w, m.t + ih, Math.min(3, w / 2)) + '" style="fill:var(' + (d.spike ? '--spike' : '--bar') + ');opacity:' + (inSel ? 1 : 0.28) + '"/>';
+    }
+    // baselines on spike years, and one label per run of consecutive spike years
+    var runs = [];
+    for (k = 0; k < nYears; k++) {
+      d = data[k];
+      if (!d.spike) continue;
+      s += '<line x1="' + (sx(d.y) - 1) + '" x2="' + (sx(d.y) + bw + 1) + '" y1="' + sy(d.base) + '" y2="' + sy(d.base) + '" style="stroke:var(--ink);stroke-width:2"/>';
+      if (runs.length && runs[runs.length - 1].y1 === d.y - 1) { runs[runs.length - 1].y1 = d.y; runs[runs.length - 1].max = Math.max(runs[runs.length - 1].max, d.n); }
+      else runs.push({ y0: d.y, y1: d.y, max: d.n });
+    }
+    runs.forEach(function (r) {
+      var lab = r.y0 === r.y1 ? String(r.y0) : r.y0 + '–' + String(r.y1).slice(2);
+      s += '<text class="spike-lbl" x="' + (sx(r.y0) + (sx(r.y1 + 1) - sx(r.y0)) / 2) + '" y="' + (sy(r.max) - 7) + '" text-anchor="middle">' + lab + '</text>';
+    });
+    // x axis
+    s += '<line class="axisline" x1="' + m.l + '" x2="' + (W - m.r) + '" y1="' + (m.t + ih) + '" y2="' + (m.t + ih) + '"/>';
+    var step = bw * 10 < 34 ? 20 : 10;
+    for (var y = 1850; y <= yEnd; y += step)
+      s += '<text class="tick" x="' + (sx(y) + bw / 2) + '" y="' + (H - 8) + '" text-anchor="middle">' + y + '</text>';
+    // selection outline, hover and brush layers
+    if (on && S.y0 <= yEnd) {
+      var sx0 = sx(S.y0), sx1 = sx(Math.min(S.y1, yEnd) + 1);
+      s += '<rect x="' + sx0 + '" y="' + (m.t - 30) + '" width="' + Math.max(1, sx1 - sx0) + '" height="' + (ih + 30) + '" style="fill:none;stroke:var(--accent);stroke-width:1.5;stroke-dasharray:4 3"/>';
+    }
+    s += '<rect id="yr-brush" x="0" y="' + (m.t - 30) + '" width="0" height="' + (ih + 30) + '" style="fill:var(--brush)"/>' +
+      '<rect id="yr-hover" x="0" y="' + m.t + '" width="0" height="' + ih + '" style="fill:var(--ink);opacity:0.07"/>' +
+      '<rect id="yr-hit" x="' + m.l + '" y="' + (m.t - 30) + '" width="' + iw + '" height="' + (ih + 30 + m.b) + '" style="fill:transparent;cursor:crosshair;touch-action:pan-y"/>';
+    var spikeYears = data.filter(function (d) { return d.spike; }).map(function (d) { return d.y; });
+    el.innerHTML = '<svg width="' + W + '" height="' + H + '" viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="Burials per year' +
+      (spikeYears.length ? ', spike years ' + spikeYears.join(', ') : ', no spike years') + '">' + s + '</svg>';
+    var hidden = spikeYears.filter(function (y) { return y > yEnd; });
+    $('years-note').textContent = (spikeYears.length ? 'Spike years for this selection: ' + spikeYears.join(', ') + '.' : 'No spike years for this selection.') +
+      (hidden.length ? ' (' + hidden.join(', ') + ' only shows under "All years".)' : '') +
+      (on ? ' Selected: ' + S.y0 + (S.y1 !== S.y0 ? '–' + S.y1 : '') + '.' : '');
+    $('t-years').innerHTML = table(['Year', 'Burials', 'Baseline', 'Ratio', 'Spike'], data.filter(function (d) { return d.n || d.y <= 1900; }).map(function (d) {
+      return [String(d.y), n0(d.n), d.base === null ? '–' : String(d.base), d.base ? (d.n / d.base).toFixed(2) + '×' : '–', d.spike ? 'yes' : ''];
+    }));
+    bindYearEvents();
+    return spikeYears;
+  }
+  var yearCache = {};
+  function yearTip(y) {
+    var d = yearsData[y - Y_MIN];
+    if (!yearCache[y]) {
+      var m = pass({ year: true }), cc = {}, chol = 0;
+      for (var i = 0; i < N; i++) {
+        if (!m[i] || YEAR[i] !== y) continue;
+        if (CAUSE[i] === CHOLERA) chol++;
+        if (CAUSE[i] !== UNKNOWN_CAUSE) cc[CAUSE[i]] = (cc[CAUSE[i]] || 0) + 1;
+      }
+      var top = Object.keys(cc).sort(function (a, b) { return cc[b] - cc[a] || (C.Cause[a] < C.Cause[b] ? -1 : 1); })[0];
+      yearCache[y] = { chol: chol, top: top === undefined ? null : { name: C.Cause[top], n: cc[top] } };
+    }
+    var e = yearCache[y];
+    var html = '<b>' + y + '</b>: ' + n0(d.n) + ' burial' + (d.n === 1 ? '' : 's');
+    if (d.base !== null) html += '<br><span class="t-sub">Baseline ' + d.base + (d.base ? ' · ' + (d.n / d.base).toFixed(2) + '×' : '') + (d.spike ? ' · <b>spike</b>' : '') + '</span>';
+    if (e.top) html += '<br><span class="t-sub">Top known cause: ' + esc(e.top.name) + ' (' + n0(e.top.n) + ')</span>';
+    if (e.chol) html += '<br><span class="t-sub">Cholera: ' + n0(e.chol) + '</span>';
+    return html;
+  }
+  function yearAt(clientX) {
+    var svg = $('c-years').querySelector('svg'), r = svg.getBoundingClientRect(), g = yearsGeom;
+    var x = clientX - r.left, y = Y_MIN + Math.floor((x - g.m.l) / g.bw);
+    return Math.max(Y_MIN, Math.min(g.yEnd, y));
+  }
+  function placeRect(id, y0, y1) {
+    var r = document.getElementById(id), g = yearsGeom;
+    if (!r) return;
+    r.setAttribute('x', g.sx(Math.min(y0, y1)));
+    r.setAttribute('width', g.sx(Math.max(y0, y1) + 1) - g.sx(Math.min(y0, y1)));
+  }
+  function bindYearEvents() {
+    var hit = document.getElementById('yr-hit');
+    hit.addEventListener('pointerdown', function (e) {
+      drag = { start: yearAt(e.clientX), moved: false };
+      try { hit.setPointerCapture(e.pointerId); } catch (err) { /* ignore */ }
+    });
+    hit.addEventListener('pointermove', function (e) {
+      var y = yearAt(e.clientX);
+      placeRect('yr-hover', y, y);
+      showTip(yearTip(y), e.clientX, e.clientY);
+      if (drag) { if (y !== drag.start) drag.moved = true; placeRect('yr-brush', drag.start, y); }
+    });
+    hit.addEventListener('pointerleave', function () { if (!drag) { hideTip(); var h = document.getElementById('yr-hover'); if (h) h.setAttribute('width', 0); } });
+    hit.addEventListener('pointerup', function (e) {
+      if (!drag) return;
+      var y = yearAt(e.clientX), a = Math.min(drag.start, y), b = Math.max(drag.start, y);
+      if (!drag.moved && S.y0 === a && S.y1 === b) { a = Y_MIN; b = Y_MAX; }
+      drag = null;
+      setYears(a, b);
+    });
+    hit.addEventListener('pointercancel', function () { drag = null; placeRect('yr-brush', Y_MIN, Y_MIN - 1); });
+  }
+
+  // ------------------------------------------------------------------ top causes
+  function renderCauses() {
+    var m = pass({ cause: true }), cc = new Int32Array(C.Cause.length), known = 0;
+    for (var i = 0; i < N; i++) if (m[i] && CAUSE[i] !== UNKNOWN_CAUSE) { cc[CAUSE[i]]++; known++; }
+    var idx = [];
+    for (var c = 0; c < cc.length; c++) if (cc[c]) idx.push(c);
+    idx.sort(function (a, b) { return cc[b] - cc[a] || (C.Cause[a] < C.Cause[b] ? -1 : 1); });
+    var top = idx.slice(0, 10), el = $('c-causes');
+    if (!top.length) { el.innerHTML = '<div class="empty">No burials with a known cause in this selection.</div>'; $('t-causes').innerHTML = ''; return []; }
+    if (S.cause >= 0 && top.indexOf(S.cause) < 0 && cc[S.cause]) top.push(S.cause);
+    var max = cc[top[0]];
+    el.innerHTML = top.map(function (c) {
+      var v = VAGUE.has(c);
+      return '<button type="button" class="cause-row" data-cause="' + c + '" aria-pressed="' + (S.cause === c) + '">' +
+        '<span class="cause-name">' + esc(C.Cause[c]) + (v ? ' <small>(vague)</small>' : '') + '</span>' +
+        '<span class="track"><span class="fill' + (v ? ' vague' : '') + '" style="width:' + (cc[c] / max * 100).toFixed(1) + '%"></span></span>' +
+        '<span class="cause-val">' + n0(cc[c]) + ' · ' + pct1(cc[c] / known) + '</span></button>';
+    }).join('');
+    $('t-causes').innerHTML = table(['Cause', 'Burials', 'Share of known causes'], top.map(function (c, k) {
+      return [(k < 10 ? (k + 1) + '. ' : '') + C.Cause[c] + (VAGUE.has(c) ? ' (vague)' : ''), n0(cc[c]), pct1(cc[c] / known)];
+    }));
+    return top.slice(0, 10).map(function (c) { return [C.Cause[c], cc[c]]; });
+  }
+
+  // ------------------------------------------------------------------ age group x decade heatmap
+  function renderHeat() {
+    var m = pass({ age: true }), ct = [], tot = [];
+    for (var g = 0; g < C.AgeGroup.length; g++) { ct.push(new Int32Array(DECADES.length)); tot.push(0); }
+    for (var i = 0; i < N; i++) {
+      if (!m[i] || !YEAR[i]) continue;
+      ct[AG[i]][Math.floor(YEAR[i] / 10) - 184]++;
+      tot[AG[i]]++;
+    }
+    var el = $('c-heat'), avail = Math.max(300, el.clientWidth || 560);
+    var L = 152, cw = Math.max(26, Math.min(44, (avail - L - 6) / DECADES.length)), rh = 36, top = 40;
+    var W = L + cw * DECADES.length + 6, H = top + rh * C.AgeGroup.length + 4;
+    var stops = [0, 1, 2, 3, 4].map(function (k) { return hexRgb(css('--heat-' + k)); });
+    var maxShare = 0, modes = [];
+    for (g = 0; g < ct.length; g++) {
+      var best = -1, bestN = 0;
+      for (var j = 0; j < DECADES.length; j++) {
+        if (tot[g]) maxShare = Math.max(maxShare, ct[g][j] / tot[g]);
+        if (ct[g][j] > bestN) { bestN = ct[g][j]; best = j; }
+      }
+      modes.push(best);
+    }
+    var vmax = Math.max(0.4, maxShare);
+    function color(t) {
+      t = Math.max(0, Math.min(1, t / vmax)) * 4;
+      var a = Math.min(3, Math.floor(t)), f = t - a, A = stops[a], B = stops[a + 1];
+      return A.map(function (v, k) { return Math.round(v + (B[k] - v) * f); });
+    }
+    var s = '';
+    [['1800s', 0, 5], ['1900s', 6, 13]].forEach(function (c) {
+      var x0 = L + c[1] * cw + 2, x1 = L + (c[2] + 1) * cw - 2;
+      s += '<text class="lbl-strong" x="' + ((x0 + x1) / 2) + '" y="11" text-anchor="middle" style="font-size:11px">' + c[0] + '</text>' +
+        '<line x1="' + x0 + '" x2="' + x1 + '" y1="17" y2="17" style="stroke:var(--axis);stroke-width:1"/>';
+    });
+    DECADES.forEach(function (d, j) {
+      s += '<text class="tick" x="' + (L + j * cw + cw / 2) + '" y="' + (top - 8) + '" text-anchor="middle">' + DEC_SHORT[j] + '</text>';
+    });
+    var sel = S.ages.size > 0;
+    for (g = 0; g < ct.length; g++) {
+      var y = top + g * rh, dim = sel && !S.ages.has(g) ? 0.35 : 1;
+      s += '<g role="button" tabindex="0" class="heat-row" data-age="' + g + '" aria-pressed="' + S.ages.has(g) + '" aria-label="' + esc(C.AgeGroup[g]) + ': ' + n0(tot[g]) + ' burials' + (modes[g] >= 0 ? ', most common decade ' + decLabel(DECADES[modes[g]]) : '') + '" style="cursor:pointer;opacity:' + dim + '">' +
+        '<rect x="0" y="' + (y + 2) + '" width="10" height="10" rx="2" style="fill:var(--age-' + g + ')"/>' +
+        '<text class="lbl-strong" x="16" y="' + (y + 11) + '">' + esc(C.AgeGroup[g]) + '</text>' +
+        '<text class="lbl" x="16" y="' + (y + 26) + '">' + n0(tot[g]) + (modes[g] >= 0 ? ' · peak ' + decLabel(DECADES[modes[g]]) : '') + '</text>';
+      for (j = 0; j < DECADES.length; j++) {
+        var share = tot[g] ? ct[g][j] / tot[g] : 0, rgb = color(share), key = 'h' + g + '-' + j;
+        TIPS[key] = '<b>' + esc(C.AgeGroup[g]) + ', ' + decLabel(DECADES[j]) + '</b><br>' + n0(ct[g][j]) + ' burials · ' + pct1(share) + ' of the group';
+        s += '<rect data-tip="' + key + '" x="' + (L + j * cw + 1) + '" y="' + (y + 1) + '" width="' + (cw - 2) + '" height="' + (rh - 2) + '" rx="3" style="fill:rgb(' + rgb.join(',') + ')"/>';
+        if (share >= 0.03) {
+          var Lc = luminance(rgb), dark = 1.05 / (Lc + 0.05) > (Lc + 0.05) / 0.0533;
+          s += '<text x="' + (L + j * cw + cw / 2) + '" y="' + (y + rh / 2 + 4) + '" text-anchor="middle" style="font-size:11px;font-variant-numeric:tabular-nums;pointer-events:none;fill:' + (dark ? '#ffffff' : '#0b0b0b') + '">' + Math.round(share * 100) + '</text>';
+        }
+      }
+      if (modes[g] >= 0)
+        s += '<rect x="' + (L + modes[g] * cw + 1) + '" y="' + (y + 1) + '" width="' + (cw - 2) + '" height="' + (rh - 2) + '" rx="3" style="fill:none;stroke:var(--spike);stroke-width:2.2;pointer-events:none"/>';
+      s += '</g>';
+    }
+    el.innerHTML = '<svg width="' + W + '" height="' + H + '" viewBox="0 0 ' + W + ' ' + H + '" role="group" aria-label="Share of each age group\'s burials by decade">' + s + '</svg>';
+    var groupsByMode = {};
+    for (g = 0; g < ct.length; g++) if (modes[g] >= 0) (groupsByMode[modes[g]] = groupsByMode[modes[g]] || []).push(C.AgeGroup[g]);
+    var parts = Object.keys(groupsByMode).sort(function (a, b) { return groupsByMode[b].length - groupsByMode[a].length || a - b; }).map(function (j) {
+      var gs = groupsByMode[j], list = gs.length > 1 ? gs.slice(0, -1).join(', ') + ' and ' + gs[gs.length - 1] : gs[0];
+      return decLabel(DECADES[j]) + ' for ' + list;
+    });
+    $('heat-note').textContent = parts.length ? 'Most common decade: ' + parts.join('; ') + '.' : 'No burials in this selection.';
+    $('t-heat').innerHTML = table(['Age group', 'Burials', 'Most common decade'].concat(DECADES.map(decLabel)), ct.map(function (row, g2) {
+      return [C.AgeGroup[g2], n0(tot[g2]), modes[g2] >= 0 ? decLabel(DECADES[modes[g2]]) : '–'].concat(Array.prototype.map.call(row, function (v) { return n0(v); }));
+    }));
+    return modes.map(function (j) { return j >= 0 ? decLabel(DECADES[j]) : null; });
+  }
+
+  // ------------------------------------------------------------------ the 1860s, small multiples
+  function render60s() {
+    var m = pass({ year: true, age: true }), ct = [];
+    for (var g = 0; g < C.AgeGroup.length; g++) ct.push(new Int32Array(10));
+    for (var i = 0; i < N; i++) if (m[i] && YEAR[i] >= 1860 && YEAR[i] <= 1869) ct[AG[i]][YEAR[i] - 1860]++;
+    var el = $('c-60s'), gs = getComputedStyle(el);
+    var cols = gs.gridTemplateColumns.split(' ').filter(Boolean).length || 3, gapX = parseFloat(gs.columnGap) || 16;
+    var colW = el.clientWidth ? (el.clientWidth - gapX * (cols - 1)) / cols : 160;
+    var W = Math.max(110, Math.floor(colW)), H = 92, ml = 4, mr = 4, mt = 8, mb = 16, iw = W - ml - mr, ih = H - mt - mb, bw = iw / 10;
+    var html = '', peaks = [];
+    for (g = 0; g < ct.length; g++) {
+      var row = ct[g], max = 0, peak = -1;
+      for (var k = 0; k < 10; k++) if (row[k] > max) { max = row[k]; peak = k; }
+      peaks.push(peak >= 0 ? 1860 + peak : null);
+      var dim = S.ages.size && !S.ages.has(g) ? 0.35 : 1, s = '';
+      var ymax = Math.max(1, max) * 1.08;
+      s += '<line class="axisline" x1="' + ml + '" x2="' + (W - mr) + '" y1="' + (mt + ih) + '" y2="' + (mt + ih) + '"/>';
+      for (k = 0; k < 10; k++) {
+        var v = row[k], x = ml + k * bw + 1.5, w = Math.max(1, bw - 3), top = mt + ih - v / ymax * ih, key = 'm' + g + '-' + k;
+        var ratio = row[0] ? (v / row[0]).toFixed(1) + '× 1860' : '';
+        TIPS[key] = '<b>' + esc(C.AgeGroup[g]) + ', ' + (1860 + k) + '</b><br>' + n0(v) + ' burials' + (ratio && k ? ' · ' + ratio : '');
+        s += '<rect data-tip="' + key + '" x="' + (ml + k * bw) + '" y="' + mt + '" width="' + bw + '" height="' + ih + '" style="fill:transparent"/>';
+        if (v) s += '<path d="' + barPath(x, top, w, mt + ih, Math.min(2.5, w / 2)) + '" style="pointer-events:none;fill:var(' + (k === peak ? '--spike' : '--age-' + g) + ')"/>';
+        if (k === 0 || k === 9 || k === peak || bw >= 22)
+          s += '<text class="tick" x="' + (ml + k * bw + bw / 2) + '" y="' + (H - 3) + '" text-anchor="middle" style="' + (k === peak ? 'fill:var(--spike-text);font-weight:650' : '') + '">' + "'" + (60 + k) + '</text>';
+      }
+      html += '<div class="mult" style="opacity:' + dim + '"><h3><span class="sw" style="background:var(--age-' + g + ')"></span>' + esc(C.AgeGroup[g]) + '</h3>' +
+        '<p>' + (peak >= 0 ? 'peak ' + (1860 + peak) + ': ' + n0(max) + (row[0] ? ' · ' + (max / row[0]).toFixed(1) + '× 1860' : '') : 'no burials') + '</p>' +
+        '<svg width="' + W + '" height="' + H + '" viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="' + esc(C.AgeGroup[g]) + ' burials per year, 1860 to 1869">' + s + '</svg></div>';
+    }
+    el.innerHTML = html;
+    var early = [], late = [];
+    peaks.forEach(function (p, g2) { if (p === 1864) early.push(C.AgeGroup[g2]); if (p === 1866) late.push(C.AgeGroup[g2]); });
+    $('sixties-note').textContent = (early.length ? 'Peak in 1864: ' + early.join(', ') + '. ' : '') + (late.length ? 'Peak in 1866, the cholera year: ' + late.join(', ') + '. ' : '') +
+      'The 1869 volume is likely incomplete.';
+    var head = ['Year'].concat(C.AgeGroup).concat(['total']), rows = [];
+    for (var k2 = 0; k2 < 10; k2++) {
+      var tot = 0, r = [String(1860 + k2)];
+      for (g = 0; g < ct.length; g++) { r.push(n0(ct[g][k2])); tot += ct[g][k2]; }
+      r.push(n0(tot)); rows.push(r);
+    }
+    $('t-60s').innerHTML = table(head, rows);
+    return { peaks: peaks, counts: ct.map(function (r) { return Array.prototype.slice.call(r); }) };
+  }
+
+  // ------------------------------------------------------------------ Civil War and age
+  function renderWar() {
+    var m = pass({ year: true }), groups = [{ label: 'All burials', test: function () { return true; } },
+      { label: 'White', test: function (i) { return RACE[i] === RACE_W; } }, { label: 'Black', test: function (i) { return RACE[i] === RACE_B; } }];
+    var res = groups.map(function (gr) {
+      return PERIODS.map(function (p) {
+        var ages = [], n = 0, ya = 0, yaMen = 0;
+        for (var i = 0; i < N; i++) {
+          if (!m[i] || YEAR[i] < p.y0 || YEAR[i] > p.y1 || !gr.test(i)) continue;
+          n++;
+          if (AGE[i] >= 0) ages.push(AGE[i]);
+          if (AG[i] === YA) { ya++; if (SEX[i] === SEX_M) yaMen++; }
+        }
+        return { n: n, nAge: ages.length, med: median(ages), ya: n ? ya / n : null, men: ya ? yaMen / ya : null };
+      });
+    });
+    var el = $('c-war'), W = Math.max(280, el.clientWidth || 520), L = W < 420 ? 84 : 104, R = 30, rh = 58, top = 8, H = top + rh * 3 + 26;
+    var vals = [];
+    res.forEach(function (r) { r.forEach(function (c) { if (c.med !== null) vals.push(c.med); }); });
+    if (!vals.length) { el.innerHTML = '<div class="empty">No burials with an age in these periods.</div>'; $('t-war').innerHTML = ''; $('war-note').textContent = ''; return res; }
+    var lo = Math.floor((Math.min.apply(null, vals) - 3) / 5) * 5, hi = Math.ceil((Math.max.apply(null, vals) + 3) / 5) * 5;
+    function sx(v) { return L + (v - lo) / (hi - lo) * (W - L - R); }
+    var s = '';
+    for (var t = lo; t <= hi; t += 5)
+      s += '<line class="gridline" x1="' + sx(t) + '" x2="' + sx(t) + '" y1="' + top + '" y2="' + (top + rh * 3) + '"/>' +
+        '<text class="tick" x="' + sx(t) + '" y="' + (H - 8) + '" text-anchor="middle">' + t + '</text>';
+    res.forEach(function (r, gi) {
+      var y = top + gi * rh;
+      s += '<text class="lbl-strong" x="0" y="' + (y + rh / 2 + 4) + '">' + groups[gi].label + '</text>';
+      var meds = r.map(function (c) { return c.med; }).filter(function (v) { return v !== null; });
+      if (meds.length > 1) {
+        var ys = [y + 14, y + 29, y + 44];
+        s += '<path d="M' + r.map(function (c, k) { return c.med === null ? null : sx(c.med) + ',' + ys[k]; }).filter(Boolean).join(' L') + '" style="fill:none;stroke:var(--axis);stroke-width:1.5"/>';
+      }
+      r.forEach(function (c, k) {
+        if (c.med === null) return;
+        var cy = y + 14 + k * 15, cx = sx(c.med), key = 'w' + gi + '-' + k;
+        TIPS[key] = '<b>' + groups[gi].label + ', ' + PERIODS[k].label + '</b><br>median recorded age ' + fmtAge(c.med) + '<br><span class="t-sub">' + n0(c.n) + ' burials, ' + n0(c.nAge) + ' with an age' +
+          (c.ya !== null ? '<br>young adults ' + pct1(c.ya) + (c.men !== null ? ', ' + pct0(c.men) + ' of them men' : '') : '') + '</span>';
+        s += '<circle data-tip="' + key + '" cx="' + cx + '" cy="' + cy + '" r="6" style="fill:var(' + PERIODS[k].color + ');stroke:var(--surface);stroke-width:2"/>' +
+          '<text class="lbl" x="' + (cx + 10) + '" y="' + (cy + 4) + '" style="font-variant-numeric:tabular-nums">' + fmtAge(c.med) + '</text>';
+      });
+      if (gi < 2) s += '<line class="gridline" x1="0" x2="' + W + '" y1="' + (y + rh) + '" y2="' + (y + rh) + '" style="stroke-dasharray:2 3"/>';
+    });
+    el.innerHTML = '<svg width="' + W + '" height="' + H + '" viewBox="0 0 ' + W + ' ' + H + '" role="group" aria-label="Median recorded age by period and race">' + s + '</svg>';
+    var b = res[2], wh = res[1];
+    var note = [];
+    if (b[0].med !== null && b[1].med !== null) note.push('Black burials: ' + fmtAge(b[0].med) + ' → ' + fmtAge(b[1].med) + ' during the war (' + n0(b[0].n) + ' → ' + n0(b[1].n) + ' burials).');
+    if (wh[0].med !== null && wh[1].med !== null) note.push('White burials: ' + fmtAge(wh[0].med) + ' → ' + fmtAge(wh[1].med) + '.');
+    $('war-note').textContent = note.join(' ');
+    var rows = [];
+    res.forEach(function (r, gi) { r.forEach(function (c, k) {
+      rows.push([groups[gi].label + ', ' + PERIODS[k].label, n0(c.n), c.n ? pct0(c.nAge / c.n) : '–', fmtAge(c.med), c.ya === null ? '–' : pct1(c.ya), c.men === null ? '–' : pct0(c.men)]);
+    }); });
+    $('t-war').innerHTML = table(['Who and when', 'Burials', 'Age recorded', 'Median age', 'Young adults', 'Men among young adults'], rows);
+    return res;
+  }
+
+  // ------------------------------------------------------------------ controls
+  function buildControls() {
+    $('presets').innerHTML = PRESETS.map(function (p, k) { return '<button type="button" class="chip" data-preset="' + k + '" aria-pressed="false">' + p.label + '</button>'; }).join('');
+    $('ages').innerHTML = C.AgeGroup.map(function (g, k) {
+      return '<button type="button" class="chip" data-age="' + k + '" aria-pressed="false"><span class="sw" style="background:var(--age-' + k + ')"></span>' + esc(g) + '</button>';
+    }).join('');
+    function opts(el, list, order) {
+      el.innerHTML = '<option value="-1">All</option>' + order.map(function (k) { return '<option value="' + k + '">' + esc(list[k]) + '</option>'; }).join('');
+    }
+    var raceOrder = [RACE_B, RACE_W, C.Race.indexOf('Other/blank')].filter(function (k) { return k >= 0; });
+    opts($('sex'), C.Sex, C.Sex.map(function (s, k) { return k; }));
+    opts($('race'), C.Race, raceOrder);
+    opts($('fam'), C.CauseFamily, FAM_ORDER);
+    $('presets').addEventListener('click', function (e) {
+      var b = e.target.closest('[data-preset]'); if (!b) return;
+      var p = PRESETS[+b.getAttribute('data-preset')]; setYears(p.y0, p.y1);
+    });
+    $('ages').addEventListener('click', function (e) {
+      var b = e.target.closest('[data-age]'); if (b) toggleAge(+b.getAttribute('data-age'));
+    });
+    $('c-heat').addEventListener('click', function (e) {
+      var g = e.target.closest('[data-age]'); if (g) toggleAge(+g.getAttribute('data-age'));
+    });
+    $('c-heat').addEventListener('keydown', function (e) {
+      var g = e.target.closest('[data-age]');
+      if (g && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); toggleAge(+g.getAttribute('data-age')); }
+    });
+    $('c-causes').addEventListener('click', function (e) {
+      var b = e.target.closest('[data-cause]'); if (!b) return;
+      var c = +b.getAttribute('data-cause'); S.cause = S.cause === c ? -1 : c; update();
+    });
+    $('cause-chip').addEventListener('click', function () { S.cause = -1; update(); });
+    ['sex', 'race', 'fam'].forEach(function (id) {
+      $(id).addEventListener('change', function () {
+        S[id] = +this.value;
+        if (id === 'fam' && S.cause >= 0 && S.fam >= 0) {
+          var same = false;
+          for (var i = 0; i < N; i++) if (CAUSE[i] === S.cause) { same = FAM[i] === S.fam; break; }
+          if (!same) S.cause = -1;
+        }
+        update();
+      });
+    });
+    ['y0', 'y1'].forEach(function (id) {
+      $(id).addEventListener('change', function () {
+        var a = parseInt($('y0').value, 10), b = parseInt($('y1').value, 10);
+        if (isNaN(a)) a = Y_MIN; if (isNaN(b)) b = Y_MAX;
+        a = Math.max(Y_MIN, Math.min(Y_MAX, a)); b = Math.max(Y_MIN, Math.min(Y_MAX, b));
+        setYears(Math.min(a, b), Math.max(a, b));
+      });
+    });
+    $('view-early').addEventListener('click', function () { S.view = 'early'; update(); });
+    $('view-all').addEventListener('click', function () { S.view = 'all'; update(); });
+    $('reset').addEventListener('click', function () {
+      S.y0 = Y_MIN; S.y1 = Y_MAX; S.ages = new Set(); S.sex = S.race = S.fam = S.cause = -1; S.view = 'early'; update();
+    });
+  }
+  function toggleAge(g) { if (S.ages.has(g)) S.ages.delete(g); else S.ages.add(g); update(); }
+  function setYears(a, b) {
+    S.y0 = a; S.y1 = b;
+    if (b > 1900 && !(a === Y_MIN && b === Y_MAX)) S.view = 'all';
+    update();
+  }
+  function syncControls() {
+    $('y0').value = S.y0; $('y1').value = S.y1;
+    Array.prototype.forEach.call(document.querySelectorAll('[data-preset]'), function (b) {
+      var p = PRESETS[+b.getAttribute('data-preset')]; b.setAttribute('aria-pressed', String(p.y0 === S.y0 && p.y1 === S.y1));
+    });
+    Array.prototype.forEach.call(document.querySelectorAll('#ages [data-age]'), function (b) {
+      b.setAttribute('aria-pressed', String(S.ages.has(+b.getAttribute('data-age'))));
+    });
+    $('sex').value = S.sex; $('race').value = S.race; $('fam').value = S.fam;
+    $('cause-field').hidden = S.cause < 0;
+    if (S.cause >= 0) $('cause-chip').innerHTML = esc(C.Cause[S.cause]) + ' <span aria-hidden="true">×</span>';
+    $('view-early').setAttribute('aria-pressed', String(S.view === 'early'));
+    $('view-all').setAttribute('aria-pressed', String(S.view === 'all'));
+  }
+
+  // ------------------------------------------------------------------ render loop
+  var last = {};
+  function update() {
+    yearCache = {}; TIPS = {};
+    syncControls();
+    last.kpi = renderKPIs();
+    last.spikes = renderYears();
+    last.top10 = renderCauses();
+    last.modes = renderHeat();
+    last.sixties = render60s();
+    last.war = renderWar();
+  }
+  // a read-only summary of what is on screen (used to check the page against the notebook)
+  window.ledgerSnapshot = function () { return JSON.parse(JSON.stringify(last)); };
+
+  buildControls();
+  update();
+
+  var pending = false;
+  function rerender() {
+    if (pending) return;
+    pending = true;
+    requestAnimationFrame(function () { pending = false; update(); });
+  }
+  if (window.ResizeObserver) {
+    var lastW = 0;
+    new ResizeObserver(function (entries) {
+      var w = Math.round(entries[0].contentRect.width);
+      if (w !== lastW) { lastW = w; rerender(); }
+    }).observe(document.querySelector('main'));
+  } else {
+    window.addEventListener('resize', rerender);
+  }
+  if (window.matchMedia) {
+    var mq = window.matchMedia('(prefers-color-scheme: dark)');
+    if (mq.addEventListener) mq.addEventListener('change', rerender);
+  }
+  new MutationObserver(rerender).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme', 'class'] });
+})();
+</script>
