@@ -1,0 +1,5 @@
+# Tested with Python 3.9 (pandas 2.3.3, numpy 2.0.2, matplotlib 3.9.4) and Python 3.10 (pandas 2.3.3).
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+ipykernel  # lets VS Code / Jupyter run the notebook
