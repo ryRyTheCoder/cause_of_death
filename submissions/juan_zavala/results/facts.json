@@ -157,7 +157,13 @@
   "n_decade_unknown": 2,
   "top_decade": "1860's",
   "top_decade_n": 7840,
-  "top_decade_pct": "39.9%"
+  "top_decade_pct": "39.9%",
+  "unknown_n": 8659,
+  "unknown_pct": "44.0%",
+  "unk_infant_n": 7747,
+  "unk_infant_pct": "89.5%",
+  "child_n": 820,
+  "older_n": 3145
  },
  "text": {
   "n_raw": "19,745",
@@ -317,6 +323,12 @@
   "n_decade_unknown": "2",
   "top_decade": "1860's",
   "top_decade_n": "7,840",
-  "top_decade_pct": "39.9%"
+  "top_decade_pct": "39.9%",
+  "unknown_n": "8,659",
+  "unknown_pct": "44.0%",
+  "unk_infant_n": "7,747",
+  "unk_infant_pct": "89.5%",
+  "child_n": "820",
+  "older_n": "3,145"
  }
 }
