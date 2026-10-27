@@ -1,0 +1,8 @@
+year,burials,baseline (median of 5 prior years),ratio,extra burials,top known cause,cholera burials,Black burials
+1849,745,447.0,1.67,298.0,"Cholera (305, 41%)",305,224
+1850,809,461.5,1.75,348.0,"Cholera (300, 37%)",300,237
+1863,836,482.0,1.73,354.0,"Tuberculosis (consumption) (86, 10%)",0,356
+1864,1372,575.0,2.39,797.0,"Measles (112, 8%)",0,725
+1865,1366,627.0,2.18,739.0,"Tuberculosis (consumption) (100, 7%)",0,770
+1866,1354,836.0,1.62,518.0,"Cholera (388, 29%)",388,804
+1873,559,285.0,1.96,274.0,"Cholera (137, 25%)",137,184
