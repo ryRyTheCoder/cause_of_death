@@ -220,7 +220,10 @@
   "q8_ya_cholera_1866": "43%",
   "q8_ma_cholera_1866": "43%",
   "q8_unk_measles_1864": "11%",
-  "q8_child_measles_1864": "23%"
+  "q8_child_measles_1864": "23%",
+  "n_families": 14,
+  "n_dim_years": 134,
+  "n_zero_years": 6
  },
  "text": {
   "n_raw": "19,745",
@@ -443,6 +446,9 @@
   "q8_ya_cholera_1866": "43%",
   "q8_ma_cholera_1866": "43%",
   "q8_unk_measles_1864": "11%",
-  "q8_child_measles_1864": "23%"
+  "q8_child_measles_1864": "23%",
+  "n_families": "14",
+  "n_dim_years": "134",
+  "n_zero_years": "6"
  }
 }

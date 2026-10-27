@@ -1,0 +1,7 @@
+AgeGroup,SortOrder,AgeRange
+child,1,0-5
+minors,2,6-17
+young adults,3,18-30
+middle aged,4,31-50
+older adults,5,51+
+unknown,6,blank (mostly infants)

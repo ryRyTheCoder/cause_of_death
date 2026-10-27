@@ -1,0 +1,186 @@
+// Nashville City Cemetery, 1846-1979: DAX measures for the Power BI dashboard
+// ============================================================================
+// How to use (Power BI Desktop, after loading the four CSV files and creating the relationships):
+//   1. Open DAX query view (the "{ }" icon on the left), paste this whole file and click Run.
+//   2. Check the first result tab. It must list the seven spike years from Question 3 of the notebook:
+//        1849 (745 burials)  1850 (809)  1863 (836)  1864 (1,372)  1865 (1,366)  1866 (1,354)  1873 (559)
+//      The second tab must show 19,670 burials, 88.5% with a known cause, 44.0% with no age recorded,
+//      peak year 1864 and a median recorded age of 33.
+//   3. Click "Update model with changes" to save every measure into the fact_burials table.
+//   4. In Model view, format the measures whose names start with "%" (and "Share of Age Group's Burials")
+//      as Percentage with 1 decimal.
+//
+// Table and column names match the CSV files in this folder. Use the dim_year columns (Year, Decade, Era)
+// on axes and slicers: the spike baseline needs to see the years before the selected one.
+
+DEFINE
+    // ---- Counts and shares ------------------------------------------------------------------------
+    MEASURE fact_burials[Burials] =
+        COUNTROWS ( fact_burials )
+
+    MEASURE fact_burials[Known Cause Burials] =
+        CALCULATE ( [Burials], KEEPFILTERS ( fact_burials[Cause] <> "Unknown" ) )
+
+    MEASURE fact_burials[% Known Cause] =
+        DIVIDE ( [Known Cause Burials], [Burials] )
+
+    MEASURE fact_burials[No Age Recorded] =
+        CALCULATE ( [Burials], KEEPFILTERS ( fact_burials[AgeGroup] = "unknown" ) )
+
+    MEASURE fact_burials[% No Age Recorded] =
+        DIVIDE ( [No Age Recorded], [Burials] )
+
+    // MEDIAN skips blanks, so this is the median among burials whose age was written down
+    MEASURE fact_burials[Median Recorded Age] =
+        MEDIAN ( fact_burials[Age] )
+
+    MEASURE fact_burials[Cholera Burials] =
+        CALCULATE ( [Burials], KEEPFILTERS ( fact_burials[Cause] = "Cholera" ) )
+
+    MEASURE fact_burials[% Cholera] =
+        DIVIDE ( [Cholera Burials], [Burials] )
+
+    // ---- Peak year ----------------------------------------------------------------------------------
+    // The year with the most burials in the current selection (ties go to the earlier year)
+    MEASURE fact_burials[Peak Year] =
+        VAR ByYear =
+            FILTER (
+                ADDCOLUMNS ( VALUES ( dim_year[Year] ), "@n", [Burials] ),
+                NOT ISBLANK ( [@n] )
+            )
+        RETURN
+            MAXX ( TOPN ( 1, ByYear, [@n], DESC, dim_year[Year], ASC ), dim_year[Year] )
+
+    MEASURE fact_burials[Peak Year Burials] =
+        MAXX ( VALUES ( dim_year[Year] ), [Burials] )
+
+    // ---- Spike years (Question 3) -------------------------------------------------------------------
+    // Baseline = median burials of the five years before (at least three earlier years are needed),
+    // with years that have no burials counted as 0. A spike year has at least 1.5 x the baseline AND
+    // at least 50 burials more than it. The baseline ignores year, decade and era filters, but keeps
+    // every other slicer, so selecting a race or an age group recomputes the spikes for that group.
+    MEASURE fact_burials[Baseline (5 prior years)] =
+        VAR y =
+            COALESCE ( SELECTEDVALUE ( dim_year[Year] ), SELECTEDVALUE ( fact_burials[Year] ) )
+        VAR FirstYear =
+            CALCULATE ( MIN ( dim_year[Year] ), REMOVEFILTERS ( dim_year ) )
+        VAR PriorYears =
+            CALCULATETABLE (
+                VALUES ( dim_year[Year] ),
+                REMOVEFILTERS ( dim_year ),
+                dim_year[Year] >= y - 5,
+                dim_year[Year] <= y - 1
+            )
+        VAR PriorCounts =
+            ADDCOLUMNS (
+                PriorYears,
+                "@n",
+                    VAR yy = dim_year[Year]
+                    RETURN
+                        CALCULATE (
+                            [Burials],
+                            REMOVEFILTERS ( dim_year ),
+                            REMOVEFILTERS ( fact_burials[Year], fact_burials[Decade], fact_burials[Era] ),
+                            dim_year[Year] = yy
+                        ) + 0
+            )
+        RETURN
+            IF ( NOT ISBLANK ( y ) && y - FirstYear >= 3, MEDIANX ( PriorCounts, [@n] ) )
+
+    MEASURE fact_burials[Excess Burials] =
+        VAR b = [Baseline (5 prior years)]
+        RETURN
+            IF ( NOT ISBLANK ( b ), [Burials] + 0 - b )
+
+    MEASURE fact_burials[Is Spike] =
+        VAR b = [Baseline (5 prior years)]
+        VAR n = [Burials] + 0
+        RETURN
+            IF ( NOT ISBLANK ( b ) && n >= 1.5 * b && n - b >= 50, 1, 0 )
+
+    // Use as the column color of the burials-per-year chart: Format > Columns > fx > Field value
+    MEASURE fact_burials[Year Bar Color] =
+        IF ( [Is Spike] = 1, "#EB6834", "#86B6EF" )
+
+    // ---- Causes (Question 2) ------------------------------------------------------------------------
+    // Gray for labels that name no specific disease ("Complications", "Fever (unspecified)", "Cold")
+    MEASURE fact_burials[Cause Bar Color] =
+        VAR c =
+            COALESCE ( SELECTEDVALUE ( dim_cause[Cause] ), SELECTEDVALUE ( fact_burials[Cause] ) )
+        VAR Vague =
+            LOOKUPVALUE ( dim_cause[IsVague], dim_cause[Cause], c )
+        RETURN
+            IF ( Vague = "Yes", "#C9C7BF", "#2A78D6" )
+
+    // ---- Age groups, decades and the war years (Questions 4, 7 and 8) -------------------------------
+    // For the age group x decade heatmap: each cell as a share of its age group's burials (row share)
+    MEASURE fact_burials[Share of Age Group's Burials] =
+        DIVIDE (
+            [Burials],
+            CALCULATE (
+                [Burials],
+                REMOVEFILTERS ( dim_year ),
+                REMOVEFILTERS ( fact_burials[Year], fact_burials[Decade], fact_burials[Era] ),
+                NOT ISBLANK ( fact_burials[Year] )
+            )
+        )
+
+    // The decade with the most burials in the current selection (ties go to the earlier decade)
+    MEASURE fact_burials[Most Common Decade] =
+        VAR ByDecade =
+            FILTER (
+                ADDCOLUMNS ( VALUES ( dim_year[Decade] ), "@n", [Burials] ),
+                NOT ISBLANK ( [@n] ) && NOT ISBLANK ( dim_year[Decade] )
+            )
+        RETURN
+            MAXX ( TOPN ( 1, ByDecade, [@n], DESC, dim_year[Decade], ASC ), dim_year[Decade] )
+
+    MEASURE fact_burials[% Young Adults] =
+        DIVIDE ( CALCULATE ( [Burials], KEEPFILTERS ( fact_burials[AgeGroup] = "young adults" ) ), [Burials] )
+
+    MEASURE fact_burials[% Men Among Young Adults] =
+        DIVIDE (
+            CALCULATE (
+                [Burials],
+                KEEPFILTERS ( fact_burials[AgeGroup] = "young adults" ),
+                KEEPFILTERS ( fact_burials[Sex] = "Male" )
+            ),
+            CALCULATE ( [Burials], KEEPFILTERS ( fact_burials[AgeGroup] = "young adults" ) )
+        )
+
+    // Burials as a multiple of the same selection in 1860 (the Question 8 comparison)
+    MEASURE fact_burials[Burials vs 1860] =
+        DIVIDE (
+            [Burials],
+            CALCULATE (
+                [Burials],
+                REMOVEFILTERS ( dim_year ),
+                REMOVEFILTERS ( fact_burials[Year], fact_burials[Decade], fact_burials[Era] ),
+                dim_year[Year] = 1860
+            )
+        )
+
+// ---- Checks -----------------------------------------------------------------------------------------
+// Result 1: the spike years (must match Question 3)
+EVALUATE
+    FILTER (
+        ADDCOLUMNS (
+            VALUES ( dim_year[Year] ),
+            "Burials in year", [Burials] + 0,
+            "Baseline", [Baseline (5 prior years)],
+            "Spike", [Is Spike]
+        ),
+        [Spike] = 1
+    )
+ORDER BY dim_year[Year]
+
+// Result 2: the headline numbers with no filters
+EVALUATE
+    ROW (
+        "Burials", [Burials],
+        "% known cause", [% Known Cause],
+        "% no age recorded", [% No Age Recorded],
+        "Peak year", [Peak Year],
+        "Peak year burials", [Peak Year Burials],
+        "Median recorded age", [Median Recorded Age]
+    )
