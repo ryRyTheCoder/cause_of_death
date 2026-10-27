@@ -1,0 +1,2210 @@
+as written,burials,cleaned text,Cause of Death Updated,method
+Consumption,1760,consumption,Tuberculosis (consumption),rule
+Unknown,1259,unknown,Unknown,rule
+Still Born,839,stillborn,Stillborn,rule
+Cholrea,667,cholera,Cholera,rule
+Not Known,639,not known,Unknown,rule
+Old Age,601,old age,Old Age,rule
+Cholera,575,cholera,Cholera,rule
+Pneumonia,511,pneumonia,Pneumonia,rule
+Flux,469,flux,Dysentery (flux),rule
+Complication,446,complication,Complications (unspecified),rule
+Cold,421,cold,Cold,rule
+Teething,411,teething,Teething,rule
+,314,,Unknown,rule
+Typhoid Fever,307,typhoid fever,Typhoid Fever,rule
+Complicated,302,complicated,Complications (unspecified),rule
+Brain Fever,286,brain fever,Brain Fever / Inflammation,rule
+Dropsy,284,dropsy,Dropsy,rule
+Stil Born,278,stillborn,Stillborn,rule
+Measles,234,measles,Measles,rule
+Measels,224,measles,Measles,rule
+Whooping Cough,205,whooping cough,Whooping Cough,rule
+Small Pox,196,smallpox,Smallpox,rule
+Scarlot Fever,192,scarlet fever,Scarlet Fever,rule
+Infl of Bowels,156,inflammation of bowels,Bowel Inflammation / Disease,rule
+Dropsey,150,dropsy,Dropsy,rule
+Teethin,141,teething,Teething,rule
+Feever,140,fever,Fever (unspecified),rule
+Infl of Brain,137,inflammation of brain,Brain Fever / Inflammation,rule
+Fever,134,fever,Fever (unspecified),rule
+Diptheria,128,diphtheria,Diphtheria,rule
+Child Bed,124,child bed,Childbirth (incl. childbed fever),rule
+Heart Disease,114,heart disease,Heart Disease,rule
+Croup,107,croup,Croup,rule
+Spasms,106,spasms,"Convulsions (spasms, fits)",rule
+Lock Jaw,95,lockjaw,Tetanus (lockjaw),rule
+Hives,94,hives,Hives,rule
+Hooping Cough,93,whooping cough,Whooping Cough,rule
+Cancer,92,cancer,Cancer,rule
+Paralysis,90,paralysis,Paralysis,rule
+Inf of Bowls,88,inflammation of bowels,Bowel Inflammation / Disease,rule
+Croop,87,croup,Croup,rule
+Stillborn,85,stillborn,Stillborn,rule
+Diarrhaea,82,diarrhea,Diarrhea,rule
+Cholera Infantum,75,cholera infantum,Cholera Infantum (summer complaint),rule
+Diarherea,71,diarrhea,Diarrhea,rule
+Pneumonie,65,pneumonia,Pneumonia,rule
+Worms,65,worms,Worms,rule
+Drowned,63,drowned,Drowning,rule
+Summer Complt,57,summer complaint,Cholera Infantum (summer complaint),rule
+Thrash,55,thrush,Thrush,rule
+Apoplexy,54,apoplexy,Apoplexy (stroke),rule
+Dysentery,54,dysentery,Dysentery (flux),rule
+Intemperance,52,intemperance,Alcoholism (intemperance),rule
+Scarlet Fever,51,scarlet fever,Scarlet Fever,rule
+Premature Birth,45,premature birth,Premature Birth,rule
+Inf of Brain,44,inflammation of brain,Brain Fever / Inflammation,rule
+Teathing,42,teething,Teething,rule
+Bilious Fever,41,bilious fever,Bilious Fever,rule
+Stilborn,41,stillborn,Stillborn,rule
+Gun Shot,40,gunshot,Gunshot,rule
+Infl of lungs,40,inflammation of lungs,Pneumonia,rule
+Croope,38,croup,Croup,rule
+Sore Throat,38,sore throat,Sore Throat / Quinsy,rule
+Still Bornd,38,stillborn,Stillborn,rule
+Marasmus,37,marasmus,Marasmus,rule
+Diphtheria,35,diphtheria,Diphtheria,rule
+S. Feever,34,scarlet fever,Scarlet Fever,rule
+Congestive Chill,33,congestive chill,Congestive Chill or Fever,rule
+Pneuminia,33,pneumonia,Pneumonia,rule
+Summer Complaint,33,summer complaint,Cholera Infantum (summer complaint),rule
+Diphtherie,32,diphtheria,Diphtheria,rule
+Rheumatism,32,rheumatism,Rheumatism (incl. rheumatic fever),rule
+Appoplexy,31,apoplexy,Apoplexy (stroke),rule
+Congestion of Brain,31,congestion of brain,Brain Fever / Inflammation,rule
+Diarhoera,31,diarrhea,Diarrhea,rule
+Dis of Hart,30,disease of heart,Heart Disease,rule
+Scrofula,30,scrofula,Scrofula,rule
+Pluracy,29,pleurisy,Pleurisy,rule
+Diarrhoea,28,diarrhea,Diarrhea,rule
+Dis of Lungs,26,disease of lungs,Lung Disease (other),rule
+Disease of Lungs,25,disease of lungs,Lung Disease (other),rule
+Suicide,25,suicide,Suicide,rule
+Typh. Fever,25,typhoid fever,Typhoid Fever,rule
+Accident,24,accident,Accident,rule
+Ch Diarrhaea,24,chronic diarrhea,Diarrhea,rule
+Dyptheria,24,diphtheria,Diphtheria,rule
+Scroffula,24,scrofula,Scrofula,rule
+Bold Hives,23,bold hives,Hives,rule
+Convulsions,23,convulsions,"Convulsions (spasms, fits)",rule
+Drownded,23,drowned,Drowning,rule
+Spasom,23,spasms,"Convulsions (spasms, fits)",rule
+Sumer Complaint,23,summer complaint,Cholera Infantum (summer complaint),rule
+Child Bed Fever,22,child bed fever,Childbirth (incl. childbed fever),rule
+Cong of Brain,22,cong of brain,Brain Fever / Inflammation,rule
+Diareah,22,diarrhea,Diarrhea,rule
+Chronic Diareah,21,chronic diarrhea,Diarrhea,rule
+Infl of brain,21,inflammation of brain,Brain Fever / Inflammation,rule
+Measeles,21,measles,Measles,rule
+Pistol Shot,21,pistol shot,Gunshot,rule
+Bronchitis,20,bronchitis,Bronchitis,rule
+Burnt to Death,20,burnt to death,Burns / Scalds,rule
+Spasoms,20,spasms,"Convulsions (spasms, fits)",rule
+Sum Complaint,20,summer complaint,Cholera Infantum (summer complaint),rule
+Typhoid Pneumonia,20,typhoid pneumonia,Pneumonia,rule
+Congestion,19,congestion,Congestion (unspecified),rule
+Pleurisey,19,pleurisy,Pleurisy,rule
+Sumer Complain,19,summer complaint,Cholera Infantum (summer complaint),rule
+Summer Complant,19,summer complaint,Cholera Infantum (summer complaint),rule
+Child Birth,18,child birth,Childbirth (incl. childbed fever),rule
+Brain Feever,17,brain fever,Brain Fever / Inflammation,rule
+Cholera Morbus,17,cholera morbus,Cholera Morbus,rule
+Died Suddenly,17,died suddenly,Sudden Death,rule
+Hooping cough,17,whooping cough,Whooping Cough,rule
+Jaundice,17,jaundice,Jaundice,rule
+Numonia,17,pneumonia,Pneumonia,rule
+Scarlett Fever,17,scarlet fever,Scarlet Fever,rule
+Sun Stroke,17,sun stroke,Exposure (heat or cold),rule
+Cong Chill,16,congestive chill,Congestive Chill or Fever,rule
+Dis of Liver,16,disease of liver,Liver Disease,rule
+Scrofalow,16,scrofula,Scrofula,rule
+Burned,15,burned,Burns / Scalds,rule
+Gravel,15,gravel,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Gun Shot Wound,15,gunshot wound,Gunshot,rule
+Insanity,15,insanity,Insanity,rule
+Meningitis,15,meningitis,Meningitis,rule
+Smothered,15,smothered,"Suffocation (smothered, overlaid)",rule
+Congestion of Lungs,14,congestion of lungs,Lung Disease (other),rule
+Disease of Heart,14,disease of heart,Heart Disease,rule
+Inf of Lungs,14,inflammation of lungs,Pneumonia,rule
+Infl Bowels,14,inflammation bowels,Bowel Inflammation / Disease,rule
+Infl of the bowels,14,inflammation of the bowels,Bowel Inflammation / Disease,rule
+Intermittent Fever,14,intermittent fever,"Malaria (intermittent fever, chills and fever)",rule
+Killed,14,killed,Accident,rule
+Lung Fever,14,lungs fever,Pneumonia,rule
+Poisan,14,poison,Poisoning / Overdose,rule
+Poison,14,poison,Poisoning / Overdose,rule
+Asthma,13,asthma,Asthma,rule
+Congestive Chills,13,congestive chill,Congestive Chill or Fever,rule
+Janders,13,jaundice,Jaundice,rule
+Shot,13,shot,Gunshot,rule
+Affection of the heart,12,affection of the heart,Heart Disease,rule
+Croupe,12,croup,Croup,rule
+Gen Debility,12,general debility,Debility / Exhaustion,rule
+Infl of the Brain,12,inflammation of the brain,Brain Fever / Inflammation,rule
+Inflamation,12,inflammation,Inflammation (unspecified),rule
+Rhumatism,12,rheumatism,Rheumatism (incl. rheumatic fever),rule
+T. Feever,12,typhoid fever,Typhoid Fever,rule
+Whooping cough,12,whooping cough,Whooping Cough,rule
+Wormes,12,worms,Worms,rule
+Billious Fever,11,bilious fever,Bilious Fever,rule
+Cramp Cholic,11,cramp cholic,Colic,rule
+Fits,11,fits,"Convulsions (spasms, fits)",rule
+Kidney Disease,11,kidney disease,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Lockjaw,11,lockjaw,Tetanus (lockjaw),rule
+Premature,11,premature,Premature Birth,rule
+Scarlett Feever,11,scarlet fever,Scarlet Fever,rule
+Cholrea Morbus,10,cholera morbus,Cholera Morbus,rule
+Diarrhea,10,diarrhea,Diarrhea,rule
+Died in child bed,10,died in child bed,Childbirth (incl. childbed fever),rule
+Erysiplas,10,erysipelas,Erysipelas,rule
+Found Dead,10,found dead,Sudden Death,rule
+Int Fever,10,intermittent fever,"Malaria (intermittent fever, chills and fever)",rule
+Liver Complaint,10,liver complaint,Liver Disease,rule
+Mumps,10,mumps,Mumps,rule
+Affection of Lungs,9,affection of lungs,Lung Disease (other),rule
+Conjestive Chill,9,congestive chill,Congestive Chill or Fever,rule
+Disease of Bowels,9,disease of bowels,Bowel Inflammation / Disease,rule
+Disease of Liver,9,disease of liver,Liver Disease,rule
+Dropsey in head,9,dropsy in head,Hydrocephalus (dropsy of the brain),rule
+Errasipelas,9,errasipelas,Erysipelas,rule
+Heart Failure,9,heart failure,Heart Disease,rule
+Heart Trouble,9,heart trouble,Heart Disease,rule
+Hemorage of Lungs,9,hemorage of lungs,Lung Disease (other),rule
+Infl of stomach,9,inflammation of stomach,"Stomach Disease (dyspepsia, gastritis)",rule
+Phthisic,9,phthisic,Phthisic (asthma or tuberculosis),rule
+Typh Fever,9,typhoid fever,Typhoid Fever,rule
+Wound,9,wound,Wound (unspecified),rule
+Burnt,8,burnt,Burns / Scalds,rule
+Convulsion,8,convulsion,"Convulsions (spasms, fits)",rule
+Dis of the hart,8,disease of the heart,Heart Disease,rule
+Inf Brain,8,inflammation brain,Brain Fever / Inflammation,rule
+Liver Complt,8,liver complt,Liver Disease,rule
+Meningetis,8,meningitis,Meningitis,rule
+Not known,8,not known,Unknown,rule
+Phthisis,8,phthisis,Tuberculosis (consumption),rule
+Summer Comp,8,summer complaint,Cholera Infantum (summer complaint),rule
+Chills,7,chills,Fever (unspecified),rule
+Cong of Lungs,7,cong of lungs,Lung Disease (other),rule
+Consumson,7,consumption,Tuberculosis (consumption),rule
+Cramp,7,cramp,"Convulsions (spasms, fits)",rule
+Diarhea,7,diarrhea,Diarrhea,rule
+Fitts,7,fitts,"Convulsions (spasms, fits)",rule
+Inf Bowls,7,inflammation bowels,Bowel Inflammation / Disease,rule
+Infl of Lungs,7,inflammation of lungs,Pneumonia,rule
+Infl of bowels,7,inflammation of bowels,Bowel Inflammation / Disease,rule
+Inflamation of Bowels,7,inflammation of bowels,Bowel Inflammation / Disease,rule
+Lock jaw,7,lockjaw,Tetanus (lockjaw),rule
+Lungs,7,lungs,Lung Disease (other),rule
+Pleurisy,7,pleurisy,Pleurisy,rule
+Spinal Affection,7,spinal affection,Spinal Disease,rule
+Still born,7,stillborn,Stillborn,rule
+Sumer Complant,7,summer complaint,Cholera Infantum (summer complaint),rule
+Yellow Fever,7,yellow fever,Yellow Fever,rule
+Brain Trouble,6,brain trouble,Brain or Head Disease (unspecified),rule
+Brights Disease,6,brights disease,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Cancer of Stomach,6,cancer of stomach,Cancer,rule
+Cholera Inphantum,6,cholera infantum,Cholera Infantum (summer complaint),rule
+Colitis,6,colitis,Bowel Inflammation / Disease,rule
+Congestive Fever,6,congestive fever,Congestive Chill or Fever,rule
+Gastritis,6,gastritis,"Stomach Disease (dyspepsia, gastritis)",rule
+Hart Dis,6,heart dis,Heart Disease,rule
+Heart,6,heart,Heart Disease,rule
+Infl of the Stomach,6,inflammation of the stomach,"Stomach Disease (dyspepsia, gastritis)",rule
+Inft Stomache,6,inflammation stomach,"Stomach Disease (dyspepsia, gastritis)",rule
+La Grippe,6,influenza,Influenza (la grippe),rule
+Mortification,6,mortification,Gangrene (mortification),rule
+Piles,6,piles,Piles,spelling only
+Pnenmonia,6,pneumonia,Pneumonia,rule
+Scalded,6,scalded,Burns / Scalds,rule
+Shot Accidental,6,shot accidental,Gunshot,rule
+Stabed,6,stabed,Homicide / Violence,rule
+Stomach Trouble,6,stomach trouble,"Stomach Disease (dyspepsia, gastritis)",rule
+Tumor,6,tumor,Tumor,rule
+Abcess,5,abcess,Abscess / Fistula / Carbuncle,rule
+Aff of the Heart,5,affection of the heart,Heart Disease,rule
+Aff. of the Heart,5,affection of the heart,Heart Disease,rule
+Brane Fever,5,brain fever,Brain Fever / Inflammation,rule
+Burnt to death,5,burnt to death,Burns / Scalds,rule
+Ch Diarrhoea,5,chronic diarrhea,Diarrhea,rule
+Congestion of the brain,5,congestion of the brain,Brain Fever / Inflammation,rule
+Conjestive Chills,5,congestive chill,Congestive Chill or Fever,rule
+Died from an injury,5,died from an injury,Accident,rule
+Dis. of the heart,5,disease of the heart,Heart Disease,rule
+Dropsy of Heart,5,dropsy of heart,Dropsy,rule
+Drownd,5,drowned,Drowning,rule
+Dyentery,5,dysentery,Dysentery (flux),rule
+Flucks,5,flux,Dysentery (flux),rule
+Inf of Head,5,inflammation of head,Brain or Head Disease (unspecified),rule
+Infl Brain,5,inflammation brain,Brain Fever / Inflammation,rule
+Inflamation of Brain,5,inflammation of brain,Brain Fever / Inflammation,rule
+Inft of Brain,5,inflammation of brain,Brain Fever / Inflammation,rule
+Kidney Trouble,5,kidney trouble,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Of the Heart,5,of the heart,Heart Disease,rule
+Old age,5,old age,Old Age,rule
+Pnemonia,5,pneumonia,Pneumonia,rule
+Poisoned,5,poisoned,Poisoning / Overdose,rule
+Railroad Accident,5,railroad accident,Accident,rule
+Spasm,5,spasms,"Convulsions (spasms, fits)",rule
+Spinal Efection,5,spinal efection,Spinal Disease,rule
+Still Borned,5,stillborn,Stillborn,rule
+Stomache Trouble,5,stomach trouble,"Stomach Disease (dyspepsia, gastritis)",rule
+Typhoyd Fever,5,typhoid fever,Typhoid Fever,rule
+Uremia,5,uremia,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Whoping Cough,5,whooping cough,Whooping Cough,rule
+Womb Disease,5,womb disease,Uterine Disease (womb),rule
+Absess,4,absess,Abscess / Fistula / Carbuncle,rule
+Aff. of Lungs,4,affection of lungs,Lung Disease (other),rule
+Affection of Heart,4,affection of heart,Heart Disease,rule
+Affection of the Heart,4,affection of the heart,Heart Disease,rule
+Aperplexy,4,apoplexy,Apoplexy (stroke),rule
+Bilious Diareah,4,bilious diarrhea,Diarrhea,rule
+Bowel Complt,4,bowels complt,Bowel Inflammation / Disease,rule
+Bronchitus,4,bronchitus,Bronchitis,rule
+Broncial Pneumonia,4,broncial pneumonia,Pneumonia,rule
+Burn,4,burn,Burns / Scalds,rule
+Burnd,4,burnd,Burns / Scalds,rule
+Child Bead,4,child bead,Childbirth (incl. childbed fever),rule
+Child bed,4,child bed,Childbirth (incl. childbed fever),rule
+Chills & Fever,4,chills and fever,"Malaria (intermittent fever, chills and fever)",rule
+Cholrea Infantum,4,cholera infantum,Cholera Infantum (summer complaint),rule
+Cholrea infantum,4,cholera infantum,Cholera Infantum (summer complaint),rule
+Chronic Dysentery,4,chronic dysentery,Dysentery (flux),rule
+Colic,4,colic,Colic,rule
+Colney Inphantom,4,cholera infantum,Cholera Infantum (summer complaint),rule
+Conjestive Feever,4,congestive fever,Congestive Chill or Fever,rule
+Cramp Collic,4,cramp collic,Colic,rule
+Disease of Brain,4,disease of brain,Brain or Head Disease (unspecified),rule
+Disentery,4,dysentery,Dysentery (flux),rule
+Dropsey of Heart,4,dropsy of heart,Dropsy,rule
+Dysentary,4,dysentery,Dysentery (flux),rule
+Entero Colitis,4,entero colitis,Bowel Inflammation / Disease,rule
+Fall,4,fall,Accident,rule
+Gastro Enteritis,4,gastro enteritis,Bowel Inflammation / Disease,rule
+General Debility,4,general debility,Debility / Exhaustion,rule
+Hart Disease,4,heart disease,Heart Disease,rule
+Hemorage,4,hemorage,Hemorrhage,rule
+Hemorhage,4,hemorhage,Hemorrhage,rule
+Inf Bowels,4,inflammation bowels,Bowel Inflammation / Disease,rule
+Inf of Bowels,4,inflammation of bowels,Bowel Inflammation / Disease,rule
+Inf of Brains,4,inflammation of brain,Brain Fever / Inflammation,rule
+Infl Lungs,4,inflammation lungs,Pneumonia,rule
+Infl of Stomach,4,inflammation of stomach,"Stomach Disease (dyspepsia, gastritis)",rule
+Infl of the Lungs,4,inflammation of the lungs,Pneumonia,rule
+Inflamation Brain,4,inflammation brain,Brain Fever / Inflammation,rule
+Insane,4,insane,Insanity,rule
+Jondice,4,jaundice,Jaundice,rule
+Killed by a fall,4,killed by a fall,Accident,rule
+Liver Disease,4,liver disease,Liver Disease,rule
+Malignant Sore Throat,4,malignant sore throat,Sore Throat / Quinsy,rule
+Mem Croup,4,mem croup,Croup,rule
+Paralisis,4,paralysis,Paralysis,rule
+Penumonia,4,pneumonia,Pneumonia,rule
+Slow Fever,4,slow fever,Fever (unspecified),rule
+Spasams,4,spasms,"Convulsions (spasms, fits)",rule
+Still BOrn,4,stillborn,Stillborn,rule
+Tyfoid Fever,4,typhoid fever,Typhoid Fever,rule
+White Swelling,4,white swelling,White Swelling,rule
+Yellow Janders,4,yellow jaundice,Jaundice,rule
+Acident Railroad,3,accident railroad,Accident,rule
+Aff of Brain,3,affection of brain,Brain or Head Disease (unspecified),rule
+Affection of Brain,3,affection of brain,Brain or Head Disease (unspecified),rule
+Age,3,age,Old Age,rule
+Blood Poison,3,blood poison,Blood Poisoning (septicemia),rule
+Bowel Consumption,3,bowels consumption,Tuberculosis (consumption),rule
+Bowel Trouble,3,bowels trouble,Bowel Inflammation / Disease,rule
+Bright Disease,3,bright disease,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Bronchial Pneumonia,3,bronchial pneumonia,Pneumonia,rule
+Bronchthis,3,bronchthis,Bronchitis,rule
+Burned to Death,3,burned to death,Burns / Scalds,rule
+Canser,3,canser,Cancer,rule
+Chicken Pox,3,chickenpox,Chicken Pox,rule
+Cholra Morbus,3,cholera morbus,Cholera Morbus,rule
+Chronic Diar,3,chronic diarrhea,Diarrhea,rule
+Chronic Diarrhea,3,chronic diarrhea,Diarrhea,rule
+Chronic Nephritis,3,chronic nephritis,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Colde,3,colde,Cold,rule
+Congestion Brain,3,congestion brain,Brain Fever / Inflammation,rule
+Conjestion of Brain,3,congestion of brain,Brain Fever / Inflammation,rule
+Crupe,3,croup,Croup,rule
+Dentition,3,dentition,Teething,rule
+Diarhaea,3,diarrhea,Diarrhea,rule
+Diarhoea,3,diarrhea,Diarrhea,rule
+Diarhoerea,3,diarrhea,Diarrhea,rule
+Died from Cold,3,died from cold,Cold,rule
+Diphthera,3,diphtheria,Diphtheria,rule
+Dis of Wound,3,dis of wound,Wound (unspecified),rule
+Dis of the heart,3,disease of the heart,Heart Disease,rule
+Disease of Hart,3,disease of heart,Heart Disease,rule
+Disease of Womb,3,disease of womb,Uterine Disease (womb),rule
+Dispepsy,3,dispepsy,"Stomach Disease (dyspepsia, gastritis)",rule
+Drowning,3,drowning,Drowning,rule
+Dyspepsia,3,dyspepsia,"Stomach Disease (dyspepsia, gastritis)",rule
+Enlargement of Hart,3,enlargement of heart,Heart Disease,rule
+Erysiphlas,3,erysiphlas,Erysipelas,rule
+Essasipelas,3,essasipelas,Erysipelas,rule
+Exhaustion,3,exhaustion,Debility / Exhaustion,rule
+Exposure,3,exposure,Exposure (heat or cold),rule
+Fit,3,fit,"Convulsions (spasms, fits)",rule
+Heart Diseas,3,heart diseas,Heart Disease,rule
+Heart disease,3,heart disease,Heart Disease,rule
+Inanition,3,inanition,Debility / Exhaustion,rule
+Inf of Stomach,3,inflammation of stomach,"Stomach Disease (dyspepsia, gastritis)",rule
+Infl Bowls,3,inflammation bowels,Bowel Inflammation / Disease,rule
+Infl Stomach,3,inflammation stomach,"Stomach Disease (dyspepsia, gastritis)",rule
+Infl of Bowls,3,inflammation of bowels,Bowel Inflammation / Disease,rule
+Infl of Brian,3,inflammation of brain,Brain Fever / Inflammation,rule
+Infl of the brain,3,inflammation of the brain,Brain Fever / Inflammation,rule
+Inflamation Bowels,3,inflammation bowels,Bowel Inflammation / Disease,rule
+Inflamatory Rhumatism,3,inflammatory rheumatism,Rheumatism (incl. rheumatic fever),rule
+Inft of Bowels,3,inflammation of bowels,Bowel Inflammation / Disease,rule
+Inft of Stomache,3,inflammation of stomach,"Stomach Disease (dyspepsia, gastritis)",rule
+Killed by the blowing up of magazine,3,killed by the blowing up of magazine,Accident,rule
+Killed by the mother,3,killed by the mother,Homicide / Violence,rule
+Liver Complant,3,liver complant,Liver Disease,rule
+Liver Trouble,3,liver trouble,Liver Disease,rule
+Lung Disease,3,lungs disease,Lung Disease (other),rule
+Malarial Fever,3,malarial fever,"Malaria (intermittent fever, chills and fever)",rule
+Malignant sore throat,3,malignant sore throat,Sore Throat / Quinsy,rule
+Murdered,3,murdered,Homicide / Violence,rule
+Nervous Affection,3,nervous affection,Nervous Disorders,rule
+Nervous Exhaustion,3,nervous exhaustion,Nervous Disorders,rule
+Palpitation of the heart,3,palpitation of the heart,Heart Disease,rule
+Pleuricy,3,pleurisy,Pleurisy,rule
+Pluralisis,3,pleurisy,Pleurisy,rule
+Poisand,3,poisoned,Poisoning / Overdose,rule
+Quinsey,3,quinsey,Sore Throat / Quinsy,rule
+Said Cholera,3,said cholera,Cholera,rule
+Scroffalo,3,scrofula,Scrofula,rule
+Stomache trouble,3,stomach trouble,"Stomach Disease (dyspepsia, gastritis)",rule
+Suicide by taking laudanum,3,suicide by taking laudanum,Suicide,rule
+Sumer Comp,3,summer complaint,Cholera Infantum (summer complaint),rule
+Tuberculosis,3,tuberculosis,Tuberculosis (consumption),rule
+Ulceration of Bowels,3,ulceration of bowels,Bowel Inflammation / Disease,rule
+Winter Fever,3,winter fever,Fever (unspecified),rule
+Abcess of Lungs,2,abcess of lungs,Lung Disease (other),rule
+Absess of Lungs,2,absess of lungs,Lung Disease (other),rule
+Acute Phthis,2,acute phthis,Tuberculosis (consumption),rule
+Aff of a fall,2,affection of a fall,Accident,rule
+Aff of the Brain,2,affection of the brain,Brain or Head Disease (unspecified),rule
+Aff of the heart,2,affection of the heart,Heart Disease,rule
+Aff. of Brain,2,affection of brain,Brain or Head Disease (unspecified),rule
+Affection of Bowels,2,affection of bowels,Bowel Inflammation / Disease,rule
+Affection of Head,2,affection of head,Brain or Head Disease (unspecified),rule
+Affection of heart,2,affection of heart,Heart Disease,rule
+Affection of the brain,2,affection of the brain,Brain or Head Disease (unspecified),rule
+Apolepsy,2,apoplexy,Apoplexy (stroke),rule
+Apoplectic Fit,2,apoplectic fit,Apoplexy (stroke),rule
+Apoplective Fitt,2,apoplective fitt,Apoplexy (stroke),rule
+Apoplexy Fit,2,apoplexy fit,Apoplexy (stroke),rule
+Apoplxy,2,apoplexy,Apoplexy (stroke),rule
+Appendicitis,2,appendicitis,Appendicitis / Peritonitis,rule
+Asma,2,asma,Asthma,rule
+Atilectasis,2,atilectasis,Lung Disease (other),rule
+Axidental,2,axidental,Accident,rule
+Bercular Mengitis,2,bercular meningitis,Tuberculosis (consumption),rule
+Bowels,2,bowels,Bowel Inflammation / Disease,rule
+Brain trouble,2,brain trouble,Brain or Head Disease (unspecified),rule
+Brought from below,2,brought from below,Unknown,rule
+Burned by powder,2,burned by powder,Burns / Scalds,rule
+Cancer of Breast,2,cancer of breast,Cancer,rule
+Cancer of Stomache,2,cancer of stomach,Cancer,rule
+Cancer of Uterus,2,cancer of uterus,Cancer,rule
+Cancer on Breast,2,cancer on breast,Cancer,rule
+Cansar,2,cansar,Cancer,rule
+Ceseand Cord,2,ceseand cord,Ceseand Cord,spelling only
+Child bed feever,2,child bed fever,Childbirth (incl. childbed fever),rule
+Childbed,2,childbed,Childbirth (incl. childbed fever),rule
+Chills and Fever,2,chills and fever,"Malaria (intermittent fever, chills and fever)",rule
+Cholera Infnt,2,cholera infantum,Cholera Infantum (summer complaint),rule
+Cholic,2,cholic,Colic,rule
+Cholney Infantom,2,cholera infantum,Cholera Infantum (summer complaint),rule
+Cholra Infantom,2,cholera infantum,Cholera Infantum (summer complaint),rule
+Cholra Infantum,2,cholera infantum,Cholera Infantum (summer complaint),rule
+Cholrea Inft,2,cholera infantum,Cholera Infantum (summer complaint),rule
+Chr. Diarrhoea,2,chronic diarrhea,Diarrhea,rule
+Chronic Thrash,2,chronic thrush,Thrush,rule
+Complication of Diseases,2,complication of diseases,Complications (unspecified),rule
+Concussion of Brain,2,concussion of brain,Accident,rule
+Cong Brain,2,cong brain,Brain Fever / Inflammation,rule
+Cong chill,2,congestive chill,Congestive Chill or Fever,rule
+Cong of Liver,2,cong of liver,Liver Disease,rule
+Congestion of Bowels,2,congestion of bowels,Bowel Inflammation / Disease,rule
+Congestion of Brane,2,congestion of brain,Brain Fever / Inflammation,rule
+Conjestion of Lungs,2,congestion of lungs,Lung Disease (other),rule
+Conjestive Chils,2,congestive chill,Congestive Chill or Fever,rule
+Conjeston,2,congestion,Congestion (unspecified),rule
+Consumption of Bol,2,consumption of bol,Tuberculosis (consumption),rule
+Continued Fever,2,continued fever,Fever (unspecified),rule
+Conusmption,2,consumption,Tuberculosis (consumption),rule
+Convultion,2,convultion,"Convulsions (spasms, fits)",rule
+Could,2,could,Could,spelling only
+Cropsy,2,cropsy,Cropsy,spelling only
+Dearherea,2,diarrhea,Diarrhea,rule
+Debility,2,debility,Debility / Exhaustion,rule
+Diabetus,2,diabetus,Diabetes,rule
+Diarah,2,diarrhea,Diarrhea,rule
+Diarhaera,2,diarrhea,Diarrhea,rule
+Diarhaerea,2,diarrhea,Diarrhea,rule
+Diarheara,2,diarrhea,Diarrhea,rule
+Diarheerea,2,diarrhea,Diarrhea,rule
+Diarheora,2,diarrhea,Diarrhea,rule
+Diarrheara,2,diarrhea,Diarrhea,rule
+Died from an old injury,2,died from an old injury,Accident,rule
+Died from old age,2,died from old age,Old Age,rule
+Died in Virginia,2,died in virginia,Unknown,rule
+Dipthera,2,diphtheria,Diphtheria,rule
+Dis of Brain,2,disease of brain,Brain or Head Disease (unspecified),rule
+Dis of Heart,2,disease of heart,Heart Disease,rule
+Dis of the lungs,2,disease of the lungs,Lung Disease (other),rule
+Diseas of Heart,2,disease of heart,Heart Disease,rule
+Disease of liver,2,disease of liver,Liver Disease,rule
+Disentary,2,dysentery,Dysentery (flux),rule
+Dispepsey,2,dispepsey,"Stomach Disease (dyspepsia, gastritis)",rule
+Dispepsia,2,dispepsia,"Stomach Disease (dyspepsia, gastritis)",rule
+Double Pneumonia,2,double pneumonia,Pneumonia,rule
+Dropsey in Brain,2,dropsy in brain,Hydrocephalus (dropsy of the brain),rule
+Dropsey in chest,2,dropsy in chest,Dropsy,rule
+Dropsey in the Brain,2,dropsy in the brain,Hydrocephalus (dropsy of the brain),rule
+Dropsey of Brain,2,dropsy of brain,Hydrocephalus (dropsy of the brain),rule
+Dropsy of Brain,2,dropsy of brain,Hydrocephalus (dropsy of the brain),rule
+Dropsy of the brain,2,dropsy of the brain,Hydrocephalus (dropsy of the brain),rule
+Drown,2,drowned,Drowning,rule
+Drowned in a tub of water,2,drowned in a tub of water,Drowning,rule
+Drunkenness,2,drunkenness,Alcoholism (intemperance),rule
+Ducntery,2,dysentery,Dysentery (flux),rule
+Dyarah,2,diarrhea,Diarrhea,rule
+Dyptherie,2,diphtheria,Diphtheria,rule
+Dysintery,2,dysentery,Dysentery (flux),rule
+Eating Cancer,2,eating cancer,Cancer,rule
+Eclamprid,2,eclamprid,"Convulsions (spasms, fits)",rule
+Enlargement of Liver,2,enlargement of liver,Liver Disease,rule
+Erasipelas,2,erasipelas,Erysipelas,rule
+Erisiplas,2,erisiplas,Erysipelas,rule
+Errasiphelas,2,errasiphelas,Erysipelas,rule
+Eubolisine,2,eubolisine,"Vascular Disease (arteriosclerosis, aneurysm, embolism)",rule
+Excessive saltwater,2,excessive saltwater,Excessive Saltwater,spelling only
+Eysiplas,2,eysiplas,Erysipelas,rule
+Fistula,2,fistula,Abscess / Fistula / Carbuncle,rule
+Flux & Hooping cough,2,flux and whooping cough,Dysentery (flux),rule
+Gangreen,2,gangreen,Gangrene (mortification),rule
+Gen Dibility,2,general dibility,Debility / Exhaustion,rule
+Graval,2,graval,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Gun shot,2,gunshot,Gunshot,rule
+Head,2,head,Brain or Head Disease (unspecified),rule
+Heart Dis,2,heart dis,Heart Disease,rule
+Hem. of Lungs,2,hem of lungs,Lung Disease (other),rule
+Hemorage Lungs,2,hemorage lungs,Lung Disease (other),rule
+Hemorage of Bowels,2,hemorage of bowels,Bowel Inflammation / Disease,rule
+Hemorge Lungs,2,hemorge lungs,Lung Disease (other),rule
+Hemorrhage,2,hemorrhage,Hemorrhage,rule
+Hernia,2,hernia,Intestinal Obstruction / Hernia,rule
+Imphermation Bowls,2,inflammation bowels,Bowel Inflammation / Disease,rule
+Imphermation Brain,2,inflammation brain,Brain Fever / Inflammation,rule
+Indijestion,2,indijestion,"Stomach Disease (dyspepsia, gastritis)",rule
+Inf Brains,2,inflammation brain,Brain Fever / Inflammation,rule
+Infl,2,infl,Inflammation (unspecified),rule
+Infl BrainBrain,2,inflammation brain,Brain Fever / Inflammation,rule
+Infl Rheumatism,2,infl rheumatism,Rheumatism (incl. rheumatic fever),rule
+Infl of the Throat,2,inflammation of the throat,Sore Throat / Quinsy,rule
+Infl. of Bowels,2,inflammation of bowels,Bowel Inflammation / Disease,rule
+Inflamation of Bowls,2,inflammation of bowels,Bowel Inflammation / Disease,rule
+Inflamatory Rheu,2,inflammatory rheumatism,Rheumatism (incl. rheumatic fever),rule
+Influenza,2,influenza,Influenza (la grippe),rule
+Influenzy,2,influenza,Influenza (la grippe),rule
+Inft Brain,2,inflammation brain,Brain Fever / Inflammation,rule
+Inphermation Brain,2,inflammation brain,Brain Fever / Inflammation,rule
+Intestinal Obstruction,2,intestinal obstruction,Intestinal Obstruction / Hernia,rule
+Kild,2,kild,Accident,rule
+Killed by Accident,2,killed by accident,Accident,rule
+Killed by Cars,2,killed by cars,Accident,rule
+Killed in an affray,2,killed in an affray,Homicide / Violence,rule
+Killed on L&N RR,2,killed on l and n railroad,Accident,rule
+Killed on N & C RR,2,killed on n and c railroad,Accident,rule
+Liver,2,liver,Liver Disease,rule
+Liver Dis,2,liver dis,Liver Disease,rule
+Lock Bowels,2,lock bowels,Intestinal Obstruction / Hernia,rule
+Meales,2,measles,Measles,rule
+Measels & Hooping Cough,2,measles and whooping cough,Measles,rule
+Miasles,2,measles,Measles,rule
+Mitigens,2,mitigens,Meningitis,rule
+Murderd,2,murderd,Homicide / Violence,rule
+Nephrelis,2,nephrelis,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Nephritis,2,nephritis,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Nerve Trouble,2,nerve trouble,Nervous Disorders,rule
+Nervous,2,nervous,Nervous Disorders,rule
+Nervous Prostration,2,nervous prostration,Nervous Disorders,rule
+Neuralga,2,neuralga,Nervous Disorders,rule
+Neuralgia,2,neuralgia,Nervous Disorders,rule
+No Known,2,no known,Unknown,rule
+Of the Liver,2,of the liver,Liver Disease,rule
+Old Wound,2,old wound,Wound (unspecified),rule
+Overlaid in Bed,2,overlaid in bed,"Suffocation (smothered, overlaid)",rule
+Palpatation of Heart,2,palpatation of heart,Heart Disease,rule
+Paralysis of Heart,2,paralysis of heart,Paralysis,rule
+Parolise,2,parolise,Paralysis,rule
+Parolised,2,parolised,Paralysis,rule
+Peritonitis,2,peritonitis,Appendicitis / Peritonitis,rule
+Pertussis,2,pertussis,Whooping Cough,rule
+Phthiric,2,phthiric,Phthisic (asthma or tuberculosis),rule
+Phthisis Pulmonalis,2,phthisis pulmonalis,Tuberculosis (consumption),rule
+Pistol Shott,2,pistol shott,Gunshot,rule
+Pistol shot,2,pistol shot,Gunshot,rule
+Plurallis,2,pleurisy,Pleurisy,rule
+Plurallisis,2,pleurisy,Pleurisy,rule
+Plurasy,2,pleurisy,Pleurisy,rule
+Poisen,2,poison,Poisoning / Overdose,rule
+Prostration,2,prostration,Debility / Exhaustion,rule
+Rash,2,rash,Rash,spelling only
+Rasmus,2,rasmus,Marasmus,rule
+Rising in the Head,2,rising in the head,Rising In The Head,spelling only
+Run over by wagon,2,run over by wagon,Accident,rule
+Rupture,2,rupture,Intestinal Obstruction / Hernia,rule
+Samlpox,2,smallpox,Smallpox,rule
+Scarlet Feever,2,scarlet fever,Scarlet Fever,rule
+Scofalow,2,scrofula,Scrofula,rule
+Scrawfulow,2,scrofula,Scrofula,rule
+Scrofalaw,2,scrofula,Scrofula,rule
+Scrofulo,2,scrofula,Scrofula,rule
+Senility,2,senility,Old Age,rule
+Shot accidental,2,shot accidental,Gunshot,rule
+Shot himself,2,shot himself,Gunshot,rule
+Shot in an affray,2,shot in an affray,Gunshot,rule
+Sill Born,2,stillborn,Stillborn,rule
+Smal Pox,2,smallpox,Smallpox,rule
+Smallpox,2,smallpox,Smallpox,rule
+Smoothered,2,smoothered,"Suffocation (smothered, overlaid)",rule
+Smotherd,2,smotherd,"Suffocation (smothered, overlaid)",rule
+Soar Thrat,2,soar thrat,Sore Throat / Quinsy,rule
+Soft of Brain,2,soft of brain,Softening of the Brain,rule
+Softening of Brain,2,softening of brain,Softening of the Brain,rule
+Stabbed,2,stabbed,Homicide / Violence,rule
+Suddenly,2,suddenly,Sudden Death,rule
+Suicide by Drowning,2,suicide by drowning,Suicide,rule
+Suicide by taking Laudanum,2,suicide by taking laudanum,Suicide,rule
+Summer Compliant,2,summer complaint,Cholera Infantum (summer complaint),rule
+Tetanus,2,tetanus,Tetanus (lockjaw),rule
+Tisic,2,tisic,Phthisic (asthma or tuberculosis),rule
+Tresmus Nas,2,tresmus nas,Tetanus (lockjaw),rule
+Typh. Pneumonia,2,typh pneumonia,Pneumonia,rule
+Typhoid Pneu,2,typhoid pneumonia,Pneumonia,rule
+Typhoid Pneuminia,2,typhoid pneumonia,Pneumonia,rule
+Typhoid fever,2,typhoid fever,Typhoid Fever,rule
+Whisky,2,whisky,Alcoholism (intemperance),rule
+White Swelin,2,white swelin,White Swelling,rule
+Whooping Coff,2,whooping cough,Whooping Cough,rule
+cholrea,2,cholera,Cholera,rule
+consumption,2,consumption,Tuberculosis (consumption),rule
+dropsy,2,dropsy,Dropsy,rule
+n/a,2,n a,Unknown,rule
+of Bowels,2,of bowels,Bowel Inflammation / Disease,rule
+of the Head,2,of the head,Brain or Head Disease (unspecified),rule
+of the Heart,2,of the heart,Heart Disease,rule
+of the heart,2,of the heart,Heart Disease,rule
+A Rat Bite,1,a rat bite,Accident,rule
+A fall from Buggy,1,a fall from buggy,Accident,rule
+Aali Phthis,1,aali phthis,Tuberculosis (consumption),rule
+Abaledaris,1,abaledaris,Abaledaris,spelling only
+Abcese of Liver,1,abcese of liver,Liver Disease,rule
+Abcess of the Bowels,1,abcess of the bowels,Bowel Inflammation / Disease,rule
+Abcess of the Liver,1,abcess of the liver,Liver Disease,rule
+Abdominal,1,abdominal,Abdominal,spelling only
+Abdominal Tumors,1,abdominal tumors,Tumor,rule
+Abeess of Lungs,1,abeess of lungs,Lung Disease (other),rule
+Abscess,1,abscess,Abscess / Fistula / Carbuncle,rule
+Abscess on Liver,1,abscess on liver,Liver Disease,rule
+Absess of liver,1,absess of liver,Liver Disease,rule
+Acat Digestion,1,acat digestion,"Stomach Disease (dyspepsia, gastritis)",rule
+Accedently Killed,1,accidentally killed,Accident,rule
+Accident Kild,1,accident kild,Accident,rule
+Accident Shot,1,accident shot,Gunshot,rule
+"Accident, Killed",1,accident killed,Accident,rule
+Accidental Drowning,1,accidental drowning,Drowning,rule
+Accidental Wound,1,accidental wound,Accident,rule
+Accidental Wounds,1,accidental wounds,Accident,rule
+Accidental fall,1,accidental fall,Accident,rule
+Accidentaly shot,1,accidentally shot,Gunshot,rule
+Accidently Killed,1,accidentally killed,Accident,rule
+Acedent,1,accident,Accident,rule
+Acedent Fall,1,accident fall,Accident,rule
+Acedente,1,accident,Accident,rule
+Acedores,1,acedores,Accident,rule
+Acehente,1,acehente,Accident,rule
+Acid Diathesis,1,acid diathesis,Acid Diathesis,spelling only
+Acident by RR,1,accident by railroad,Accident,rule
+Acidental Burn,1,acidental burn,Burns / Scalds,rule
+Acidente,1,accident,Accident,rule
+Acksidental Poisan,1,acksidental poison,Poisoning / Overdose,rule
+Acragea Heart Dis,1,acragea heart dis,Heart Disease,rule
+Acute Abesses,1,acute abesses,Abscess / Fistula / Carbuncle,rule
+Acute Appendicitis,1,acute appendicitis,Appendicitis / Peritonitis,rule
+Acute Cholelyetetes,1,acute cholelyetetes,Acute Cholelyetetes,spelling only
+Acute Dysentery,1,acute dysentery,Dysentery (flux),rule
+Acute Enber Colitis,1,acute enber colitis,Bowel Inflammation / Disease,rule
+Acute Indigestion,1,acute indigestion,"Stomach Disease (dyspepsia, gastritis)",rule
+Acute Peritenits,1,acute peritenits,Appendicitis / Peritonitis,rule
+Acute adema of lungs,1,acute adema of lungs,Lung Disease (other),rule
+Acute del heart,1,acute del heart,Heart Disease,rule
+Aff of Heart,1,affection of heart,Heart Disease,rule
+Aff of Lungs,1,affection of lungs,Lung Disease (other),rule
+Aff of Spine,1,affection of spine,Spinal Disease,rule
+Aff of a burn,1,affection of a burn,Burns / Scalds,rule
+Aff of a fall from a horse,1,affection of a fall from a horse,Accident,rule
+Aff of the Lungs,1,affection of the lungs,Lung Disease (other),rule
+Aff of the the Liver,1,affection of the the liver,Liver Disease,rule
+Aff. of Heart,1,affection of heart,Heart Disease,rule
+Aff. of Kidneys,1,affection of kidneys,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Aff. of the Chest,1,affection of the chest,Affection Of The Chest,spelling only
+Aff. of the Kidneys,1,affection of the kidneys,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Affect of a Lick with a Stone,1,affect of a lick with a stone,Affect Of A Lick With A Stone,spelling only
+Affect of an injury,1,affect of an injury,Accident,rule
+Affectat Longs,1,affectat lungs,Lung Disease (other),rule
+Affection Brain,1,affection brain,Brain or Head Disease (unspecified),rule
+Affection of Kidneys,1,affection of kidneys,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Affection of Spine,1,affection of spine,Spinal Disease,rule
+Affection of the Lungs,1,affection of the lungs,Lung Disease (other),rule
+Affection of the Spine,1,affection of the spine,Spinal Disease,rule
+Affection of the head,1,affection of the head,Brain or Head Disease (unspecified),rule
+Affection of the spine,1,affection of the spine,Spinal Disease,rule
+Affection of the throat,1,affection of the throat,Sore Throat / Quinsy,rule
+Affects of Laudanum,1,affects of laudanum,Poisoning / Overdose,rule
+Affects of a gun shot,1,affects of a gunshot,Gunshot,rule
+Aft. of Brain,1,affection of brain,Brain or Head Disease (unspecified),rule
+Age 66 [30 div. Tenn],1,age 66 30 div tenn,Unknown,rule
+Aggina Pectrio,1,aggina pectrio,Heart Disease,rule
+Ainsyplus,1,ainsyplus,Erysipelas,rule
+Alcaholism,1,alcaholism,Alcoholism (intemperance),rule
+Alcoholism,1,alcoholism,Alcoholism (intemperance),rule
+Alesis Protan,1,alesis protan,Alesis Protan,spelling only
+Along Bowels,1,along bowels,Bowel Inflammation / Disease,rule
+Amemia,1,amemia,Anemia,rule
+Amputation of Leg,1,amputation of leg,Amputation Of Leg,spelling only
+Amyloid Degeneration Kidney,1,amyloid degeneration kidney,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+An Old Infjury,1,an old injury,Accident,rule
+An old injury,1,an old injury,Accident,rule
+Anaemia,1,anaemia,Anemia,rule
+Anamis,1,anamis,Anemia,rule
+Aneariz,1,aneariz,"Vascular Disease (arteriosclerosis, aneurysm, embolism)",rule
+Anemia,1,anemia,Anemia,rule
+Angia Pectas,1,angia pectas,Heart Disease,rule
+Angina,1,angina,Heart Disease,rule
+Anigina Pectoris,1,anigina pectoris,Heart Disease,rule
+Annurism,1,annurism,"Vascular Disease (arteriosclerosis, aneurysm, embolism)",rule
+Anuerism,1,anuerism,"Vascular Disease (arteriosclerosis, aneurysm, embolism)",rule
+Aoplexy,1,apoplexy,Apoplexy (stroke),rule
+Aperplectic,1,aperplectic,Apoplexy (stroke),rule
+Aperplectic Fit,1,aperplectic fit,Apoplexy (stroke),rule
+Aperplectic Stroke,1,aperplectic stroke,Apoplexy (stroke),rule
+Aphithae,1,aphithae,Thrush,rule
+Aphthea,1,aphthea,Thrush,rule
+Apipoplexy,1,apoplexy,Apoplexy (stroke),rule
+Aplexion,1,apoplexy,Apoplexy (stroke),rule
+Aplexy,1,apoplexy,Apoplexy (stroke),rule
+Apoleptic Fits,1,apoleptic fits,Apoplexy (stroke),rule
+Apopexy,1,apoplexy,Apoplexy (stroke),rule
+Apoplaxy,1,apoplexy,Apoplexy (stroke),rule
+Apoplepsy,1,apoplexy,Apoplexy (stroke),rule
+Apoplexy Parlysis,1,apoplexy parlysis,Apoplexy (stroke),rule
+Apopley,1,apoplexy,Apoplexy (stroke),rule
+Apoplxey,1,apoplexy,Apoplexy (stroke),rule
+Appeletic Fit,1,appeletic fit,Apoplexy (stroke),rule
+Appelxy,1,apoplexy,Apoplexy (stroke),rule
+Appendicilis,1,appendicilis,Appendicitis / Peritonitis,rule
+Apperplexy,1,apoplexy,Apoplexy (stroke),rule
+Applexic,1,applexic,Apoplexy (stroke),rule
+Applexy,1,apoplexy,Apoplexy (stroke),rule
+Apploxey,1,apoplexy,Apoplexy (stroke),rule
+Apploxy,1,apoplexy,Apoplexy (stroke),rule
+Appoleptick,1,appoleptick,Apoplexy (stroke),rule
+Appoloxy,1,apoplexy,Apoplexy (stroke),rule
+Appoplesy,1,apoplexy,Apoplexy (stroke),rule
+Appoplexcy,1,apoplexy,Apoplexy (stroke),rule
+"Appoplexy, Blood Clot",1,apoplexy blood clot,Apoplexy (stroke),rule
+Apprendicitis,1,apprendicitis,Appendicitis / Peritonitis,rule
+Arasiphlus,1,arasiphlus,Erysipelas,rule
+Argan Heart Dec.,1,argan heart dec,Heart Disease,rule
+Arleia Sceras,1,arleia sceras,Arleia Sceras,spelling only
+Arsentic Poisen,1,arsentic poison,Poisoning / Overdose,rule
+Arterio Sclerosis,1,arterio sclerosis,"Vascular Disease (arteriosclerosis, aneurysm, embolism)",rule
+Arteris Sclerosis,1,arteris sclerosis,"Vascular Disease (arteriosclerosis, aneurysm, embolism)",rule
+Asmen,1,asmen,Asthma,rule
+Asmer,1,asmer,Asthma,rule
+Asphenia,1,asphenia,Asphenia,spelling only
+Asshmis,1,asshmis,Asthma,rule
+Astma,1,astma,Asthma,rule
+Atelectases,1,atelectases,Lung Disease (other),rule
+Atralmia,1,atralmia,Atralmia,spelling only
+Augina Pectoris,1,augina pectoris,Heart Disease,rule
+Augina Redos,1,augina redos,Heart Disease,rule
+Auto Acident,1,auto accident,Accident,rule
+Auto Axident,1,auto axident,Accident,rule
+Auto accident,1,auto accident,Accident,rule
+Auto reck,1,auto reck,Accident,rule
+Axidental Shott,1,axidental shott,Gunshot,rule
+Ayiental,1,ayiental,Accident,rule
+Aysiplas,1,aysiplas,Erysipelas,rule
+B. Chilles,1,b chilles,B Chilles,spelling only
+B. Feever,1,bilious fever,Bilious Fever,rule
+Barin Fever,1,brain fever,Brain Fever / Inflammation,rule
+Barsting of blood vessel,1,barsting of blood vessel,Hemorrhage,rule
+Belions Fever,1,bilious fever,Bilious Fever,rule
+Belious Cholic,1,bilious cholic,Colic,rule
+Bellagrd,1,bellagrd,Pellagra,rule
+Belous Fever,1,bilious fever,Bilious Fever,rule
+Bil Fever,1,bilious fever,Bilious Fever,rule
+Bilious Cholic,1,bilious cholic,Colic,rule
+Bilious Colic,1,bilious colic,Colic,rule
+Bilious Diarrhrea,1,bilious diarrhea,Diarrhea,rule
+Bilious Disentery,1,bilious dysentery,Dysentery (flux),rule
+Bilious Feever,1,bilious fever,Bilious Fever,rule
+Biliouse Fever,1,bilious fever,Bilious Fever,rule
+Bilis Fever,1,bilious fever,Bilious Fever,rule
+Billious,1,bilious,Bilious,spelling only
+Billious Diarhoera,1,bilious diarrhea,Diarrhea,rule
+Billious Feever,1,bilious fever,Bilious Fever,rule
+Bilouis Calcul,1,bilouis calcul,Bilouis Calcul,spelling only
+Biulious Diareah,1,bilious diarrhea,Diarrhea,rule
+Blader,1,blader,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Bled to death at lungs,1,bled to death at lungs,Lung Disease (other),rule
+Bleeding at Lungs,1,bleeding at lungs,Lung Disease (other),rule
+Bleeding of Lungs,1,bleeding of lungs,Lung Disease (other),rule
+Blood Parson,1,blood parson,Blood Poisoning (septicemia),rule
+Blood Pioson,1,blood pioson,Blood Poisoning (septicemia),rule
+Blood Poisoning,1,blood poisoning,Blood Poisoning (septicemia),rule
+Blood poison,1,blood poison,Blood Poisoning (septicemia),rule
+Bloody Disentery,1,bloody dysentery,Dysentery (flux),rule
+Bloody Flux,1,bloody flux,Dysentery (flux),rule
+Blown up,1,blown up,Accident,rule
+Bonical Pneumonia,1,bonical pneumonia,Pneumonia,rule
+Bood Poison,1,bood poison,Blood Poisoning (septicemia),rule
+Boold Poison,1,boold poison,Blood Poisoning (septicemia),rule
+"Born Nashville, Tenn Davidson Co.",1,born nashville tenn davidson co,Unknown,rule
+"Born Warren County, Tn",1,born warren county tn,Unknown,rule
+Born in Davidson C.,1,born in davidson c,Unknown,rule
+Borned in Davidson Co.,1,borned in davidson co,Unknown,rule
+Boun up on Boot,1,boun up on boot,Accident,rule
+Bowel trouble,1,bowels trouble,Bowel Inflammation / Disease,rule
+Bowels Consumption,1,bowels consumption,Tuberculosis (consumption),rule
+Bracey Welch undertaker,1,bracey welch undertaker,Unknown,rule
+Brain Affected,1,brain affected,Brain or Head Disease (unspecified),rule
+Brain Brain Dropsey,1,brain brain dropsy,Hydrocephalus (dropsy of the brain),rule
+Brain Efected,1,brain efected,Brain or Head Disease (unspecified),rule
+Brain Feve,1,brain fever,Brain Fever / Inflammation,rule
+Brain feever,1,brain fever,Brain Fever / Inflammation,rule
+Braine Fever,1,brain fever,Brain Fever / Inflammation,rule
+Bran Chitis,1,brain chitis,Brain Chitis,spelling only
+Brights,1,brights,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Brights D,1,brights d,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Brights deseas,1,brights deseas,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Brights dis of kidneys,1,brights disease of kidneys,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Brite Reses,1,brite reses,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Brits Deseas,1,brits deseas,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Brochitis,1,brochitis,Bronchitis,rule
+Broken Limb,1,broken limb,Accident,rule
+Broken back by a fall,1,broken back by a fall,Accident,rule
+Brokin Hart,1,brokin heart,Broken Heart,rule
+Bron Pneumonie,1,bron pneumonia,Pneumonia,rule
+Bronchall Affection,1,bronchall affection,Bronchitis,rule
+Bronchall Offection,1,bronchall offection,Bronchitis,rule
+Bronchetis,1,bronchetis,Bronchitis,rule
+Bronchital Trouble,1,bronchital trouble,Bronchitis,rule
+Bronchitias,1,bronchitias,Bronchitis,rule
+Bronchits,1,bronchits,Bronchitis,rule
+Broncho Pneumonia,1,broncho pneumonia,Pneumonia,rule
+Bronchtis,1,bronchtis,Bronchitis,rule
+Bronchytus,1,bronchytus,Bronchitis,rule
+Broncitis,1,broncitis,Bronchitis,rule
+Broncitus,1,broncitus,Bronchitis,rule
+Bronk Pneumonia,1,bronk pneumonia,Pneumonia,rule
+Brontus Pneumonia,1,brontus pneumonia,Pneumonia,rule
+Bryocardus,1,bryocardus,Bryocardus,spelling only
+Buldor Paralysis,1,buldor paralysis,Paralysis,rule
+Buned,1,buned,Burns / Scalds,rule
+Bunner,1,bunner,Bunner,spelling only
+Burn from coal oil,1,burn from coal oil,Burns / Scalds,rule
+Burnd to Deth,1,burnd to deth,Burns / Scalds,rule
+Burned by accident,1,burned by accident,Burns / Scalds,rule
+Burned to death,1,burned to death,Burns / Scalds,rule
+Burnt to Deth,1,burnt to deth,Burns / Scalds,rule
+Burnt to dith,1,burnt to dith,Burns / Scalds,rule
+By Explosion,1,by explosion,Accident,rule
+By explosion,1,by explosion,Accident,rule
+By vyolence,1,by vyolence,Homicide / Violence,rule
+Calitia,1,calitia,Calitia,spelling only
+Callosgen,1,callosgen,Callosgen,spelling only
+Came by a fall,1,came by a fall,Accident,rule
+Camp Fever,1,camp fever,Fever (unspecified),rule
+Cancer & Dropsey,1,cancer and dropsy,Cancer,rule
+Cancer Face,1,cancer face,Cancer,rule
+Cancer [head],1,cancer head,Cancer,rule
+Cancer of Face,1,cancer of face,Cancer,rule
+Cancer of Hart,1,cancer of heart,Cancer,rule
+Cancer of Wond,1,cancer of womb,Cancer,rule
+Cancer of Woumb,1,cancer of womb,Cancer,rule
+Cancer of breast,1,cancer of breast,Cancer,rule
+Cancer of the Womb,1,cancer of the womb,Cancer,rule
+Cancer of the bowls,1,cancer of the bowels,Cancer,rule
+Cancer of the breast,1,cancer of the breast,Cancer,rule
+Cancer of the stomach,1,cancer of the stomach,Cancer,rule
+Cancer of the throat,1,cancer of the throat,Cancer,rule
+Cancer on Brest,1,cancer on breast,Cancer,rule
+Cancer on the breast,1,cancer on the breast,Cancer,rule
+Canceria Uteria,1,canceria uteria,Cancer,rule
+Cancerous Brest,1,cancerous breast,Cancer,rule
+Candent,1,candent,Candent,spelling only
+Canebral Hemorage,1,canebral hemorage,Apoplexy (stroke),rule
+Cang of Brain,1,cang of brain,Brain Fever / Inflammation,rule
+Cang of Lung,1,cang of lungs,Lung Disease (other),rule
+Cang of Lungs,1,cang of lungs,Lung Disease (other),rule
+Cansor,1,cansor,Cancer,rule
+Cansor of Womb,1,cansor of womb,Cancer,rule
+Capilary Bronchitis,1,capilary bronchitis,Bronchitis,rule
+Capillary Bronchitis,1,capillary bronchitis,Bronchitis,rule
+Caranary Thrombosis,1,caranary thrombosis,Heart Disease,rule
+Carary Acardeson,1,carary acardeson,Heart Disease,rule
+Carbolic Poison,1,carbolic poison,Poisoning / Overdose,rule
+Carbunkle,1,carbunkle,Abscess / Fistula / Carbuncle,rule
+Carcala Colar,1,carcala colar,Carcala Colar,spelling only
+Carcemmia Porstate,1,carcemmia porstate,Cancer,rule
+Carcenonic,1,carcenonic,Cancer,rule
+Carcerona Stoamch,1,carcerona stomach,Cancer,rule
+Carcinoma,1,carcinoma,Cancer,rule
+Cardio Vascular Dis,1,cardio vascular dis,Heart Disease,rule
+Cardis Penal Diseas,1,cardis penal diseas,Heart Disease,rule
+Cardu Wanalet,1,cardu wanalet,Cardu Wanalet,spelling only
+Carimoua,1,carimoua,Cancer,rule
+Carniusa,1,carniusa,Carniusa,spelling only
+Caser of lung,1,caser of lungs,Caser Of Lungs,spelling only
+Catar Fever,1,catar fever,Fever (unspecified),rule
+Catarrh,1,catarrh,Fever (unspecified),rule
+Cavenoma,1,cavenoma,Cancer,rule
+Cebral Hemarig,1,cebral hemarig,Apoplexy (stroke),rule
+Cebral Hemorrage,1,cebral hemorrage,Apoplexy (stroke),rule
+Cebril Thorobosis,1,cebril thorobosis,Apoplexy (stroke),rule
+Ceeble Tharble,1,ceeble tharble,Ceeble Tharble,spelling only
+Cenbrar Conjestion,1,cenbrar congestion,Apoplexy (stroke),rule
+Cenility,1,cenility,Old Age,rule
+Cerbbual Hemorage,1,cerbbual hemorage,Apoplexy (stroke),rule
+Cerbral Hemorage,1,cerbral hemorage,Apoplexy (stroke),rule
+Cerebral Softening,1,cerebral softening,Softening of the Brain,rule
+Cesser of Brain,1,cesser of brain,Cesser Of Brain,spelling only
+Cestiles,1,cestiles,Cestiles,spelling only
+Ceuberal Hemmorhage,1,ceuberal hemmorhage,Apoplexy (stroke),rule
+Ch C. V. Renal,1,ch c v renal,Ch C V Renal,spelling only
+Ch Diarhea,1,chronic diarrhea,Diarrhea,rule
+Ch Diarrhea,1,chronic diarrhea,Diarrhea,rule
+Chalera Morbus,1,cholera morbus,Cholera Morbus,rule
+Cherana,1,cherana,Cherana,spelling only
+Chernik Angedidtis,1,chernik angedidtis,Chernik Angedidtis,spelling only
+Chicane Pox,1,chickenpox,Chicken Pox,rule
+Chid Bed,1,chid bed,Childbirth (incl. childbed fever),rule
+Chid Birth,1,chid birth,Childbirth (incl. childbed fever),rule
+Child,1,child,Unknown,rule
+Child Barth,1,child barth,Childbirth (incl. childbed fever),rule
+Child Bed fever,1,child bed fever,Childbirth (incl. childbed fever),rule
+Child Bede,1,child bede,Childbirth (incl. childbed fever),rule
+Child birth,1,child birth,Childbirth (incl. childbed fever),rule
+Chill,1,chill,Fever (unspecified),rule
+Chills & Feever,1,chills and fever,"Malaria (intermittent fever, chills and fever)",rule
+Chills Fever,1,chills fever,"Malaria (intermittent fever, chills and fever)",rule
+Chills and Feever,1,chills and fever,"Malaria (intermittent fever, chills and fever)",rule
+Cho. Infantum,1,cholera infantum,Cholera Infantum (summer complaint),rule
+Chol Infantum,1,cholera infantum,Cholera Infantum (summer complaint),rule
+Cholea Inphantum,1,cholera infantum,Cholera Infantum (summer complaint),rule
+Choler Infantum,1,cholera infantum,Cholera Infantum (summer complaint),rule
+Choler Morbus,1,cholera morbus,Cholera Morbus,rule
+Cholera Infam,1,cholera infantum,Cholera Infantum (summer complaint),rule
+Cholera Infamtum,1,cholera infantum,Cholera Infantum (summer complaint),rule
+Cholera Infan,1,cholera infantum,Cholera Infantum (summer complaint),rule
+Cholera Infantem,1,cholera infantum,Cholera Infantum (summer complaint),rule
+Cholera Infantom,1,cholera infantum,Cholera Infantum (summer complaint),rule
+Cholera Inft.,1,cholera infantum,Cholera Infantum (summer complaint),rule
+Cholera Mobis,1,cholera morbus,Cholera Morbus,rule
+Cholera Mobus,1,cholera morbus,Cholera Morbus,rule
+Cholera Morbis,1,cholera morbus,Cholera Morbus,rule
+Cholera infantum,1,cholera infantum,Cholera Infantum (summer complaint),rule
+Cholic Pictonum,1,cholic pictonum,Colic,rule
+Cholick,1,cholick,Colic,rule
+Cholorafobus,1,cholera morbus,Cholera Morbus,rule
+Cholorea,1,cholera,Cholera,rule
+Cholra,1,cholera,Cholera,rule
+Cholra Infantan,1,cholera infantum,Cholera Infantum (summer complaint),rule
+Cholra Morbis,1,cholera morbus,Cholera Morbus,rule
+Cholra morbus,1,cholera morbus,Cholera Morbus,rule
+Cholre Morbus,1,cholera morbus,Cholera Morbus,rule
+Cholrea Infantan,1,cholera infantum,Cholera Infantum (summer complaint),rule
+Cholrea Infantun,1,cholera infantum,Cholera Infantum (summer complaint),rule
+"Cholrea, Morbus",1,cholera morbus,Cholera Morbus,rule
+Cholrey Inft,1,cholera infantum,Cholera Infantum (summer complaint),rule
+Chonic Dearrheo,1,chronic diarrhea,Diarrhea,rule
+Chooked by a grain of coffee,1,chooked by a grain of coffee,"Suffocation (smothered, overlaid)",rule
+Choronis Myocadis,1,choronis myocadis,Heart Disease,rule
+Chr Diarhaea,1,chronic diarrhea,Diarrhea,rule
+Chr Diarhoea,1,chronic diarrhea,Diarrhea,rule
+Chr Diarrhea,1,chronic diarrhea,Diarrhea,rule
+Chr diarrhoea,1,chronic diarrhea,Diarrhea,rule
+Chr. Diarhoee,1,chronic diarrhea,Diarrhea,rule
+Chro Nephritis,1,chro nephritis,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Chroci myecarditis,1,chroci myecarditis,Heart Disease,rule
+Chron Diarhaea,1,chronic diarrhea,Diarrhea,rule
+Chron Diaroah,1,chronic diarrhea,Diarrhea,rule
+Chron. Deaseah,1,chronic diarrhea,Diarrhea,rule
+Chronic,1,chronic,Chronic,spelling only
+Chronic Bronches,1,chronic bronches,Bronchitis,rule
+Chronic Bronchitus,1,chronic bronchitus,Bronchitis,rule
+Chronic Ciptiles,1,chronic ciptiles,Chronic Ciptiles,spelling only
+Chronic Dearha,1,chronic diarrhea,Diarrhea,rule
+Chronic Dearhea,1,chronic diarrhea,Diarrhea,rule
+Chronic Diarherea,1,chronic diarrhea,Diarrhea,rule
+Chronic Diarhoea,1,chronic diarrhea,Diarrhea,rule
+Chronic Diarhoerea,1,chronic diarrhea,Diarrhea,rule
+Chronic Diaroh,1,chronic diarrhea,Diarrhea,rule
+Chronic Diarr,1,chronic diarrhea,Diarrhea,rule
+Chronic Diarrh,1,chronic diarrhea,Diarrhea,rule
+Chronic Diarrhaea,1,chronic diarrhea,Diarrhea,rule
+Chronic Diarrhoea,1,chronic diarrhea,Diarrhea,rule
+Chronic Direar,1,chronic diarrhea,Diarrhea,rule
+Chronic Dyentery,1,chronic dysentery,Dysentery (flux),rule
+Chronic Dysenter,1,chronic dysentery,Dysentery (flux),rule
+Chronic Dysintery,1,chronic dysentery,Dysentery (flux),rule
+Chronic Fever,1,chronic fever,Fever (unspecified),rule
+Chronic Myocardites,1,chronic myocardites,Heart Disease,rule
+Chronic Rheamatism,1,chronic rheumatism,Rheumatism (incl. rheumatic fever),rule
+Chronic Rheumatism,1,chronic rheumatism,Rheumatism (incl. rheumatic fever),rule
+Chronic Rhumsitism,1,chronic rheumatism,Rheumatism (incl. rheumatic fever),rule
+Chronic diarr,1,chronic diarrhea,Diarrhea,rule
+Chronic nephiten,1,chronic nephiten,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Chronick Affection,1,chronick affection,Chronick Affection,spelling only
+Chronick Mycarditis,1,chronick mycarditis,Heart Disease,rule
+Chrorus Lastutis,1,chrorus lastutis,Chrorus Lastutis,spelling only
+Cinhosis,1,cinhosis,Liver Disease,rule
+Ciryanosis,1,ciryanosis,Ciryanosis,spelling only
+Coinsumption,1,consumption,Tuberculosis (consumption),rule
+Cointinued Fever,1,cointinued fever,Fever (unspecified),rule
+Cold Flux,1,cold flux,Dysentery (flux),rule
+Cold after Measels,1,cold after measles,Measles,rule
+Colera Infantum,1,cholera infantum,Cholera Infantum (summer complaint),rule
+Colera Morbus,1,cholera morbus,Cholera Morbus,rule
+Coletis,1,coletis,Bowel Inflammation / Disease,rule
+Collic,1,collic,Colic,rule
+Colney Infantum,1,cholera infantum,Cholera Infantum (summer complaint),rule
+Colney Inft,1,cholera infantum,Cholera Infantum (summer complaint),rule
+Colney Morbiss,1,cholera morbus,Cholera Morbus,rule
+Colod,1,colod,Cold,rule
+Colremobus,1,cholera morbus,Cholera Morbus,rule
+Colremorbus,1,cholera morbus,Cholera Morbus,rule
+Colrey Infatum,1,cholera infantum,Cholera Infantum (summer complaint),rule
+Colrey Mobis,1,cholera morbus,Cholera Morbus,rule
+Colry Morbus,1,cholera morbus,Cholera Morbus,rule
+Complation,1,complation,Complications (unspecified),rule
+Complet Hart Block,1,complet heart block,Heart Disease,rule
+"Complicated, consumption",1,complicated consumption,Complications (unspecified),rule
+Complication of Disease,1,complication of disease,Complications (unspecified),rule
+Comsumption,1,consumption,Tuberculosis (consumption),rule
+Con Brain,1,con brain,Brain Fever / Inflammation,rule
+Con. Chill,1,congestive chill,Congestive Chill or Fever,rule
+Concusion,1,concusion,Accident,rule
+Conestion,1,congestion,Congestion (unspecified),rule
+Conf of Liver,1,conf of liver,Liver Disease,rule
+Confulsions,1,confulsions,"Convulsions (spasms, fits)",rule
+Cong Chil,1,congestive chill,Congestive Chill or Fever,rule
+Cong Fever,1,congestive fever,Congestive Chill or Fever,rule
+Cong Lungs,1,cong lungs,Lung Disease (other),rule
+Cong brain,1,cong brain,Brain Fever / Inflammation,rule
+Cong of Bowels,1,cong of bowels,Bowel Inflammation / Disease,rule
+Cong of Bowls,1,cong of bowels,Bowel Inflammation / Disease,rule
+Cong of Internalongon,1,cong of internalongon,Congestion (unspecified),rule
+Cong of Lung,1,cong of lungs,Lung Disease (other),rule
+Cong of liver,1,cong of liver,Liver Disease,rule
+Cong of lungs,1,cong of lungs,Lung Disease (other),rule
+Cong of the brain,1,cong of the brain,Brain Fever / Inflammation,rule
+"Cong. Chill, Cramp Cholic",1,congestive chill cramp cholic,Congestive Chill or Fever,rule
+Cong. Fever,1,congestive fever,Congestive Chill or Fever,rule
+Cong. Lungs,1,cong lungs,Lung Disease (other),rule
+Cong. of Bowels,1,cong of bowels,Bowel Inflammation / Disease,rule
+Cong. of Brain,1,cong of brain,Brain Fever / Inflammation,rule
+Conges Fever,1,congestive fever,Congestive Chill or Fever,rule
+Congest of Brain,1,congest of brain,Brain Fever / Inflammation,rule
+Congestic Chill,1,congestive chill,Congestive Chill or Fever,rule
+Congestic Fever,1,congestive fever,Congestive Chill or Fever,rule
+Congestine Fever,1,congestive fever,Congestive Chill or Fever,rule
+Congestion Chill,1,congestive chill,Congestive Chill or Fever,rule
+Congestion Fever,1,congestive fever,Congestive Chill or Fever,rule
+Congestion Lungs,1,congestion lungs,Lung Disease (other),rule
+Congestion Stomach Bowels,1,congestion stomach bowels,Bowel Inflammation / Disease,rule
+Congestion of Bowls,1,congestion of bowels,Bowel Inflammation / Disease,rule
+Congestion of brain,1,congestion of brain,Brain Fever / Inflammation,rule
+Congestion of lungs,1,congestion of lungs,Lung Disease (other),rule
+Congestion of the Brain,1,congestion of the brain,Brain Fever / Inflammation,rule
+Congestion of the Heart,1,congestion of the heart,Heart Disease,rule
+Congestion of the lungs,1,congestion of the lungs,Lung Disease (other),rule
+Congestive Chils,1,congestive chill,Congestive Chill or Fever,rule
+Congestive chill,1,congestive chill,Congestive Chill or Fever,rule
+Congeston Chill,1,congestive chill,Congestive Chill or Fever,rule
+Congeston of Brain,1,congestion of brain,Brain Fever / Inflammation,rule
+Congs Chill,1,congestive chill,Congestive Chill or Fever,rule
+Congt of Kidneys,1,congt of kidneys,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Conj Chill,1,congestive chill,Congestive Chill or Fever,rule
+Conj Chills,1,congestive chill,Congestive Chill or Fever,rule
+Conj Feever,1,congestive fever,Congestive Chill or Fever,rule
+Conj Lungs,1,conj lungs,Lung Disease (other),rule
+Conj of Brain,1,conj of brain,Brain Fever / Inflammation,rule
+Conj. Feever,1,congestive fever,Congestive Chill or Fever,rule
+Conj. of Brain,1,conj of brain,Brain Fever / Inflammation,rule
+Conj. of brian,1,conj of brain,Brain Fever / Inflammation,rule
+Conjestc Chills,1,congestive chill,Congestive Chill or Fever,rule
+Conjestic Fever,1,congestive fever,Congestive Chill or Fever,rule
+Conjestion,1,congestion,Congestion (unspecified),rule
+Conjestion of Liver,1,congestion of liver,Liver Disease,rule
+Conjestion of S,1,congestion of s,Congestion (unspecified),rule
+Conjestion of lungs,1,congestion of lungs,Lung Disease (other),rule
+Conjestiv Chill,1,congestive chill,Congestive Chill or Fever,rule
+Conjestive Bowels,1,congestive bowels,Bowel Inflammation / Disease,rule
+Conjestive Chil,1,congestive chill,Congestive Chill or Fever,rule
+Conjestive Fever,1,congestive fever,Congestive Chill or Fever,rule
+Conjeston of Brane,1,congestion of brain,Brain Fever / Inflammation,rule
+Conjetive Chils,1,congestive chill,Congestive Chill or Fever,rule
+Cons of Bowels,1,cons of bowels,Bowel Inflammation / Disease,rule
+Consption,1,consumption,Tuberculosis (consumption),rule
+Constution,1,constution,Constution,spelling only
+Consumpion,1,consumption,Tuberculosis (consumption),rule
+Consumpiton,1,consumption,Tuberculosis (consumption),rule
+Consumpon,1,consumption,Tuberculosis (consumption),rule
+Consumpsan,1,consumption,Tuberculosis (consumption),rule
+Consumption of Bowels,1,consumption of bowels,Tuberculosis (consumption),rule
+Consumptoin,1,consumption,Tuberculosis (consumption),rule
+Consuption,1,consumption,Tuberculosis (consumption),rule
+Consusption,1,consumption,Tuberculosis (consumption),rule
+Conumption,1,consumption,Tuberculosis (consumption),rule
+Convuisions,1,convuisions,"Convulsions (spasms, fits)",rule
+Convultions,1,convultions,"Convulsions (spasms, fits)",rule
+Corbolic Poison,1,corbolic poison,Poisoning / Overdose,rule
+Corey Infanton,1,cholera infantum,Cholera Infantum (summer complaint),rule
+Coronary Occulsion,1,coronary occulsion,Heart Disease,rule
+Coronary Thrombus,1,coronary thrombus,Heart Disease,rule
+Coronary Thumbis,1,coronary thumbis,Heart Disease,rule
+Cow Buncal,1,cow buncal,Abscess / Fistula / Carbuncle,rule
+Coy Feever,1,coy fever,Fever (unspecified),rule
+Cramp Colic,1,cramp colic,Colic,rule
+Cramp Collc,1,cramp collc,Colic,rule
+Cramps,1,cramps,"Convulsions (spasms, fits)",rule
+Cremated,1,cremated,Unknown,rule
+Cronic,1,cronic,Cronic,spelling only
+Cronic Narcotism,1,cronic narcotism,Poisoning / Overdose,rule
+Cronic Nephritis,1,cronic nephritis,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Cronic Nephrits,1,cronic nephrits,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Cronick Hart Falur,1,cronick heart falur,Heart Disease,rule
+Cronick Heart Dec.,1,cronick heart dec,Heart Disease,rule
+Cronick Marodoles,1,cronick marodoles,Cronick Marodoles,spelling only
+Crope,1,croup,Croup,rule
+Cropsey,1,cropsey,Cropsey,spelling only
+Crushed Lateral Chest,1,crushed lateral chest,Accident,rule
+Cut his throat,1,cut his throat,Cut His Throat,spelling only
+Cut with Knife,1,cut with knife,Accident,rule
+Cyanases,1,cyanases,Cyanases,spelling only
+Cyititis,1,cyititis,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Dability,1,dability,Debility / Exhaustion,rule
+Dearhaera,1,diarrhea,Diarrhea,rule
+Dearhea Conjestion,1,diarrhea congestion,Diarrhea,rule
+Dearheora,1,diarrhea,Diarrhea,rule
+Dearhoora,1,diarrhea,Diarrhea,rule
+Dearhorea,1,diarrhea,Diarrhea,rule
+Death Accidental,1,death accidental,Accident,rule
+Death Unknown,1,death unknown,Unknown,rule
+Death by Violence,1,death by violence,Homicide / Violence,rule
+Death by taking landanum,1,death by taking landanum,Poisoning / Overdose,rule
+Death by violence,1,death by violence,Homicide / Violence,rule
+Death caused by a fall,1,death caused by a fall,Accident,rule
+Death caused by a wound,1,death caused by a wound,Wound (unspecified),rule
+Deficient Eenator,1,deficient eenator,Deficient Eenator,spelling only
+Depticannia,1,depticannia,Depticannia,spelling only
+Derangement,1,derangement,Insanity,rule
+Derangement of the Bowels,1,derangement of the bowels,Bowel Inflammation / Disease,rule
+Dereare,1,dereare,Dereare,spelling only
+Deseas of Kidney,1,disease of kidney,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Deth Unnon,1,deth unknown,Unknown,rule
+Deth Unnone,1,deth unknown,Unknown,rule
+Deumane,1,deumane,Deumane,spelling only
+Diabates,1,diabates,Diabetes,rule
+Diabetas melletus,1,diabetas melletus,Diabetes,rule
+Diabetes,1,diabetes,Diabetes,rule
+Diabetis,1,diabetis,Diabetes,rule
+Diabues Como,1,diabues como,Diabetes,rule
+Diaease of Hart,1,disease of heart,Heart Disease,rule
+Diarheare,1,diarrhea,Diarrhea,rule
+Diarhera,1,diarrhea,Diarrhea,rule
+Diarhoe,1,diarrhea,Diarrhea,rule
+Diarhoorea,1,diarrhea,Diarrhea,rule
+Diarhorea,1,diarrhea,Diarrhea,rule
+Diarhoura,1,diarrhea,Diarrhea,rule
+Diarraheoa,1,diarrhea,Diarrhea,rule
+Diarrhara,1,diarrhea,Diarrhea,rule
+Diarrhoera,1,diarrhea,Diarrhea,rule
+Diasease of Brain,1,disease of brain,Brain or Head Disease (unspecified),rule
+Diasease of the heart,1,disease of the heart,Heart Disease,rule
+Diasese of Lungs,1,disease of lungs,Lung Disease (other),rule
+Dibility,1,dibility,Debility / Exhaustion,rule
+Died Below,1,died below,Unknown,rule
+Died Suddenly by bleeding lungs,1,died suddenly by bleeding lungs,Lung Disease (other),rule
+"Died Suddenly, apoplexy",1,died suddenly apoplexy,Apoplexy (stroke),rule
+Died Sudenly,1,died sudenly,Sudden Death,rule
+Died at nursing home,1,died at nursing home,Unknown,rule
+Died at the Lunatic Assylam,1,died at the lunatic assylam,Unknown,rule
+Died from Fall,1,died from fall,Accident,rule
+Died from Vaccinaition,1,died from vaccination,Vaccination Complication,rule
+Died from a Burn,1,died from a burn,Burns / Scalds,rule
+Died from a burn,1,died from a burn,Burns / Scalds,rule
+Died from a cut with a saw,1,died from a cut with a saw,Accident,rule
+Died from a rat bite,1,died from a rat bite,Accident,rule
+Died from an amputation,1,died from an amputation,Died From An Amputation,spelling only
+Died from an over portion of laudanum,1,died from an over portion of laudanum,Poisoning / Overdose,rule
+Died from injury on N&C Railroad,1,died from injury on n and c railroad,Accident,rule
+Died in Gen. Hospital,1,died in gen hospital,Unknown,rule
+Died in Louisville,1,died in louisville,Unknown,rule
+Died in St. Thomas Hospital,1,died in st thomas hospital,Unknown,rule
+Died of Wound,1,died of wound,Wound (unspecified),rule
+Died of a fall,1,died of a fall,Accident,rule
+Died of old age,1,died of old age,Old Age,rule
+Died soon after birth,1,died soon after birth,Died Soon After Birth,spelling only
+Diftheris,1,diphtheria,Diphtheria,rule
+Diph Croup,1,diphtheria croup,Diphtheria,rule
+Diphehirie,1,diphtheria,Diphtheria,rule
+Dipheria,1,diphtheria,Diphtheria,rule
+Diphhuria,1,diphtheria,Diphtheria,rule
+Dipthari,1,diphtheria,Diphtheria,rule
+Diptharis,1,diphtheria,Diphtheria,rule
+Diptherie,1,diphtheria,Diphtheria,rule
+Dipthier,1,diphtheria,Diphtheria,rule
+Dipthra,1,diphtheria,Diphtheria,rule
+Dipthrie,1,diphtheria,Diphtheria,rule
+Direarh,1,diarrhea,Diarrhea,rule
+Direire,1,diarrhea,Diarrhea,rule
+Direr,1,direr,Direr,spelling only
+Dis Liver,1,disease liver,Liver Disease,rule
+Dis of Bowls,1,disease of bowels,Bowel Inflammation / Disease,rule
+Dis of Head,1,disease of head,Brain or Head Disease (unspecified),rule
+Dis of LUngs,1,disease of lungs,Lung Disease (other),rule
+Dis of Womb,1,disease of womb,Uterine Disease (womb),rule
+Dis of Woumb,1,disease of womb,Uterine Disease (womb),rule
+Dis of hart,1,disease of heart,Heart Disease,rule
+Dis of the Bowels,1,disease of the bowels,Bowel Inflammation / Disease,rule
+Dis of the Bowls,1,disease of the bowels,Bowel Inflammation / Disease,rule
+Dis of the Hart,1,disease of the heart,Heart Disease,rule
+Dis of the Heart,1,disease of the heart,Heart Disease,rule
+Dis of the liver,1,disease of the liver,Liver Disease,rule
+Dis. Unknown,1,dis unknown,Unknown,rule
+Dis. of the Bowels,1,disease of the bowels,Bowel Inflammation / Disease,rule
+Dis. of the Hart,1,disease of the heart,Heart Disease,rule
+Dis. of the Heart,1,disease of the heart,Heart Disease,rule
+Disapation,1,disapation,Alcoholism (intemperance),rule
+Diseas of Lung,1,disease of lungs,Lung Disease (other),rule
+Disease,1,disease,Unknown,rule
+Disease Liver,1,disease liver,Liver Disease,rule
+Disease Lungs,1,disease lungs,Lung Disease (other),rule
+Disease of Bladder,1,disease of bladder,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Disease of Head,1,disease of head,Brain or Head Disease (unspecified),rule
+Disease of Kidneys,1,disease of kidneys,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Disease of Spine,1,disease of spine,Spinal Disease,rule
+Disease of head,1,disease of head,Brain or Head Disease (unspecified),rule
+Disease of lungs,1,disease of lungs,Lung Disease (other),rule
+Disease of the Breast,1,disease of the breast,Disease Of The Breast,spelling only
+Disease of the Glands,1,disease of the glands,Disease Of The Glands,spelling only
+Disease of the bowels,1,disease of the bowels,Bowel Inflammation / Disease,rule
+Disease of the brain,1,disease of the brain,Brain or Head Disease (unspecified),rule
+Disease of the hart,1,disease of the heart,Heart Disease,rule
+Disease of the head,1,disease of the head,Brain or Head Disease (unspecified),rule
+Disease of the lungs,1,disease of the lungs,Lung Disease (other),rule
+Diseased Brain,1,diseased brain,Brain or Head Disease (unspecified),rule
+Diseased Liver,1,diseased liver,Liver Disease,rule
+Diseased Lungs,1,diseased lungs,Lung Disease (other),rule
+Disppia,1,disppia,"Stomach Disease (dyspepsia, gastritis)",rule
+Disppsia,1,disppsia,"Stomach Disease (dyspepsia, gastritis)",rule
+Dissipation,1,dissipation,Alcoholism (intemperance),rule
+Diuptheria,1,diphtheria,Diphtheria,rule
+Dopsey,1,dropsy,Dropsy,rule
+Dopsy,1,dropsy,Dropsy,rule
+Dopsy of Hart,1,dropsy of heart,Dropsy,rule
+Draieah,1,diarrhea,Diarrhea,rule
+Drarhea,1,diarrhea,Diarrhea,rule
+Dricipplis,1,dricipplis,Erysipelas,rule
+Drinking Laudamum,1,drinking laudamum,Poisoning / Overdose,rule
+Dropsey at Heart,1,dropsy at heart,Dropsy,rule
+Dropsey in Chest,1,dropsy in chest,Dropsy,rule
+Dropsey in heart,1,dropsy in heart,Dropsy,rule
+Dropsey in the brain,1,dropsy in the brain,Hydrocephalus (dropsy of the brain),rule
+Dropsey in the heart,1,dropsy in the heart,Dropsy,rule
+Dropsey of Brane,1,dropsy of brain,Hydrocephalus (dropsy of the brain),rule
+Dropsey of Hart,1,dropsy of heart,Dropsy,rule
+Dropsey of the Brain of the Brain,1,dropsy of the brain of the brain,Hydrocephalus (dropsy of the brain),rule
+Dropsin in head,1,dropsy in head,Hydrocephalus (dropsy of the brain),rule
+Dropsy at Heart,1,dropsy at heart,Dropsy,rule
+Dropsy at the heart,1,dropsy at the heart,Dropsy,rule
+Dropsy of Bran,1,dropsy of brain,Hydrocephalus (dropsy of the brain),rule
+Dropsy of Chest,1,dropsy of chest,Dropsy,rule
+Dropsy of heart,1,dropsy of heart,Dropsy,rule
+Dropsy of the heart,1,dropsy of the heart,Dropsy,rule
+Dropsy on Brain,1,dropsy on brain,Hydrocephalus (dropsy of the brain),rule
+Drosy,1,dropsy,Dropsy,rule
+Drowned by the falling of Wire Bridge,1,drowned by the falling of wire bridge,Drowning,rule
+Drowned in Clarksville,1,drowned in clarksville,Drowning,rule
+"Drowned in Cumberland River Jan. 21, 1883",1,drowned in cumberland river jan 21 1883,Drowning,rule
+Drowned in River,1,drowned in river,Drowning,rule
+Drowned while Bathing,1,drowned while bathing,Drowning,rule
+Drowned while bathing,1,drowned while bathing,Drowning,rule
+Dum Chill,1,congestive chill,Congestive Chill or Fever,rule
+Dyp,1,dyp,Diphtheria,rule
+Dypartia Croup,1,diphtheria croup,Diphtheria,rule
+Dyphery,1,diphtheria,Diphtheria,rule
+Dyptherea,1,diphtheria,Diphtheria,rule
+Dysenteary,1,dysentery,Dysentery (flux),rule
+Dysentey,1,dysentery,Dysentery (flux),rule
+Dysentry,1,dysentery,Dysentery (flux),rule
+Dysinley,1,dysentery,Dysentery (flux),rule
+Dytheria,1,diphtheria,Diphtheria,rule
+Dytpheria,1,diphtheria,Diphtheria,rule
+Efects of Whsky,1,efects of whsky,Alcoholism (intemperance),rule
+Eff of grain in windpipe,1,eff of grain in windpipe,"Suffocation (smothered, overlaid)",rule
+Effect of Whiskey,1,effect of whiskey,Alcoholism (intemperance),rule
+Effection of the Brain,1,effection of the brain,Brain or Head Disease (unspecified),rule
+Effects of Laudnon,1,effects of laudnon,Poisoning / Overdose,rule
+Effects of Laudnum,1,effects of laudnum,Poisoning / Overdose,rule
+Effects of Medicine,1,effects of medicine,Poisoning / Overdose,rule
+Effects of Vaccination,1,effects of vaccination,Vaccination Complication,rule
+Effects of a burn,1,effects of a burn,Burns / Scalds,rule
+Effects of a fall,1,effects of a fall,Accident,rule
+Effects of mercury,1,effects of mercury,Poisoning / Overdose,rule
+Effects of opeum,1,effects of opeum,Poisoning / Overdose,rule
+Efflusion,1,efflusion,Efflusion,spelling only
+Effusion of Brain,1,effusion of brain,Hydrocephalus (dropsy of the brain),rule
+Eioris Refeat,1,eioris refeat,Eioris Refeat,spelling only
+Elelectases,1,elelectases,Lung Disease (other),rule
+Emasipelas,1,emasipelas,Erysipelas,rule
+Embolisom,1,embolisom,"Vascular Disease (arteriosclerosis, aneurysm, embolism)",rule
+Embolisurre,1,embolisurre,"Vascular Disease (arteriosclerosis, aneurysm, embolism)",rule
+Emplegia,1,emplegia,Paralysis,rule
+Enclha Cisets,1,enclha cisets,Enclha Cisets,spelling only
+Endocrist,1,endocrist,Heart Disease,rule
+Ensiplus,1,ensiplus,Erysipelas,rule
+Entera Culitis,1,entera culitis,Bowel Inflammation / Disease,rule
+Enteretis,1,enteritis,Bowel Inflammation / Disease,rule
+Enteritis,1,enteritis,Bowel Inflammation / Disease,rule
+Entero Coletis,1,entero coletis,Bowel Inflammation / Disease,rule
+Entero Colities,1,entero colities,Bowel Inflammation / Disease,rule
+Enters Colitis,1,enters colitis,Bowel Inflammation / Disease,rule
+Entiow Colitis,1,entiow colitis,Bowel Inflammation / Disease,rule
+Entre Colitis,1,entre colitis,Bowel Inflammation / Disease,rule
+Enzyuna,1,enzyuna,Enzyuna,spelling only
+Eola Cardis,1,eola cardis,Heart Disease,rule
+Epilepsy,1,epilepsy,Epilepsy,rule
+Eppilepsy,1,eppilepsy,Epilepsy,rule
+Epthea,1,epthea,Thrush,rule
+Erasiphelas,1,erasiphelas,Erysipelas,rule
+Erecepulus,1,erecepulus,Erysipelas,rule
+Eresipalus,1,eresipalus,Erysipelas,rule
+Erisiplus,1,erisiplus,Erysipelas,rule
+Erisippelus,1,erisippelus,Erysipelas,rule
+Erisippilas,1,erisippilas,Erysipelas,rule
+Erisppilis,1,erisppilis,Erysipelas,rule
+Errasepelas,1,errasepelas,Erysipelas,rule
+Ersasipelas,1,ersasipelas,Erysipelas,rule
+Erscppilis,1,erscppilis,Erysipelas,rule
+Ersipielus,1,ersipielus,Erysipelas,rule
+Ersiples,1,ersiples,Erysipelas,rule
+Ertspidas,1,ertspidas,Erysipelas,rule
+Eruplias,1,eruplias,Erysipelas,rule
+Eruption,1,eruption,Eruption,spelling only
+Erycsiplas,1,erycsiplas,Erysipelas,rule
+Eryriplas,1,erysipelas,Erysipelas,rule
+Erysepalas,1,erysepalas,Erysipelas,rule
+Erysephelas,1,erysephelas,Erysipelas,rule
+Eryseplas,1,eryseplas,Erysipelas,rule
+Erysipas,1,erysipas,Erysipelas,rule
+Erysipelas,1,erysipelas,Erysipelas,rule
+Erysiphlus,1,erysiphlus,Erysipelas,rule
+Erysiplal,1,erysiplal,Erysipelas,rule
+Erysiplus,1,erysiplus,Erysipelas,rule
+Erysipluy,1,erysipluy,Erysipelas,rule
+Esiples,1,esiples,Erysipelas,rule
+Essapipelas,1,erysipelas,Erysipelas,rule
+Essasipllas,1,essasipllas,Erysipelas,rule
+Essaspelas,1,essaspelas,Erysipelas,rule
+Esyseflas,1,esyseflas,Erysipelas,rule
+Esysipelas,1,esysipelas,Erysipelas,rule
+Exahustion,1,exhaustion,Debility / Exhaustion,rule
+Explotion of Steamer,1,explotion of steamer,Accident,rule
+Expousure,1,expousure,Exposure (heat or cold),rule
+Eyersiples,1,eyersiples,Erysipelas,rule
+Eysiplns,1,eysiplns,Erysipelas,rule
+Fall from Horse,1,fall from horse,Accident,rule
+Fall from Wagon,1,fall from wagon,Accident,rule
+Fall from a horse,1,fall from a horse,Accident,rule
+Fall from a porch,1,fall from a porch,Accident,rule
+Falling from Wagon,1,falling from wagon,Accident,rule
+Feaver,1,fever,Fever (unspecified),rule
+Felhing,1,felhing,Felhing,spelling only
+Fell dead in the Street,1,fell dead in the street,Sudden Death,rule
+Fell from Window,1,fell from window,Accident,rule
+Fell from a fence,1,fell from a fence,Accident,rule
+Fell from a tree,1,fell from a tree,Accident,rule
+Fell in the well,1,fell in the well,Drowning,rule
+Fell off of a house,1,fell off of a house,Accident,rule
+Fell throgh the hatch on boat,1,fell throgh the hatch on boat,Accident,rule
+Fem Pneumonia,1,fem pneumonia,Pneumonia,rule
+Finley Dorris (in charge),1,finley dorris in charge,Unknown,rule
+Finley Dorris Co.,1,finley dorris co,Unknown,rule
+Fisterlow,1,fisterlow,Abscess / Fistula / Carbuncle,rule
+Fistule,1,fistule,Abscess / Fistula / Carbuncle,rule
+Fobes Mesantinices,1,fobes mesantinices,Fobes Mesantinices,spelling only
+Found Dead in River,1,found dead in river,Drowning,rule
+Found Dedd,1,found dedd,Sudden Death,rule
+Found dead,1,found dead,Sudden Death,rule
+Found dead at wash landing,1,found dead at wash landing,Sudden Death,rule
+Found dead in Gay Street,1,found dead in gay street,Sudden Death,rule
+Found dead in a well,1,found dead in a well,Drowning,rule
+Found dead in bed,1,found dead in bed,Sudden Death,rule
+Found dead in river,1,found dead in river,Drowning,rule
+Found dead on Tower Island,1,found dead on tower island,Sudden Death,rule
+Fractions of rib and wound of lung,1,fractions of rib and wound of lungs,Accident,rule
+Fracture at base of skull,1,fracture at base of skull,Accident,rule
+Fracture of left temple bone,1,fracture of left temple bone,Accident,rule
+Fracture of neck,1,fracture of neck,Accident,rule
+Fractured Skull,1,fractured skull,Accident,rule
+Frauneatic Tetamus,1,frauneatic tetamus,Tetanus (lockjaw),rule
+Freture of Skull,1,freture of skull,Accident,rule
+Frightened,1,frightened,Frightened,spelling only
+From Burn,1,from burn,Burns / Scalds,rule
+From a fall,1,from a fall,Accident,rule
+From falling in hatch way on Steamboat Sligo No 2.,1,from falling in hatch way on steamboat sligo no 2,Accident,rule
+Frosen,1,frosen,Exposure (heat or cold),rule
+Frosen to death,1,frosen to death,Exposure (heat or cold),rule
+Frost Bitten,1,frost bitten,Exposure (heat or cold),rule
+Frozen to Deth,1,frozen to deth,Exposure (heat or cold),rule
+Frunper Pentarits,1,frunper pentarits,Frunper Pentarits,spelling only
+G S Wound,1,gunshot wound,Gunshot,rule
+Gan Green,1,gan green,Gangrene (mortification),rule
+Ganders,1,jaundice,Jaundice,rule
+Gangrene Buttocks,1,gangrene buttocks,Gangrene (mortification),rule
+Gastric Euteric Autoxicative,1,gastric euteric autoxicative,"Stomach Disease (dyspepsia, gastritis)",rule
+Gastric Ulcer,1,gastric ulcer,"Stomach Disease (dyspepsia, gastritis)",rule
+Gastric ulcer,1,gastric ulcer,"Stomach Disease (dyspepsia, gastritis)",rule
+Gastrilis,1,gastrilis,"Stomach Disease (dyspepsia, gastritis)",rule
+Gastro Entenitis,1,gastro entenitis,Bowel Inflammation / Disease,rule
+Gastro Entintis,1,gastro entintis,Bowel Inflammation / Disease,rule
+Gastro Interitis,1,gastro interitis,Bowel Inflammation / Disease,rule
+Gelles Collitsis,1,gelles collitsis,Gelles Collitsis,spelling only
+Gemerage,1,gemerage,Hemorrhage,rule
+Gen Arteria Schrosis,1,gen arteria schrosis,"Vascular Disease (arteriosclerosis, aneurysm, embolism)",rule
+Gen Debelity,1,general debelity,Debility / Exhaustion,rule
+Gen Paryisis of Insane,1,gen paryisis of insane,Insanity,rule
+Gen. Artero Scholrsis,1,gen artero scholrsis,"Vascular Disease (arteriosclerosis, aneurysm, embolism)",rule
+General Exastion,1,general exastion,Debility / Exhaustion,rule
+Genl Debility,1,general debility,Debility / Exhaustion,rule
+Genl Dibility,1,general dibility,Debility / Exhaustion,rule
+Genral Debility,1,general debility,Debility / Exhaustion,rule
+Got kill on the Park W Railroad,1,got kill on the park w railroad,Accident,rule
+Gravel in blades,1,gravel in blades,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Gravell,1,gravell,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Grippe,1,influenza,Influenza (la grippe),rule
+Gunshot wound of neck,1,gunshot wound of neck,Gunshot,rule
+HIves,1,hives,Hives,rule
+Hanged by Law,1,hanged by law,Execution (hanged by law),rule
+Harasmus,1,harasmus,Marasmus,rule
+Hart Dies,1,heart dies,Heart Disease,rule
+Hart Failur,1,heart failur,Heart Disease,rule
+Hart Failure,1,heart failure,Heart Disease,rule
+Hart Faliur,1,heart faliur,Heart Disease,rule
+Hart Falur,1,heart falur,Heart Disease,rule
+Hart disease,1,heart disease,Heart Disease,rule
+Hart- De,1,heart de,Heart Disease,rule
+Hear Dieas,1,heart disease,Heart Disease,rule
+Heart Ailment,1,heart ailment,Heart Disease,rule
+Heart Attack,1,heart attack,Heart Disease,rule
+Heart Clab,1,heart clab,Heart Disease,rule
+Heart Deease,1,heart deease,Heart Disease,rule
+Heart Deseas,1,heart deseas,Heart Disease,rule
+Heart Desease,1,heart desease,Heart Disease,rule
+Heart Dissease,1,heart dissease,Heart Disease,rule
+"Heart Trouble, Mydocarditis",1,heart trouble mydocarditis,Heart Disease,rule
+Heart dease,1,heart dease,Heart Disease,rule
+Heart disease carnory hemhage,1,heart disease carnory hemhage,Heart Disease,rule
+Heat,1,heat,Exposure (heat or cold),rule
+Heemorage Lugs,1,hemorrhage lungs,Lung Disease (other),rule
+Hem Lungs,1,hem lungs,Lung Disease (other),rule
+Hem of Lungs,1,hem of lungs,Lung Disease (other),rule
+Hemarhage,1,hemarhage,Hemorrhage,rule
+Hemarige Cron,1,hemarige cron,Hemorrhage,rule
+Hemegathe Lougs,1,hemegathe lungs,Lung Disease (other),rule
+Hemege Longs,1,hemege lungs,Lung Disease (other),rule
+Hemerag of the bowels,1,hemerag of the bowels,Bowel Inflammation / Disease,rule
+Hemerage,1,hemerage,Hemorrhage,rule
+Hemerage of Lung,1,hemerage of lungs,Lung Disease (other),rule
+Hemigate Longs,1,hemigate lungs,Lung Disease (other),rule
+Hemiplegia,1,hemiplegia,Paralysis,rule
+Hemorag Lungs,1,hemorag lungs,Lung Disease (other),rule
+Hemorage at the lungs,1,hemorage at the lungs,Lung Disease (other),rule
+Hemorage of Bowell,1,hemorage of bowels,Bowel Inflammation / Disease,rule
+Hemorage of L,1,hemorage of l,Lung Disease (other),rule
+Hemorege,1,hemorege,Hemorrhage,rule
+Hemorhage Bowels,1,hemorhage bowels,Bowel Inflammation / Disease,rule
+Hemorhage of Bowels,1,hemorhage of bowels,Bowel Inflammation / Disease,rule
+Hemorhage of L,1,hemorhage of l,Lung Disease (other),rule
+Hemorige Stomach,1,hemorige stomach,Hemorrhage,rule
+Hemorudge,1,hemorudge,Hemorrhage,rule
+Hemrage,1,hemrage,Hemorrhage,rule
+Hepatitis,1,hepatitis,Liver Disease,rule
+Hermerage,1,hemorrhage,Hemorrhage,rule
+Hermerage of Bowels,1,hemorrhage of bowels,Bowel Inflammation / Disease,rule
+Hermorage,1,hemorrhage,Hemorrhage,rule
+Himorage Lungs,1,himorage lungs,Lung Disease (other),rule
+Hipp Joint Dis,1,hipp joint dis,Hipp Joint Dis,spelling only
+His Disease,1,his disease,Unknown,rule
+Hmiga the Lungs,1,hmiga the lungs,Lung Disease (other),rule
+Hooping Coff,1,whooping cough,Whooping Cough,rule
+Hoping Cough,1,whooping cough,Whooping Cough,rule
+House fell on him,1,house fell on him,Accident,rule
+Humorage of Lungs,1,humorage of lungs,Lung Disease (other),rule
+Hung himself,1,hung himself,Suicide,rule
+Hy Drosyphlus,1,hy drosyphlus,Hydrocephalus (dropsy of the brain),rule
+Hydrescphalus,1,hydrescphalus,Hydrocephalus (dropsy of the brain),rule
+Hydrocaphalons,1,hydrocaphalons,Hydrocephalus (dropsy of the brain),rule
+Hydrocephaloid,1,hydrocephaloid,Hydrocephalus (dropsy of the brain),rule
+Hydrocphabus,1,hydrocphabus,Hydrocephalus (dropsy of the brain),rule
+Hydrosifules,1,hydrosifules,Hydrocephalus (dropsy of the brain),rule
+Hydrosyphlus,1,hydrosyphlus,Hydrocephalus (dropsy of the brain),rule
+Hyptenson Cordetz,1,hyptenson cordetz,Hyptenson Cordetz,spelling only
+Hysteritis,1,hysteritis,Uterine Disease (womb),rule
+Hystero Neuros,1,hystero neuros,Nervous Disorders,rule
+Inability to Nurse,1,inability to nurse,Inability To Nurse,spelling only
+Inamition,1,inamition,Debility / Exhaustion,rule
+Indideton Accute,1,indideton accute,"Stomach Disease (dyspepsia, gastritis)",rule
+Indigestion,1,indigestion,"Stomach Disease (dyspepsia, gastritis)",rule
+Inf Lungs,1,inflammation lungs,Pneumonia,rule
+Inf Stomach,1,inflammation stomach,"Stomach Disease (dyspepsia, gastritis)",rule
+Inf Stomache,1,inflammation stomach,"Stomach Disease (dyspepsia, gastritis)",rule
+Inf brain,1,inflammation brain,Brain Fever / Inflammation,rule
+Inf of Kidneys,1,inflammation of kidneys,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Inf of Liver,1,inflammation of liver,Liver Disease,rule
+Inf of Throat,1,inflammation of throat,Sore Throat / Quinsy,rule
+Inf of brain,1,inflammation of brain,Brain Fever / Inflammation,rule
+Inf of the Bowels,1,inflammation of the bowels,Bowel Inflammation / Disease,rule
+Inf of the bowels,1,inflammation of the bowels,Bowel Inflammation / Disease,rule
+Infalamtion of Lungs,1,inflammation of lungs,Pneumonia,rule
+Infant,1,infant,Unknown,rule
+Infantile Dearrhen,1,infantile diarrhea,Cholera Infantum (summer complaint),rule
+Infection of Brain,1,infection of brain,Brain or Head Disease (unspecified),rule
+Infermation Bowels,1,inflammation bowels,Bowel Inflammation / Disease,rule
+Infimation Bowels,1,inflammation bowels,Bowel Inflammation / Disease,rule
+Infirm of Age,1,infirm of age,Old Age,rule
+Infl Fever,1,infl fever,Fever (unspecified),rule
+Infl Lunges,1,inflammation lungs,Pneumonia,rule
+Infl RheumatismRheumatism,1,infl rheumatism,Rheumatism (incl. rheumatic fever),rule
+Infl Rhumantism,1,infl rheumatism,Rheumatism (incl. rheumatic fever),rule
+Infl of B,1,inflammation of b,Inflammation Of B,spelling only
+Infl of Bladder,1,inflammation of bladder,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Infl of Howels,1,inflammation of bowels,Bowel Inflammation / Disease,rule
+Infl of breast,1,inflammation of breast,Inflammation Of Breast,spelling only
+Infl of stomache,1,inflammation of stomach,"Stomach Disease (dyspepsia, gastritis)",rule
+Infl of the Heart,1,inflammation of the heart,Heart Disease,rule
+Infl of the Kidneys,1,inflammation of the kidneys,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Infl of the liverof the liver,1,inflammation of the liver,Liver Disease,rule
+Infl of the womb,1,inflammation of the womb,Uterine Disease (womb),rule
+Infl. Of Brain,1,inflammation of brain,Brain Fever / Inflammation,rule
+Infl. of the Stomache,1,inflammation of the stomach,"Stomach Disease (dyspepsia, gastritis)",rule
+Infla of Bowels,1,inflammation of bowels,Bowel Inflammation / Disease,rule
+Infla of Bowls,1,inflammation of bowels,Bowel Inflammation / Disease,rule
+Infla of Brain,1,inflammation of brain,Brain Fever / Inflammation,rule
+Inflam Bowels,1,inflammation bowels,Bowel Inflammation / Disease,rule
+Inflam Rhematism,1,inflam rheumatism,Rheumatism (incl. rheumatic fever),rule
+Inflam of Bowels,1,inflammation of bowels,Bowel Inflammation / Disease,rule
+Inflamation Stomach,1,inflammation stomach,"Stomach Disease (dyspepsia, gastritis)",rule
+Inflamation of Bowles,1,inflammation of bowels,Bowel Inflammation / Disease,rule
+Inflamation of Stomach,1,inflammation of stomach,"Stomach Disease (dyspepsia, gastritis)",rule
+Inflamatory R.,1,inflammatory rheumatism,Rheumatism (incl. rheumatic fever),rule
+Inflamtion Bowels,1,inflammation bowels,Bowel Inflammation / Disease,rule
+Inflemsumtes,1,inflemsumtes,Inflemsumtes,spelling only
+Infleunza,1,influenza,Influenza (la grippe),rule
+Inflm of Bowls,1,inflammation of bowels,Bowel Inflammation / Disease,rule
+Inflma of Bowels,1,inflammation of bowels,Bowel Inflammation / Disease,rule
+Inflma of Bowls,1,inflammation of bowels,Bowel Inflammation / Disease,rule
+Inflmation,1,inflammation,Inflammation (unspecified),rule
+Inflmn Bowels,1,inflammation bowels,Bowel Inflammation / Disease,rule
+Inflmtn Bowels,1,inflammation bowels,Bowel Inflammation / Disease,rule
+Infln Brain,1,inflammation brain,Brain Fever / Inflammation,rule
+Influence,1,influence,Influence,spelling only
+Influensa,1,influenza,Influenza (la grippe),rule
+Influensar,1,influenza,Influenza (la grippe),rule
+Influenzer,1,influenza,Influenza (la grippe),rule
+Influenzid,1,influenza,Influenza (la grippe),rule
+Influn brain,1,inflammation brain,Brain Fever / Inflammation,rule
+Inft Bowels,1,inflammation bowels,Bowel Inflammation / Disease,rule
+Inft of Bowls,1,inflammation of bowels,Bowel Inflammation / Disease,rule
+Inft of Nable,1,inflammation of nable,Inflammation Of Nable,spelling only
+Inft of Stoamche,1,inflammation of stomach,"Stomach Disease (dyspepsia, gastritis)",rule
+Inft of Stomach,1,inflammation of stomach,"Stomach Disease (dyspepsia, gastritis)",rule
+Inft of brain,1,inflammation of brain,Brain Fever / Inflammation,rule
+Inft. Stomach,1,inflammation stomach,"Stomach Disease (dyspepsia, gastritis)",rule
+Inft. of Bowls,1,inflammation of bowels,Bowel Inflammation / Disease,rule
+Inftn Fever,1,inftn fever,Fever (unspecified),rule
+Injury from a Fall,1,injury from a fall,Accident,rule
+Injury from a fall,1,injury from a fall,Accident,rule
+Inlargement of liver,1,inlargement of liver,Liver Disease,rule
+Inlfamation of Lungs,1,inflammation of lungs,Pneumonia,rule
+Innition,1,innition,Debility / Exhaustion,rule
+Inphemation Bowls,1,inflammation bowels,Bowel Inflammation / Disease,rule
+Inphemation Lungs,1,inflammation lungs,Pneumonia,rule
+Insufisincy,1,insufisincy,Insufisincy,spelling only
+Intermelling,1,intermelling,Intermelling,spelling only
+Intermitent Fever,1,intermittent fever,"Malaria (intermittent fever, chills and fever)",rule
+Intermperance,1,intermperance,Alcoholism (intemperance),rule
+Internal Hemorage,1,internal hemorage,Hemorrhage,rule
+Internal Hemorge,1,internal hemorge,Hemorrhage,rule
+Internal Opaction,1,internal opaction,Intestinal Obstruction / Hernia,rule
+Intertenal perforation,1,intertenal perforation,Intertenal Perforation,spelling only
+Intes Obstruction,1,intes obstruction,Intestinal Obstruction / Hernia,rule
+Intestinal Obstraction,1,intestinal obstraction,Intestinal Obstruction / Hernia,rule
+Intestinal of Bowels,1,intestinal of bowels,Bowel Inflammation / Disease,rule
+Intesuit Fever,1,intermittent fever,"Malaria (intermittent fever, chills and fever)",rule
+Intmitan Fever,1,intermittent fever,"Malaria (intermittent fever, chills and fever)",rule
+Intoxication,1,intoxication,Alcoholism (intemperance),rule
+Jnanetion,1,jnanetion,Debility / Exhaustion,rule
+Kick by Hors,1,kick by hors,Accident,rule
+Kick from Horse,1,kick from horse,Accident,rule
+Kicked by Horse,1,kicked by horse,Accident,rule
+Kicked by a horse,1,kicked by a horse,Accident,rule
+Kidney,1,kidney,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Kidney trouble,1,kidney trouble,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Kidneys Affected,1,kidneys affected,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Kild by Derrick,1,kild by derrick,Accident,rule
+Kild by RR,1,kild by railroad,Accident,rule
+Kild by St. Car,1,kild by st car,Accident,rule
+Kild by Wright,1,kild by wright,Accident,rule
+Kild on RR,1,kild on railroad,Accident,rule
+Kild on the N&C Railroad,1,kild on the n and c railroad,Accident,rule
+Kiled By Street Rail Road,1,kiled by street railroad,Accident,rule
+Kiled by the cars,1,kiled by the cars,Accident,rule
+Kill by fall,1,kill by fall,Accident,rule
+Kill by the NC Railroad,1,kill by the nc railroad,Accident,rule
+Kill on Railroad,1,kill on railroad,Accident,rule
+Kill on the NC Railroad,1,kill on the nc railroad,Accident,rule
+Killed Accidental,1,killed accidental,Accident,rule
+"Killed at Monterey September 21, 1846",1,killed at monterey september 21 1846,Killed in War,rule
+Killed at Railroad,1,killed at railroad,Accident,rule
+Killed at battle of Fishing Creek,1,killed at battle of fishing creek,Killed in War,rule
+Killed by Blow,1,killed by blow,Accident,rule
+Killed by Blowing Rock,1,killed by blowing rock,Accident,rule
+Killed by C. F. Wright,1,killed by c f wright,Homicide / Violence,rule
+Killed by Car,1,killed by car,Accident,rule
+Killed by Engine,1,killed by engine,Accident,rule
+Killed by Fall,1,killed by fall,Accident,rule
+Killed by J. McTigue,1,killed by j mctigue,Homicide / Violence,rule
+Killed by James Taylor,1,killed by james taylor,Homicide / Violence,rule
+Killed by L. Petty with a rock,1,killed by l petty with a rock,Homicide / Violence,rule
+Killed by S. Watkins boy,1,killed by s watkins boy,Homicide / Violence,rule
+Killed by Shooting,1,killed by shooting,Gunshot,rule
+Killed by W.H. Rains,1,killed by w h rains,Homicide / Violence,rule
+Killed by a Waggon,1,killed by a waggon,Accident,rule
+Killed by a dray,1,killed by a dray,Accident,rule
+Killed by a fall from Morgan & Co House,1,killed by a fall from morgan and co house,Accident,rule
+Killed by a fall from a horse,1,killed by a fall from a horse,Accident,rule
+Killed by a fall from a house,1,killed by a fall from a house,Accident,rule
+Killed by a fall from a tree,1,killed by a fall from a tree,Accident,rule
+Killed by a fall from old bridge abutment,1,killed by a fall from old bridge abutment,Accident,rule
+Killed by a horse,1,killed by a horse,Accident,rule
+Killed by a stone falling,1,killed by a stone falling,Accident,rule
+Killed by a tree,1,killed by a tree,Accident,rule
+Killed by a waggon,1,killed by a waggon,Accident,rule
+Killed by accident on N&C RR,1,killed by accident on n and c railroad,Accident,rule
+Killed by accidental shooting himself,1,killed by accidental shooting himself,Gunshot,rule
+Killed by being shot,1,killed by being shot,Gunshot,rule
+Killed by being stabed,1,killed by being stabed,Homicide / Violence,rule
+Killed by blasting,1,killed by blasting,Accident,rule
+Killed by elec cars,1,killed by elec cars,Accident,rule
+Killed by explosion,1,killed by explosion,Accident,rule
+Killed by explosion of cap factory,1,killed by explosion of cap factory,Accident,rule
+Killed by explosion of powder in cap factory,1,killed by explosion of powder in cap factory,Accident,rule
+Killed by horses running away,1,killed by horses running away,Accident,rule
+Killed by switch ingine on N&C Railroad,1,killed by switch ingine on n and c railroad,Accident,rule
+Killed by the cars on N & C RR,1,killed by the cars on n and c railroad,Accident,rule
+Killed by the fall of a stone from wall,1,killed by the fall of a stone from wall,Accident,rule
+Killed by the falling of the Wire Bridge,1,killed by the falling of the wire bridge,Accident,rule
+"Killed by the hand of J. Carroll, with a stone",1,killed by the hand of j carroll with a stone,Homicide / Violence,rule
+Killed by train Nashville terminals,1,killed by train nashville terminals,Accident,rule
+Killed fireing canon,1,killed fireing canon,Accident,rule
+Killed in Combat,1,killed in combat,Killed in War,rule
+Killed in Mexico,1,killed in mexico,Killed in War,rule
+Killed in lead mine,1,killed in lead mine,Accident,rule
+Killed on IL & O RR,1,killed on il and o railroad,Accident,rule
+Killed on N&C RR,1,killed on n and c railroad,Accident,rule
+Killed on Railroad,1,killed on railroad,Accident,rule
+Killed on S. B. R. L. Cobb,1,killed on s b r l cobb,Accident,rule
+Killed on the N&C Railroad,1,killed on the n and c railroad,Accident,rule
+Killed on the N.N.W. Railroad,1,killed on the n n w railroad,Accident,rule
+Killed on the Wincester & Ala. Railroad,1,killed on the wincester and ala railroad,Accident,rule
+Killed or Murdered,1,killed or murdered,Homicide / Violence,rule
+Killed with a Knife,1,killed with a knife,Homicide / Violence,rule
+Killed with a knife,1,killed with a knife,Homicide / Violence,rule
+Kings Evill,1,kings evill,Scrofula,rule
+Knife Cut,1,knife cut,Homicide / Violence,rule
+LIver Affiction,1,liver affiction,Liver Disease,rule
+LIver Complaint,1,liver complaint,Liver Disease,rule
+Lagridge,1,influenza,Influenza (la grippe),rule
+Lagrippe,1,influenza,Influenza (la grippe),rule
+Lg Pertinson,1,lg pertinson,Lg Pertinson,spelling only
+Lifor Fosell Fever,1,lifor fosell fever,Fever (unspecified),rule
+Lingerin,1,lingerin,Debility / Exhaustion,rule
+Live Complt,1,live complt,Liver Disease,rule
+Liver Compliant,1,liver compliant,Liver Disease,rule
+Liver Complint,1,liver complint,Liver Disease,rule
+Liver Conplt,1,liver conplt,Liver Disease,rule
+Liver D.,1,liver d,Liver Disease,rule
+Liver dis,1,liver dis,Liver Disease,rule
+Lober Pneumonia,1,lober pneumonia,Pneumonia,rule
+Lock Goy,1,lockjaw,Tetanus (lockjaw),rule
+Locomortor Ataxia,1,locomotor ataxia,Locomotor Ataxia,spelling only
+Locomoton Atexia,1,locomotor ataxia,Locomotor Ataxia,spelling only
+Lumsey,1,lumsey,Lumsey,spelling only
+Lung Dis,1,lungs dis,Lung Disease (other),rule
+Lung Effectation,1,lungs effectation,Lung Disease (other),rule
+Lung Trouble,1,lungs trouble,Lung Disease (other),rule
+Lungs Diseased,1,lungs diseased,Lung Disease (other),rule
+Lunsy,1,lunsy,Lunsy,spelling only
+M. Fever,1,m fever,M Fever,spelling only
+Magenasistis,1,magenasistis,Magenasistis,spelling only
+Maiafrmus,1,maiafrmus,Marasmus,rule
+Mal Fever,1,mal fever,"Malaria (intermittent fever, chills and fever)",rule
+Mal fever,1,mal fever,"Malaria (intermittent fever, chills and fever)",rule
+Malaria,1,malaria,"Malaria (intermittent fever, chills and fever)",rule
+Maleria,1,malaria,"Malaria (intermittent fever, chills and fever)",rule
+Malignant Canker,1,malignant canker,Malignant Canker,spelling only
+Malignent Sore Throat,1,malignent sore throat,Sore Throat / Quinsy,rule
+Mamaportu,1,mamaportu,Alcoholism (intemperance),rule
+Manea a Portia,1,manea a portia,Alcoholism (intemperance),rule
+Maneapotea,1,maneapotea,Alcoholism (intemperance),rule
+Maneapoted,1,maneapoted,Alcoholism (intemperance),rule
+Maneapotu,1,maneapotu,Alcoholism (intemperance),rule
+Maner Portia,1,maner portia,Alcoholism (intemperance),rule
+Maniapotia,1,maniapotia,Alcoholism (intemperance),rule
+Maple,1,maple,Unknown,rule
+Mararmus,1,mararmus,Marasmus,rule
+Marasmas,1,marasmas,Marasmus,rule
+Marrasmus,1,marrasmus,Marasmus,rule
+Martely,1,martely,Martely,spelling only
+Marusmus,1,marusmus,Marasmus,rule
+Massles,1,measles,Measles,rule
+Matril Regurgitation,1,matril regurgitation,Heart Disease,rule
+Mealeses,1,measles,Measles,rule
+Mealses,1,measles,Measles,rule
+Measals,1,measles,Measles,rule
+Measelis,1,measles,Measles,rule
+Measels & Billious Fever,1,measles and bilious fever,Measles,rule
+Measleas,1,measles,Measles,rule
+Measlels,1,measles,Measles,rule
+Measles Compl,1,measles compl,Measles,rule
+Measlles,1,measles,Measles,rule
+Measls,1,measles,Measles,rule
+Meduly Eusbarles,1,meduly eusbarles,Meduly Eusbarles,spelling only
+Memb Croup,1,memb croup,Croup,rule
+Membrance,1,membrance,Croup,rule
+Membrane,1,membrane,Croup,rule
+Membraneus Croop,1,membraneus croup,Croup,rule
+Memingities,1,meningitis,Meningitis,rule
+Menegetus,1,meningitis,Meningitis,rule
+Menegitis,1,meningitis,Meningitis,rule
+Menengetis,1,meningitis,Meningitis,rule
+Menigetes,1,meningitis,Meningitis,rule
+Menigites,1,meningitis,Meningitis,rule
+Menintitis,1,meningitis,Meningitis,rule
+Mennigitis,1,meningitis,Meningitis,rule
+Menningitis,1,meningitis,Meningitis,rule
+Mentigetis,1,meningitis,Meningitis,rule
+Merrasmus,1,merrasmus,Marasmus,rule
+Metritis,1,metritis,Uterine Disease (womb),rule
+Micorditis,1,micorditis,Heart Disease,rule
+Milk Crust,1,milk crust,Milk Crust,spelling only
+Milk Desease,1,milk desease,Milk Desease,spelling only
+Minegetius,1,meningitis,Meningitis,rule
+Mingitis,1,meningitis,Meningitis,rule
+Minigitis,1,meningitis,Meningitis,rule
+Mininggetes,1,meningitis,Meningitis,rule
+Miningitis,1,meningitis,Meningitis,rule
+Mitgenitis,1,mitgenitis,Meningitis,rule
+Mitgentis,1,mitgentis,Meningitis,rule
+Mitifinites,1,mitifinites,Meningitis,rule
+Mitiginites,1,mitiginites,Meningitis,rule
+Mnegitis,1,meningitis,Meningitis,rule
+Morasmus,1,morasmus,Marasmus,rule
+Morbus Peniltt,1,morbus peniltt,Morbus Peniltt,spelling only
+Mortification from a wound,1,mortification from a wound,Gangrene (mortification),rule
+Mortification of Arm,1,mortification of arm,Gangrene (mortification),rule
+Murky,1,murky,Murky,spelling only
+Myacardites,1,myacardites,Heart Disease,rule
+Myacarditis,1,myacarditis,Heart Disease,rule
+Mycalits,1,mycalits,Heart Disease,rule
+Myedas Ageny,1,myedas ageny,Myedas Ageny,spelling only
+Myocardea,1,myocardea,Heart Disease,rule
+Myocardial Degenrtion,1,myocardial degenrtion,Heart Disease,rule
+Myorerntes,1,myorerntes,Heart Disease,rule
+Myrandtom,1,myrandtom,Myrandtom,spelling only
+Myscarditis,1,myscarditis,Heart Disease,rule
+Naphris,1,naphris,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Narrae Poisen,1,narrae poison,Poisoning / Overdose,rule
+"Nashville, TN",1,nashville tn,Unknown,rule
+Nepherities,1,nepherities,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Nephraas,1,nephraas,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Nephretis,1,nephretis,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Nephritis & Arlersclern,1,nephritis and arlersclern,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+"Nephritis, Cronic Intestinal",1,nephritis cronic intestinal,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Neprighris,1,neprighris,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Neruety,1,neruety,Nervous Disorders,rule
+Nerveous Prostration,1,nerveous prostration,Nervous Disorders,rule
+Nerveousness,1,nerveousness,Nervous Disorders,rule
+Nervious Apoplexy,1,nervious apoplexy,Apoplexy (stroke),rule
+Nervis Exhaustion,1,nervis exhaustion,Nervous Disorders,rule
+Nervous Afliction,1,nervous afliction,Nervous Disorders,rule
+Nervous Brostraten,1,nervous brostraten,Nervous Disorders,rule
+Nervous Exauston,1,nervous exauston,Nervous Disorders,rule
+Nervous Fever,1,nervous fever,Nervous Disorders,rule
+Nervous Prostratin,1,nervous prostratin,Nervous Disorders,rule
+Nervus Exhaustion,1,nervus exhaustion,Nervous Disorders,rule
+Neuomonia,1,pneumonia,Pneumonia,rule
+Nev. Exhastion,1,nev exhastion,Nervous Disorders,rule
+"Nevp,rostration",1,nevp rostration,Nervous Disorders,rule
+Newnouss,1,newnouss,Nervous Disorders,rule
+Newvous Exaustion,1,newvous exaustion,Nervous Disorders,rule
+Nextion,1,nextion,Nextion,spelling only
+Not Knwon,1,not known,Unknown,rule
+Not Stated,1,not stated,Unknown,rule
+Numana,1,numana,Numana,spelling only
+Numenia,1,pneumonia,Pneumonia,rule
+Nurabzia,1,nurabzia,Nurabzia,spelling only
+Nurses Sore Mouth,1,nurses sore mouth,Nurses Sore Mouth,spelling only
+Nurutrals Suffirin,1,nurutrals suffirin,Nervous Disorders,rule
+Obstruction,1,obstruction,Intestinal Obstruction / Hernia,rule
+Obstruction Bowel,1,obstruction bowels,Intestinal Obstruction / Hernia,rule
+Obstruction of Stomach,1,obstruction of stomach,Intestinal Obstruction / Hernia,rule
+Of Heart,1,of heart,Heart Disease,rule
+Of Stomache,1,of stomach,"Stomach Disease (dyspepsia, gastritis)",rule
+Of the Stomache,1,of the stomach,"Stomach Disease (dyspepsia, gastritis)",rule
+Of the heart,1,of the heart,Heart Disease,rule
+Of the liver,1,of the liver,Liver Disease,rule
+Old Age with dropsy,1,old age with dropsy,Old Age,rule
+Old Ages,1,old ages,Old Age,rule
+Old Ave,1,old ave,Old Age,rule
+Old aGe,1,old age,Old Age,rule
+Onania Poisan,1,onania poison,Poisoning / Overdose,rule
+Opium,1,opium,Poisoning / Overdose,rule
+Opium Posioning,1,opium posioning,Poisoning / Overdose,rule
+Organic Disease,1,organic disease,Organic Disease,spelling only
+Organic Hart Disease,1,organic heart disease,Heart Disease,rule
+Organic Heart Disease,1,organic heart disease,Heart Disease,rule
+Organic dis of hart,1,organic disease of heart,Heart Disease,rule
+Organic disease of heart,1,organic disease of heart,Heart Disease,rule
+Outer wound heal not,1,outer wound heal not,Wound (unspecified),rule
+Over dose of Chloral,1,over dose of chloral,Poisoning / Overdose,rule
+Over portion of laudanum,1,over portion of laudanum,Poisoning / Overdose,rule
+Overdose Laudemum,1,overdose laudemum,Poisoning / Overdose,rule
+Overdose Opium,1,overdose opium,Poisoning / Overdose,rule
+Overdosed Morphine,1,overdosed morphine,Poisoning / Overdose,rule
+Overflow of water to the brain,1,overflow of water to the brain,Hydrocephalus (dropsy of the brain),rule
+Overlaid,1,overlaid,"Suffocation (smothered, overlaid)",rule
+Ovr Het,1,ovr het,Exposure (heat or cold),rule
+Palpalion at the hart,1,palpalion at the heart,Heart Disease,rule
+Palsey,1,palsey,Paralysis,rule
+Panters Colick,1,panters colick,Colic,rule
+Parailis,1,paralysis,Paralysis,rule
+Paralasis,1,paralysis,Paralysis,rule
+Paraletic,1,paraletic,Paralysis,rule
+Paraletic Strok,1,paraletic strok,Paralysis,rule
+Paraletick,1,paraletick,Paralysis,rule
+Paraletick Stroke,1,paraletick stroke,Paralysis,rule
+Paralis,1,paralis,Paralysis,rule
+Paralise,1,paralise,Paralysis,rule
+Paralises,1,paralises,Paralysis,rule
+Paralisis from old wounds,1,paralysis from old wounds,Paralysis,rule
+Paralissis,1,paralissis,Paralysis,rule
+Paralitic,1,paralitic,Paralysis,rule
+Paralized,1,paralized,Paralysis,rule
+Paralysis Brain,1,paralysis brain,Paralysis,rule
+Paralysis Lungs,1,paralysis lungs,Lung Disease (other),rule
+Parenclymdey,1,parenclymdey,Paralysis,rule
+Pariletick,1,pariletick,Paralysis,rule
+Parilisik,1,parilisik,Paralysis,rule
+Parititick,1,parititick,Paralysis,rule
+Parletick,1,parletick,Paralysis,rule
+Parolises,1,parolises,Paralysis,rule
+Parolisis,1,paralysis,Paralysis,rule
+Parolitic Shok,1,parolitic shok,Paralysis,rule
+Parralisis,1,parralisis,Paralysis,rule
+Paryalsis,1,paralysis,Paralysis,rule
+Parylized,1,parylized,Paralysis,rule
+Paryls,1,paryls,Paralysis,rule
+Pattaron Hart,1,pattaron heart,Heart Disease,rule
+Peatonitus,1,peatonitus,Appendicitis / Peritonitis,rule
+Pelegra,1,pellagra,Pellagra,rule
+Pellagra,1,pellagra,Pellagra,rule
+Pellagres,1,pellagres,Pellagra,rule
+Pellegra,1,pellegra,Pellagra,rule
+Pellegre,1,pellegre,Pellagra,rule
+Penisstus,1,penisstus,Penisstus,spelling only
+Pennumonea,1,pneumonia,Pneumonia,rule
+Pensitus,1,pensitus,Pensitus,spelling only
+Pentatas,1,pentatas,Pentatas,spelling only
+Penunmony,1,pneumonia,Pneumonia,rule
+Peralysis,1,paralysis,Paralysis,rule
+Peratonites,1,peratonites,Appendicitis / Peritonitis,rule
+Peretositis,1,peretositis,Appendicitis / Peritonitis,rule
+Pericarditis,1,pericarditis,Heart Disease,rule
+Peritansity,1,peritansity,Peritansity,spelling only
+Perius Anmus,1,perius anmus,Perius Anmus,spelling only
+Pernicuus Anemia,1,pernicuus anemia,Anemia,rule
+Perperal Septicacema,1,perperal septicacema,Childbirth (incl. childbed fever),rule
+Peumonia,1,pneumonia,Pneumonia,rule
+Peunomonia,1,pneumonia,Pneumonia,rule
+Phetis Palmonbis,1,phetis palmonbis,Tuberculosis (consumption),rule
+Pheumonie,1,pneumonia,Pneumonia,rule
+Phihisis,1,phihisis,Tuberculosis (consumption),rule
+Phithisic,1,phithisic,Phthisic (asthma or tuberculosis),rule
+Phlhic,1,phlhic,Phthisic (asthma or tuberculosis),rule
+Phnicy,1,phnicy,Phnicy,spelling only
+Phthesic,1,phthesic,Phthisic (asthma or tuberculosis),rule
+Phthipic,1,phthipic,Phthisic (asthma or tuberculosis),rule
+Phthisick,1,phthisick,Phthisic (asthma or tuberculosis),rule
+Phthisie,1,phthisie,Phthisic (asthma or tuberculosis),rule
+Phthisis Pnl,1,phthisis pnl,Tuberculosis (consumption),rule
+Phthisis Pulm,1,phthisis pulm,Tuberculosis (consumption),rule
+Phthissis Palinona,1,phthissis palinona,Tuberculosis (consumption),rule
+Phthrie,1,phthrie,Phthisic (asthma or tuberculosis),rule
+Phthsic,1,phthsic,Phthisic (asthma or tuberculosis),rule
+Physcian Out Abs,1,physcian out abs,Unknown,rule
+Physhasic,1,physhasic,Phthisic (asthma or tuberculosis),rule
+Phythisic,1,phythisic,Phthisic (asthma or tuberculosis),rule
+Pistal Shot,1,pistal shot,Gunshot,rule
+Pistol Shot Wound,1,pistol shot wound,Gunshot,rule
+Pistol shot accidentally,1,pistol shot accidentally,Gunshot,rule
+Pleurisa,1,pleurisy,Pleurisy,rule
+Pleurisy in the head,1,pleurisy in the head,Pleurisy,rule
+Plithisic,1,plithisic,Phthisic (asthma or tuberculosis),rule
+Plorasin Parsmuz,1,plorasin parsmuz,Plorasin Parsmuz,spelling only
+Plurilis,1,pleurisy,Pleurisy,rule
+Pneamonia,1,pneumonia,Pneumonia,rule
+Pnenmonie,1,pneumonia,Pneumonia,rule
+Pnennonia,1,pneumonia,Pneumonia,rule
+Pnenumonia,1,pneumonia,Pneumonia,rule
+Pneuamonie,1,pneumonia,Pneumonia,rule
+Pneumona,1,pneumonia,Pneumonia,rule
+Pneumoniae,1,pneumonia,Pneumonia,rule
+Pneunmonia,1,pneumonia,Pneumonia,rule
+Pneunonia,1,pneumonia,Pneumonia,rule
+Pneunonie,1,pneumonia,Pneumonia,rule
+Pneuralgie,1,neuralgia,Nervous Disorders,rule
+Pnuemonia,1,pneumonia,Pneumonia,rule
+Pnuemonie,1,pneumonia,Pneumonia,rule
+Pnumonia,1,pneumonia,Pneumonia,rule
+Poisend,1,poisoned,Poisoning / Overdose,rule
+Poisoned by Opium,1,poisoned by opium,Poisoning / Overdose,rule
+Porolisis,1,porolisis,Paralysis,rule
+Possen,1,poison,Poisoning / Overdose,rule
+"Pousoned, Suicide",1,pousoned suicide,Suicide,rule
+Pralaysis,1,pralaysis,Paralysis,rule
+Pre Birth,1,pre birth,Premature Birth,rule
+Preamture,1,preamture,Premature Birth,rule
+Premature Berth,1,premature berth,Premature Birth,rule
+Premature Burth,1,premature burth,Premature Birth,rule
+Presmus Nas,1,presmus nas,Tetanus (lockjaw),rule
+Primis Nascembrine,1,primis nascembrine,Tetanus (lockjaw),rule
+Prost. from Heat,1,prost from heat,Exposure (heat or cold),rule
+Pruastery,1,pruastery,Pruastery,spelling only
+Pul Odema,1,pul odema,Lung Disease (other),rule
+Pul Tuberosis,1,pul tuberosis,Tuberculosis (consumption),rule
+Pulmarnory Tubuculous,1,pulmarnory tubuculous,Tuberculosis (consumption),rule
+Pulminary Tubercolosus,1,pulminary tubercolosus,Tuberculosis (consumption),rule
+Pulmonalis,1,pulmonalis,Tuberculosis (consumption),rule
+Pulmonary Oedema,1,pulmonary oedema,Lung Disease (other),rule
+Pulmonary Troubles,1,pulmonary troubles,Lung Disease (other),rule
+Pulmonary Tuberlicis,1,pulmonary tuberlicis,Tuberculosis (consumption),rule
+Pulmonary Tuburcolis,1,pulmonary tuburcolis,Tuberculosis (consumption),rule
+Pulmonrary Lesburn,1,pulmonary lesburn,Lung Disease (other),rule
+Purperal Fever,1,purperal fever,Childbirth (incl. childbed fever),rule
+Putred sore throat,1,putred sore throat,Sore Throat / Quinsy,rule
+Quenzy,1,quenzy,Sore Throat / Quinsy,rule
+Quincey,1,quincey,Sore Throat / Quinsy,rule
+RR Accicent,1,railroad accicent,Accident,rule
+Rail Rode Accident,1,railroad accident,Accident,rule
+Rapid Decline,1,rapid decline,Debility / Exhaustion,rule
+Rat Bite,1,rat bite,Accident,rule
+Reenus,1,reenus,Reenus,spelling only
+Relaps in Measles,1,relaps in measles,Measles,rule
+Removed from New York,1,removed from new york,Unknown,rule
+Rhematism,1,rheumatism,Rheumatism (incl. rheumatic fever),rule
+Rheumatic Fever,1,rheumatic fever,Rheumatism (incl. rheumatic fever),rule
+Rhumatism of the Hart,1,rheumatism of the heart,Rheumatism (incl. rheumatic fever),rule
+Rhumitism,1,rheumatism,Rheumatism (incl. rheumatic fever),rule
+Rhumtism,1,rheumatism,Rheumatism (incl. rheumatic fever),rule
+Rising in Head,1,rising in head,Rising In Head,spelling only
+Rising in head,1,rising in head,Rising In Head,spelling only
+Rising in the head,1,rising in the head,Rising In The Head,spelling only
+Run over by lanudry wagon,1,run over by lanudry wagon,Accident,rule
+Rupture of Blood Vessel,1,rupture of blood vessel,Hemorrhage,rule
+Rupture of blood vessel,1,rupture of blood vessel,Hemorrhage,rule
+Said to be cholera,1,said to be cholera,Cholera,rule
+Said to be cholrea,1,said to be cholera,Cholera,rule
+Salecide,1,salecide,Suicide,rule
+Sarlett Fever,1,scarlet fever,Scarlet Fever,rule
+Saturrlus,1,saturrlus,Saturrlus,spelling only
+Scafalow,1,scrofula,Scrofula,rule
+Scaffolow,1,scrofula,Scrofula,rule
+Scalded to Death,1,scalded to death,Burns / Scalds,rule
+Scalled to Death,1,scalled to death,Burns / Scalds,rule
+Scalot Fever,1,scarlet fever,Scarlet Fever,rule
+Scaret Fever,1,scarlet fever,Scarlet Fever,rule
+Scarlatina,1,scarlatina,Scarlet Fever,rule
+Scarlet fever,1,scarlet fever,Scarlet Fever,rule
+Scarlot fever,1,scarlet fever,Scarlet Fever,rule
+Schofflow,1,scrofula,Scrofula,rule
+Scleroma,1,scleroma,Scleroma,spelling only
+Scoffolo,1,scrofula,Scrofula,rule
+Scornatilis,1,scornatilis,Scornatilis,spelling only
+Scraffalow,1,scrofula,Scrofula,rule
+Scraffellow,1,scrofula,Scrofula,rule
+Scrafflow,1,scrofula,Scrofula,rule
+Scrofales,1,scrofula,Scrofula,rule
+Scroffala,1,scrofula,Scrofula,rule
+Scroffalow,1,scrofula,Scrofula,rule
+Scroffellow,1,scrofula,Scrofula,rule
+Scroffola,1,scrofula,Scrofula,rule
+Scroffolo,1,scrofula,Scrofula,rule
+Scroffow,1,scrofula,Scrofula,rule
+Scroffulo,1,scrofula,Scrofula,rule
+Scrofloo,1,scrofula,Scrofula,rule
+Scrofolow,1,scrofula,Scrofula,rule
+Scrophulosis,1,scrofula,Scrofula,rule
+Semlitz,1,semlitz,Semlitz,spelling only
+Senetals,1,senetals,Senetals,spelling only
+Senil debility,1,senil debility,Old Age,rule
+Senile Debility,1,senile debility,Old Age,rule
+Senulity,1,senulity,Old Age,rule
+Septecemie,1,septecemie,Blood Poisoning (septicemia),rule
+Septicaema,1,septicaema,Blood Poisoning (septicemia),rule
+Septicaemia,1,septicaemia,Blood Poisoning (septicemia),rule
+Septicemia,1,septicemia,Blood Poisoning (septicemia),rule
+Septismea,1,septismea,Blood Poisoning (septicemia),rule
+Sermoner Complaint,1,summer complaint,Cholera Infantum (summer complaint),rule
+Sfaleu,1,sfaleu,Sfaleu,spelling only
+Shingls,1,shingles,Shingles,spelling only
+Shock from Operation,1,shock from operation,Shock From Operation,spelling only
+Short,1,short,Unknown,rule
+Shot Accdental,1,shot accdental,Gunshot,rule
+Shot Accidentally,1,shot accidentally,Gunshot,rule
+Shot By Armstrong,1,shot by armstrong,Gunshot,rule
+Shot Purposely,1,shot purposely,Gunshot,rule
+Shot accidentally,1,shot accidentally,Gunshot,rule
+Shot by F. Hemelsy,1,shot by f hemelsy,Gunshot,rule
+Shot by Judson,1,shot by judson,Gunshot,rule
+Shot by Richard Hom,1,shot by richard hom,Gunshot,rule
+Shot by Thomas Smith,1,shot by thomas smith,Gunshot,rule
+Shot by William Hopper,1,shot by william hopper,Gunshot,rule
+Shot by an unknown person,1,shot by an unknown person,Gunshot,rule
+Shot by mistake,1,shot by mistake,Gunshot,rule
+Shot reported by P. P. Truett,1,shot reported by p p truett,Gunshot,rule
+Shott,1,shott,Gunshot,rule
+Shotting,1,shotting,Gunshot,rule
+Sillborn,1,stillborn,Stillborn,rule
+Smalpox,1,smallpox,Smallpox,rule
+Smothering,1,smothering,"Suffocation (smothered, overlaid)",rule
+Snenid,1,snenid,Snenid,spelling only
+Soar Throat,1,soar throat,Sore Throat / Quinsy,rule
+Softening Brain,1,softening brain,Softening of the Brain,rule
+Sonsumption,1,consumption,Tuberculosis (consumption),rule
+Sore Eyes,1,sore eyes,Sore Eyes,spelling only
+Sore Mouth,1,sore mouth,Sore Mouth,spelling only
+Sore Throt,1,sore throt,Sore Throat / Quinsy,rule
+Spamasm,1,spasms,"Convulsions (spasms, fits)",rule
+Spatted Fever,1,spotted fever,Spotted Fever,rule
+Speey,1,speey,Speey,spelling only
+Spelyetis Convulssor,1,spelyetis convulssor,"Convulsions (spasms, fits)",rule
+Spimabefida,1,spimabefida,Spinal Disease,rule
+Spinal Disease,1,spinal disease,Spinal Disease,rule
+Spine Afecetd,1,spine afecetd,Spinal Disease,rule
+Spine Affeced,1,spine affeced,Spinal Disease,rule
+Spine of Back,1,spine of back,Spinal Disease,rule
+Spoplexy,1,apoplexy,Apoplexy (stroke),rule
+Sporatic Cholrea,1,sporatic cholera,Cholera,rule
+Spotted Fever,1,spotted fever,Spotted Fever,rule
+Sppoplexy,1,apoplexy,Apoplexy (stroke),rule
+St. Vistas Dance,1,st vitus dance,St Vitus Dance,spelling only
+Stab with knife,1,stab with knife,Homicide / Violence,rule
+Stabbing,1,stabbing,Homicide / Violence,rule
+Stabd,1,stabd,Homicide / Violence,rule
+Stabed in an affray,1,stabed in an affray,Homicide / Violence,rule
+Sticture Recom,1,sticture recom,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Stil Burth,1,stillborn,Stillborn,rule
+Still Bord,1,stillborn,Stillborn,rule
+"Still Borned, Roach & Co.",1,stillborn roach and co,Stillborn,rule
+Stomach trouble,1,stomach trouble,"Stomach Disease (dyspepsia, gastritis)",rule
+Strangeilation of the Bowels,1,strangeilation of the bowels,Intestinal Obstruction / Hernia,rule
+Strangled,1,strangled,"Suffocation (smothered, overlaid)",rule
+Strangulaiton,1,strangulaiton,"Suffocation (smothered, overlaid)",rule
+Strictur,1,strictur,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Stroke,1,stroke,Apoplexy (stroke),rule
+Stroke died in City Hospital,1,stroke died in city hospital,Apoplexy (stroke),rule
+Suaside,1,suaside,Suicide,rule
+Sucide,1,sucide,Suicide,rule
+Sucide by Shooting,1,sucide by shooting,Suicide,rule
+Suden Death,1,suden death,Sudden Death,rule
+Sudenly,1,sudenly,Sudden Death,rule
+Suecide,1,suecide,Suicide,rule
+Sueside,1,sueside,Suicide,rule
+Sufucation,1,sufucation,"Suffocation (smothered, overlaid)",rule
+Suicide by Hanging,1,suicide by hanging,Suicide,rule
+Suicide by Shooting,1,suicide by shooting,Suicide,rule
+Suicide by hanging,1,suicide by hanging,Suicide,rule
+Suicide by shooting,1,suicide by shooting,Suicide,rule
+Suicide by taking Landanum,1,suicide by taking landanum,Suicide,rule
+Suicide by taking arsnick,1,suicide by taking arsnick,Suicide,rule
+Suicide by taking laudam,1,suicide by taking laudam,Suicide,rule
+"Suicide, Opium",1,suicide opium,Suicide,rule
+Suide,1,suide,Suicide,rule
+Suilety,1,suilety,Suilety,spelling only
+Suiside,1,suiside,Suicide,rule
+Sulty,1,sulty,Sulty,spelling only
+Sumer Comlaint,1,summer complaint,Cholera Infantum (summer complaint),rule
+Sumer Complan,1,summer complaint,Cholera Infantum (summer complaint),rule
+Sumer Complint,1,summer complaint,Cholera Infantum (summer complaint),rule
+Sumer Cplnt,1,summer complaint,Cholera Infantum (summer complaint),rule
+Sumer comp,1,summer complaint,Cholera Infantum (summer complaint),rule
+Summer Compl,1,summer complaint,Cholera Infantum (summer complaint),rule
+Summer Complamt,1,summer complaint,Cholera Infantum (summer complaint),rule
+Summer comp,1,summer complaint,Cholera Infantum (summer complaint),rule
+Summer complt,1,summer complaint,Cholera Infantum (summer complaint),rule
+Sun Complaint,1,summer complaint,Cholera Infantum (summer complaint),rule
+Sun Stroch,1,sun stroch,Exposure (heat or cold),rule
+Suposed to be murdrd,1,suposed to be murdered,Homicide / Violence,rule
+Supposed to be killed,1,supposed to be killed,Accident,rule
+Syphitis,1,syphitis,Syphilis,rule
+Syplaletic,1,syplaletic,Syphilis,rule
+Sytia Colurs,1,sytia colurs,Sytia Colurs,spelling only
+T Fever,1,typhoid fever,Typhoid Fever,rule
+T. B. at Far Aclvaced,1,tuberculosis at far aclvaced,Tuberculosis (consumption),rule
+T. Pneumonia,1,t pneumonia,Pneumonia,rule
+TB,1,tb,Tuberculosis (consumption),rule
+Teethink,1,teething,Teething,rule
+Teritary,1,teritary,Teritary,spelling only
+Tetamus,1,tetamus,Tetanus (lockjaw),rule
+Tetanus ( Lock Jaw),1,tetanus lockjaw,Tetanus (lockjaw),rule
+The Kidneys,1,the kidneys,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Theasan,1,theasan,Theasan,spelling only
+Thins,1,thins,Thins,spelling only
+Throat Trouble,1,throat trouble,Sore Throat / Quinsy,rule
+Thrown from Buggy,1,thrown from buggy,Accident,rule
+Tonsilitis,1,tonsilitis,Sore Throat / Quinsy,rule
+Tubeculas,1,tubeculas,Tuberculosis (consumption),rule
+Tubercolous,1,tubercolous,Tuberculosis (consumption),rule
+Tubercolus,1,tubercolus,Tuberculosis (consumption),rule
+Tuberculais,1,tuberculais,Tuberculosis (consumption),rule
+Tuberculases,1,tuberculases,Tuberculosis (consumption),rule
+Tuberculocis,1,tuberculocis,Tuberculosis (consumption),rule
+Tuberculosis Lungs,1,tuberculosis lungs,Tuberculosis (consumption),rule
+Tuberculosis of the throat,1,tuberculosis of the throat,Tuberculosis (consumption),rule
+"Tuberculosis, Kidneys",1,tuberculosis kidneys,Tuberculosis (consumption),rule
+Tuberculucus,1,tuberculucus,Tuberculosis (consumption),rule
+Tuberculusis,1,tuberculusis,Tuberculosis (consumption),rule
+Tuberlosis,1,tuberlosis,Tuberculosis (consumption),rule
+Tubucalosie,1,tubucalosie,Tuberculosis (consumption),rule
+Tubucolosis,1,tubucolosis,Tuberculosis (consumption),rule
+Tubucular Meningitis,1,tubucular meningitis,Tuberculosis (consumption),rule
+Tubuculusis,1,tubuculusis,Tuberculosis (consumption),rule
+Tuburculocus,1,tuburculocus,Tuberculosis (consumption),rule
+Tuburculosis,1,tuburculosis,Tuberculosis (consumption),rule
+Tuburklas,1,tuburklas,Tuberculosis (consumption),rule
+Tumer,1,tumer,Tumor,rule
+Tumor on the Head,1,tumor on the head,Tumor,rule
+Tumors,1,tumors,Tumor,rule
+Tumour,1,tumour,Tumor,rule
+Turburculous,1,turburculous,Tuberculosis (consumption),rule
+Turtuclas,1,turtuclas,Tuberculosis (consumption),rule
+Ty Fever,1,typhoid fever,Typhoid Fever,rule
+Tyfosld Fever,1,typhoid fever,Typhoid Fever,rule
+Typh Pneumonie,1,typh pneumonia,Pneumonia,rule
+Typhard Fever,1,typhoid fever,Typhoid Fever,rule
+Typhas Malarial,1,typhas malarial,Typhas Malarial,spelling only
+Typhoid Dysentery,1,typhoid dysentery,Typhoid Fever,rule
+Typhoid Pneumnie,1,typhoid pneumonia,Pneumonia,rule
+Typhoid Pneumomia,1,typhoid pneumonia,Pneumonia,rule
+Typhoid Pneumon,1,typhoid pneumonia,Pneumonia,rule
+Typhoid Pneumoni,1,typhoid pneumonia,Pneumonia,rule
+Typhoid Pneumonie,1,typhoid pneumonia,Pneumonia,rule
+Typhus Abdominalis,1,typhus abdominalis,Typhoid Fever,rule
+Typoid Fever,1,typhoid fever,Typhoid Fever,rule
+Uenyloid,1,uenyloid,Uenyloid,spelling only
+Ulcer,1,ulcer,Ulcer,rule
+Ulcer Stomach,1,ulcer stomach,"Stomach Disease (dyspepsia, gastritis)",rule
+Ulcer in the throat,1,ulcer in the throat,Sore Throat / Quinsy,rule
+Ulcer of Stomache,1,ulcer of stomach,"Stomach Disease (dyspepsia, gastritis)",rule
+Ulcer of the throat,1,ulcer of the throat,Sore Throat / Quinsy,rule
+Ulcer on Leg,1,ulcer on leg,Ulcer,rule
+Ulcerated Bowels,1,ulcerated bowels,Bowel Inflammation / Disease,rule
+Ulceration,1,ulceration,Ulcer,rule
+Ulcrated Sore Throat,1,ulcrated sore throat,Sore Throat / Quinsy,rule
+Ulcur,1,ulcur,Ulcer,rule
+Uncemuss Dasms,1,uncemuss dasms,Uncemuss Dasms,spelling only
+Unknowm,1,unknown,Unknown,rule
+Unknown Dis.,1,unknown dis,Unknown,rule
+Unknown perhaps acidental suffocation,1,unknown perhaps acidental suffocation,Unknown,rule
+"Unknown, consumption",1,unknown consumption,Tuberculosis (consumption),rule
+Unnone,1,unknown,Unknown,rule
+Unnow,1,unknown,Unknown,rule
+Untimley Burth,1,untimley burth,Premature Birth,rule
+Uraemia Poisoning,1,uraemia poisoning,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Urama,1,urama,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Urasmin,1,urasmin,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Uremisa,1,uremisa,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Urenic Poison,1,urenic poison,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Urimia,1,urimia,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Urinia,1,urinia,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+Uterstiaty Neshretis,1,interstitial nephritis,"Kidney / Urinary Disease (Bright's disease, nephritis, gravel)",rule
+V-Heart Disease,1,v heart disease,Heart Disease,rule
+Valouv Heart,1,valouv heart,Heart Disease,rule
+Veralayd,1,veralayd,Veralayd,spelling only
+W.R Crofton undertaker,1,w r crofton undertaker,Unknown,rule
+Water on the Brain,1,water on the brain,Hydrocephalus (dropsy of the brain),rule
+While Swelling,1,while swelling,White Swelling,rule
+White Wellen,1,white wellen,White Swelling,rule
+Whooping Coof,1,whooping cough,Whooping Cough,rule
+Wonded in Army,1,wonded in army,Killed in War,rule
+Worn Fever,1,worn fever,Fever (unspecified),rule
+Wounded,1,wounded,Wound (unspecified),rule
+Yalaw Thrash,1,yellow thrush,Thrush,rule
+Yallaw Janders,1,yellow jaundice,Jaundice,rule
+Yallow Jandice,1,yellow jaundice,Jaundice,rule
+Yallow Thrash,1,yellow thrush,Thrush,rule
+Yalow Thrash,1,yellow thrush,Thrush,rule
+Yalow janders,1,yellow jaundice,Jaundice,rule
+Yalow jondice,1,yellow jaundice,Jaundice,rule
+Yellow Ganders,1,yellow jaundice,Jaundice,rule
+Yellow janders,1,yellow jaundice,Jaundice,rule
+Yollow Jandice,1,yellow jaundice,Jaundice,rule
+[Torn] By Laudanum,1,torn by laudanum,Poisoning / Overdose,rule
+accident,1,accident,Accident,rule
+aff. of a fall,1,affection of a fall,Accident,rule
+"borned in Giles County, Tenn",1,borned in giles county tenn,Unknown,rule
+bronchthis,1,bronchthis,Bronchitis,rule
+complicated,1,complicated,Complications (unspecified),rule
+complication,1,complication,Complications (unspecified),rule
+"daughter of Mr.& Mrs. W. D. Spain,",1,daughter of mr and mrs w d spain,Unknown,rule
+diarhoera,1,diarrhea,Diarrhea,rule
+died at local infirmary,1,died at local infirmary,Unknown,rule
+diptheria,1,diphtheria,Diphtheria,rule
+disease of Lungs,1,disease of lungs,Lung Disease (other),rule
+found in river,1,found in river,Drowning,rule
+fracture of Cranium,1,fracture of cranium,Accident,rule
+m/a,1,m a,Unknown,rule
+of Stomach & Brain,1,of stomach and brain,"Stomach Disease (dyspepsia, gastritis)",rule
+of the Liver,1,of the liver,Liver Disease,rule
+of the Lungs,1,of the lungs,Lung Disease (other),rule
+pneusalgy,1,neuralgia,Nervous Disorders,rule
+said to be cholrea,1,said to be cholera,Cholera,rule
+spasms,1,spasms,"Convulsions (spasms, fits)",rule
+teething,1,teething,Teething,rule
+urpherts,1,urpherts,Urpherts,spelling only
+worms,1,worms,Worms,rule
