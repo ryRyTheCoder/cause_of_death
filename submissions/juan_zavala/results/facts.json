@@ -153,7 +153,11 @@
   "q4_b_post_unk": "41.2%",
   "q4_b_post_minors": "12.2%",
   "q4_b_post_old": "10.8%",
-  "q4_ya_cholera_1866": "43%"
+  "q4_ya_cholera_1866": "43%",
+  "n_decade_unknown": 2,
+  "top_decade": "1860's",
+  "top_decade_n": 7840,
+  "top_decade_pct": "39.9%"
  },
  "text": {
   "n_raw": "19,745",
@@ -309,6 +313,10 @@
   "q4_b_post_unk": "41.2%",
   "q4_b_post_minors": "12.2%",
   "q4_b_post_old": "10.8%",
-  "q4_ya_cholera_1866": "43%"
+  "q4_ya_cholera_1866": "43%",
+  "n_decade_unknown": "2",
+  "top_decade": "1860's",
+  "top_decade_n": "7,840",
+  "top_decade_pct": "39.9%"
  }
 }
